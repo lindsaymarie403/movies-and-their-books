@@ -1,0 +1,5104 @@
+{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Eclipse-Twilight-Stephenie-Meyer/dp/0316160202?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Stephenie Meyer",
+                    "contributor": "by Stephenie Meyer",
+                    "contributor_note": "",
+                    "description": "Vampires and werewolves in high school.",
+                    "price": 0,
+                    "primary_isbn10": "0316160202",
+                    "primary_isbn13": "9780316160209",
+                    "publisher": "Megan Tingley/Little Brown, hardcover and paper",
+                    "title": "THE TWILIGHT SAGA"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0316067938",
+                    "isbn13": "9780316067935"
+                },
+                {
+                    "isbn10": "0316015849",
+                    "isbn13": "9780316015844"
+                },
+                {
+                    "isbn10": "0316024961",
+                    "isbn13": "9780316024969"
+                },
+                {
+                    "isbn10": "031612558X",
+                    "isbn13": "9780316125581"
+                },
+                {
+                    "isbn10": "0316027650",
+                    "isbn13": "9780316027656"
+                },
+                {
+                    "isbn10": "031606792X",
+                    "isbn13": "9780316067928"
+                },
+                {
+                    "isbn10": "031608736X",
+                    "isbn13": "9780316087360"
+                },
+                {
+                    "isbn10": "0316038385",
+                    "isbn13": "9780316038386"
+                },
+                {
+                    "isbn10": "0316075639",
+                    "isbn13": "9780316075633"
+                },
+                {
+                    "isbn10": "0316038377",
+                    "isbn13": "9780316038379"
+                },
+                {
+                    "isbn10": "0316160172",
+                    "isbn13": "9780316160179"
+                },
+                {
+                    "isbn10": "0316160199",
+                    "isbn13": "9780316160193"
+                },
+                {
+                    "isbn10": "0316160202",
+                    "isbn13": "9780316160209"
+                },
+                {
+                    "isbn10": "0316078166",
+                    "isbn13": "9780316078160"
+                },
+                {
+                    "isbn10": "0316031844",
+                    "isbn13": "9780316031844"
+                },
+                {
+                    "isbn10": "031613290X",
+                    "isbn13": "9780316132909"
+                },
+                {
+                    "isbn10": "0316053465",
+                    "isbn13": "9780316053464"
+                },
+                {
+                    "isbn10": "0316133930",
+                    "isbn13": "9780316133937"
+                },
+                {
+                    "isbn10": "0316134082",
+                    "isbn13": "9780316134088"
+                },
+                {
+                    "isbn10": "031617615X",
+                    "isbn13": "9780316176156"
+                },
+                {
+                    "isbn10": "0316243981",
+                    "isbn13": "9780316243988"
+                },
+                {
+                    "isbn10": "0316226130",
+                    "isbn13": "9780316226134"
+                },
+                {
+                    "isbn10": "0316007447",
+                    "isbn13": "9780316007443"
+                },
+                {
+                    "isbn10": "0316032832",
+                    "isbn13": "9780316032834"
+                },
+                {
+                    "isbn10": "0316007722",
+                    "isbn13": "9780316007726"
+                },
+                {
+                    "isbn10": "0316008184",
+                    "isbn13": "9780316008181"
+                },
+                {
+                    "isbn10": "0316089508",
+                    "isbn13": "9780316089500"
+                },
+                {
+                    "isbn10": "0316007692",
+                    "isbn13": "9780316007696"
+                },
+                {
+                    "isbn10": "0316182931",
+                    "isbn13": "9780316182935"
+                },
+                {
+                    "isbn10": "0316268399",
+                    "isbn13": "9780316268394"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2007/08/12/books/review/Schillinger7-t.html"
+                }
+            ],
+            "weeks_on_list": 62
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inheritance-Cycle-Christopher-Paolini/dp/0375856110?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Christopher Paolini",
+                    "contributor": "by Christopher Paolini",
+                    "contributor_note": "",
+                    "description": "A teenager and his dragon learn the secrets of a fantasy world.",
+                    "price": 0,
+                    "primary_isbn10": "0440240735",
+                    "primary_isbn13": "9780440240730",
+                    "publisher": "Knopf, hardcover and paper",
+                    "title": "INHERITANCE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375856110",
+                    "isbn13": "9780375856112"
+                },
+                {
+                    "isbn10": "0375826696",
+                    "isbn13": "9780375826696"
+                },
+                {
+                    "isbn10": "0375826742",
+                    "isbn13": "9780375826740"
+                },
+                {
+                    "isbn10": "0375972617",
+                    "isbn13": "9780375972614"
+                },
+                {
+                    "isbn10": "0375840400",
+                    "isbn13": "9780375840401"
+                },
+                {
+                    "isbn10": "0375826688",
+                    "isbn13": "9780375826689"
+                },
+                {
+                    "isbn10": "037582670X",
+                    "isbn13": "9780375826702"
+                },
+                {
+                    "isbn10": "0375826726",
+                    "isbn13": "9780375826726"
+                },
+                {
+                    "isbn10": "0375857044",
+                    "isbn13": "9780375857041"
+                },
+                {
+                    "isbn10": "0375872035",
+                    "isbn13": "9780375872037"
+                },
+                {
+                    "isbn10": "0375846158",
+                    "isbn13": "9780375846151"
+                },
+                {
+                    "isbn10": "0440238498",
+                    "isbn13": "9780440238492"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2003/11/16/books/children-s-books-the-egg-and-him.html"
+                }
+            ],
+            "weeks_on_list": 4
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Untamed-House-Night-Book-4/dp/0312379838?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "PC Cast and Kristin Cast",
+                    "contributor": "by P.C. Cast and Kristin Cast",
+                    "contributor_note": "",
+                    "description": "Vampires in school.",
+                    "price": 0,
+                    "primary_isbn10": "0312379838",
+                    "primary_isbn13": "9780312379834",
+                    "publisher": "St. Martin\u2019s, paper only",
+                    "title": "HOUSE OF NIGHT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0312650248",
+                    "isbn13": "9780312650247"
+                },
+                {
+                    "isbn10": "0312360266",
+                    "isbn13": "9780312360269"
+                },
+                {
+                    "isbn10": "0312606168",
+                    "isbn13": "9780312606169"
+                },
+                {
+                    "isbn10": "0312360282",
+                    "isbn13": "9780312360283"
+                },
+                {
+                    "isbn10": "0312577990",
+                    "isbn13": "9780312577995"
+                },
+                {
+                    "isbn10": "0312567480",
+                    "isbn13": "9780312567484"
+                },
+                {
+                    "isbn10": "0312379838",
+                    "isbn13": "9780312379834"
+                },
+                {
+                    "isbn10": "0312360304",
+                    "isbn13": "9780312360306"
+                },
+                {
+                    "isbn10": "0312596308",
+                    "isbn13": "9780312596309"
+                },
+                {
+                    "isbn10": "031237982X",
+                    "isbn13": "9780312379827"
+                },
+                {
+                    "isbn10": "0312360258",
+                    "isbn13": "9780312360252"
+                },
+                {
+                    "isbn10": "0312596294",
+                    "isbn13": "9780312596293"
+                },
+                {
+                    "isbn10": "0312360290",
+                    "isbn13": "9780312360290"
+                },
+                {
+                    "isbn10": "0312372132",
+                    "isbn13": "9780312372132"
+                },
+                {
+                    "isbn10": "0312609388",
+                    "isbn13": "9780312609382"
+                },
+                {
+                    "isbn10": "1250000238",
+                    "isbn13": "9781250000231"
+                },
+                {
+                    "isbn10": "0312650256",
+                    "isbn13": "9780312650254"
+                },
+                {
+                    "isbn10": "1250000246",
+                    "isbn13": "9781250000248"
+                },
+                {
+                    "isbn10": "0312387970",
+                    "isbn13": "9780312387976"
+                },
+                {
+                    "isbn10": "1250014158",
+                    "isbn13": "9781250014153"
+                },
+                {
+                    "isbn10": "1250000254",
+                    "isbn13": "9781250000255"
+                },
+                {
+                    "isbn10": "0312594437",
+                    "isbn13": "9780312594435"
+                },
+                {
+                    "isbn10": "1250037239",
+                    "isbn13": "9781250037237"
+                },
+                {
+                    "isbn10": "1466858494",
+                    "isbn13": "9781466858497"
+                },
+                {
+                    "isbn10": "0312594445",
+                    "isbn13": "9780312594442"
+                },
+                {
+                    "isbn10": "1250046114",
+                    "isbn13": "9781250046116"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 7
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inkdeath-Inkheart-Trilogy-Cornelia-Funke/dp/0439866286?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 and up",
+                    "author": "Cornelia Funke",
+                    "contributor": "by Cornelia Funke",
+                    "contributor_note": "",
+                    "description": "The characters of a book come to life and ensnare its readers.",
+                    "price": 0,
+                    "primary_isbn10": "0439866286",
+                    "primary_isbn13": "9780439866286",
+                    "publisher": "Scholastic, hardcover and paper",
+                    "title": "INKHEART"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 3
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/If-You-Take-Mouse-School/dp/0060283289?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Laura Numeroff",
+                    "contributor": "by Laura Numeroff. Illustrated by Felicia Bond",
+                    "contributor_note": "Illustrated by Felicia Bond",
+                    "description": "Fun with cause and effect.",
+                    "price": 0,
+                    "primary_isbn10": "0060283289",
+                    "primary_isbn13": "9780060283285",
+                    "publisher": "Geringer/HarperCollins, hardcover and paper",
+                    "title": "IF YOU GIVE . . ."
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 20
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/High-Tide-Hawaii-Magic-House/dp/0375806164?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Mary Pope Osborne",
+                    "contributor": "by Mary Pope Osborne. Illustrated by Sal Murdocca",
+                    "contributor_note": "Illustrated by Sal Murdocca",
+                    "description": "Children travel in time.",
+                    "price": 0,
+                    "primary_isbn10": "067989070X",
+                    "primary_isbn13": "9780679890706",
+                    "publisher": "Stepping Stone/Random House, hardcover and paper",
+                    "title": "MAGIC TREE HOUSE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375868232",
+                    "isbn13": "9780375868238"
+                },
+                {
+                    "isbn10": "0375837280",
+                    "isbn13": "9780375837289"
+                },
+                {
+                    "isbn10": "0679890637",
+                    "isbn13": "9780679890638"
+                },
+                {
+                    "isbn10": "0679883401",
+                    "isbn13": "9780679883401"
+                },
+                {
+                    "isbn10": "0375837345",
+                    "isbn13": "9780375837340"
+                },
+                {
+                    "isbn10": "0679890688",
+                    "isbn13": "9780679890683"
+                },
+                {
+                    "isbn10": "0375856528",
+                    "isbn13": "9780375856525"
+                },
+                {
+                    "isbn10": "0375860908",
+                    "isbn13": "9780375860904"
+                },
+                {
+                    "isbn10": "0679890629",
+                    "isbn13": "9780679890621"
+                },
+                {
+                    "isbn10": "0679890505",
+                    "isbn13": "9780679890508"
+                },
+                {
+                    "isbn10": "067989067X",
+                    "isbn13": "9780679890676"
+                },
+                {
+                    "isbn10": "067988341X",
+                    "isbn13": "9780679883418"
+                },
+                {
+                    "isbn10": "0375806164",
+                    "isbn13": "9780375806162"
+                },
+                {
+                    "isbn10": "0375830367",
+                    "isbn13": "9780375830365"
+                },
+                {
+                    "isbn10": "0375830340",
+                    "isbn13": "9780375830341"
+                },
+                {
+                    "isbn10": "0375827366",
+                    "isbn13": "9780375827365"
+                },
+                {
+                    "isbn10": "0679890610",
+                    "isbn13": "9780679890614"
+                },
+                {
+                    "isbn10": "0679890653",
+                    "isbn13": "9780679890652"
+                },
+                {
+                    "isbn10": "0679890696",
+                    "isbn13": "9780679890690"
+                },
+                {
+                    "isbn10": "0679890645",
+                    "isbn13": "9780679890645"
+                },
+                {
+                    "isbn10": "0375830324",
+                    "isbn13": "9780375830327"
+                },
+                {
+                    "isbn10": "0375827358",
+                    "isbn13": "9780375827358"
+                },
+                {
+                    "isbn10": "0375837329",
+                    "isbn13": "9780375837326"
+                },
+                {
+                    "isbn10": "037585648X",
+                    "isbn13": "9780375856488"
+                },
+                {
+                    "isbn10": "0375856501",
+                    "isbn13": "9780375856501"
+                },
+                {
+                    "isbn10": "0375860096",
+                    "isbn13": "9780375860096"
+                },
+                {
+                    "isbn10": "0375806148",
+                    "isbn13": "9780375806148"
+                },
+                {
+                    "isbn10": "0375837302",
+                    "isbn13": "9780375837302"
+                },
+                {
+                    "isbn10": "0679890513",
+                    "isbn13": "9780679890515"
+                },
+                {
+                    "isbn10": "067989070X",
+                    "isbn13": "9780679890706"
+                },
+                {
+                    "isbn10": "0375858113",
+                    "isbn13": "9780375858116"
+                },
+                {
+                    "isbn10": "0375806113",
+                    "isbn13": "9780375806117"
+                },
+                {
+                    "isbn10": "0375806156",
+                    "isbn13": "9780375806155"
+                },
+                {
+                    "isbn10": "0679890661",
+                    "isbn13": "9780679890669"
+                },
+                {
+                    "isbn10": "0375846638",
+                    "isbn13": "9780375846632"
+                },
+                {
+                    "isbn10": "0375837299",
+                    "isbn13": "9780375837296"
+                },
+                {
+                    "isbn10": "0375856463",
+                    "isbn13": "9780375856464"
+                },
+                {
+                    "isbn10": "0375825215",
+                    "isbn13": "9780375825217"
+                },
+                {
+                    "isbn10": "0375837337",
+                    "isbn13": "9780375837333"
+                },
+                {
+                    "isbn10": "0375837310",
+                    "isbn13": "9780375837319"
+                },
+                {
+                    "isbn10": "0375830316",
+                    "isbn13": "9780375830310"
+                },
+                {
+                    "isbn10": "037581373X",
+                    "isbn13": "9780375813733"
+                },
+                {
+                    "isbn10": "0375830332",
+                    "isbn13": "9780375830334"
+                },
+                {
+                    "isbn10": "0375837272",
+                    "isbn13": "9780375837272"
+                },
+                {
+                    "isbn10": "0375830375",
+                    "isbn13": "9780375830372"
+                },
+                {
+                    "isbn10": "0375864911",
+                    "isbn13": "9780375864919"
+                },
+                {
+                    "isbn10": "0375868240",
+                    "isbn13": "9780375868245"
+                },
+                {
+                    "isbn10": "0375856498",
+                    "isbn13": "9780375856495"
+                },
+                {
+                    "isbn10": "0375830359",
+                    "isbn13": "9780375830358"
+                },
+                {
+                    "isbn10": "0375873953",
+                    "isbn13": "9780375873959"
+                },
+                {
+                    "isbn10": "0375868259",
+                    "isbn13": "9780375868252"
+                },
+                {
+                    "isbn10": "0375870245",
+                    "isbn13": "9780375870248"
+                },
+                {
+                    "isbn10": "037585651X",
+                    "isbn13": "9780375856518"
+                },
+                {
+                    "isbn10": "0375868267",
+                    "isbn13": "9780375868269"
+                },
+                {
+                    "isbn10": "0307980405",
+                    "isbn13": "9780307980403"
+                },
+                {
+                    "isbn10": "0375867953",
+                    "isbn13": "9780375867958"
+                },
+                {
+                    "isbn10": "0307980456",
+                    "isbn13": "9780307980458"
+                },
+                {
+                    "isbn10": "0375894187",
+                    "isbn13": "9780375894183"
+                },
+                {
+                    "isbn10": "0375894748",
+                    "isbn13": "9780375894749"
+                },
+                {
+                    "isbn10": "0307980499",
+                    "isbn13": "9780307980496"
+                },
+                {
+                    "isbn10": "037586797X",
+                    "isbn13": "9780375867972"
+                },
+                {
+                    "isbn10": "0307980537",
+                    "isbn13": "9780307980533"
+                },
+                {
+                    "isbn10": "0553510819",
+                    "isbn13": "9780553510812"
+                },
+                {
+                    "isbn10": "0553497723",
+                    "isbn13": "9780553497724"
+                },
+                {
+                    "isbn10": "0553510851",
+                    "isbn13": "9780553510850"
+                },
+                {
+                    "isbn10": "0553510894",
+                    "isbn13": "9780553510898"
+                },
+                {
+                    "isbn10": "0375813659",
+                    "isbn13": "9780375813658"
+                },
+                {
+                    "isbn10": "0307980529",
+                    "isbn13": "9780307980526"
+                },
+                {
+                    "isbn10": "0307980561",
+                    "isbn13": "9780307980564"
+                },
+                {
+                    "isbn10": "0553510843",
+                    "isbn13": "9780553510843"
+                },
+                {
+                    "isbn10": "1524713082",
+                    "isbn13": "9781524713089"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 196
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-People-Sparks-Second-Ember/dp/0375828257?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 to 13",
+                    "author": "Jeanne DuPrau",
+                    "contributor": "by Jeanne DuPrau",
+                    "contributor_note": "",
+                    "description": "In a postapocalyptic future, children try to save the world.",
+                    "price": 0,
+                    "primary_isbn10": "0375828257",
+                    "primary_isbn13": "9780375828256",
+                    "publisher": "Random House, hardcover and paper",
+                    "title": "BOOKS OF EMBER"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 29
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Junie-B-First-Grader-Jones/dp/0375828079?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Barbara Park",
+                    "contributor": "by Barbara Park",
+                    "contributor_note": "",
+                    "description": "Antics in the classroom.",
+                    "price": 0,
+                    "primary_isbn10": "0375828079",
+                    "primary_isbn13": "9780375828072",
+                    "publisher": "Random House, hardcover and paper",
+                    "title": "JUNIE B. JONES"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 178
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Titans-Curse-Percy-Jackson-Olympians/dp/1423101480?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rick Riordan",
+                    "contributor": "by Rick Riordan",
+                    "contributor_note": "",
+                    "description": "Battling mythological monsters.",
+                    "price": 0,
+                    "primary_isbn10": "1423103343",
+                    "primary_isbn13": "9781423103349",
+                    "publisher": "Disney-Hyperion, hardcover and paper",
+                    "title": "PERCY JACKSON & THE OLYMPIANS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "1423101502",
+                    "isbn13": "9781423101505"
+                },
+                {
+                    "isbn10": "1423101472",
+                    "isbn13": "9781423101475"
+                },
+                {
+                    "isbn10": "1423101499",
+                    "isbn13": "9781423101499"
+                },
+                {
+                    "isbn10": "0786838655",
+                    "isbn13": "9780786838653"
+                },
+                {
+                    "isbn10": "1423103343",
+                    "isbn13": "9781423103349"
+                },
+                {
+                    "isbn10": "1423101480",
+                    "isbn13": "9781423101482"
+                },
+                {
+                    "isbn10": "1423113497",
+                    "isbn13": "9781423113492"
+                },
+                {
+                    "isbn10": "142312166X",
+                    "isbn13": "9781423121664"
+                },
+                {
+                    "isbn10": "0786856866",
+                    "isbn13": "9780786856862"
+                },
+                {
+                    "isbn10": "1423101456",
+                    "isbn13": "9781423101451"
+                },
+                {
+                    "isbn10": "142313494X",
+                    "isbn13": "9781423134947"
+                },
+                {
+                    "isbn10": "142314189X",
+                    "isbn13": "9781423141891"
+                },
+                {
+                    "isbn10": "1423121708",
+                    "isbn13": "9781423121701"
+                },
+                {
+                    "isbn10": "1423117107",
+                    "isbn13": "9781423117100"
+                },
+                {
+                    "isbn10": "1423119509",
+                    "isbn13": "9781423119500"
+                },
+                {
+                    "isbn10": "142313589X",
+                    "isbn13": "9781423135890"
+                },
+                {
+                    "isbn10": "1423136802",
+                    "isbn13": "9781423136804"
+                },
+                {
+                    "isbn10": "1423131894",
+                    "isbn13": "9781423131892"
+                },
+                {
+                    "isbn10": "1423131967",
+                    "isbn13": "9781423131960"
+                },
+                {
+                    "isbn10": "1423131975",
+                    "isbn13": "9781423131977"
+                },
+                {
+                    "isbn10": "1423131991",
+                    "isbn13": "9781423131991"
+                },
+                {
+                    "isbn10": "1423131983",
+                    "isbn13": "9781423131984"
+                },
+                {
+                    "isbn10": "1423140346",
+                    "isbn13": "9781423140344"
+                },
+                {
+                    "isbn10": "142316007X",
+                    "isbn13": "9781423160076"
+                },
+                {
+                    "isbn10": "1423132009",
+                    "isbn13": "9781423132004"
+                },
+                {
+                    "isbn10": "1484707230",
+                    "isbn13": "9781484707234"
+                },
+                {
+                    "isbn10": "1423116968",
+                    "isbn13": "9781423116967"
+                },
+                {
+                    "isbn10": "1484787781",
+                    "isbn13": "9781484787786"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/31/books/review/Devereaux-t.html"
+                }
+            ],
+            "weeks_on_list": 76
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Chronicles-Spiderwick-Enchanted-Thimbletack/dp/1416950389?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-11",
+            "book_details": [
+                {
+                    "age_group": "Ages 6 to 10",
+                    "author": "Tony DiTerlizzi and Holly Black",
+                    "contributor": "by Tony DiTerlizzi and Holly Black",
+                    "contributor_note": "",
+                    "description": "Siblings find a hidden world.",
+                    "price": 0,
+                    "primary_isbn10": "1416950389",
+                    "primary_isbn13": "9781416950387",
+                    "publisher": "Simon & Schuster, hardcover only",
+                    "title": "THE SPIDERWICK CHRONICLES"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-10-26",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 103
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Eclipse-Twilight-Stephenie-Meyer/dp/0316160202?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Stephenie Meyer",
+                    "contributor": "by Stephenie Meyer",
+                    "contributor_note": "",
+                    "description": "Vampires and werewolves in high school.",
+                    "price": 0,
+                    "primary_isbn10": "0316160202",
+                    "primary_isbn13": "9780316160209",
+                    "publisher": "Megan Tingley/Little Brown, hardcover and paper",
+                    "title": "THE TWILIGHT SAGA"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0316067938",
+                    "isbn13": "9780316067935"
+                },
+                {
+                    "isbn10": "0316015849",
+                    "isbn13": "9780316015844"
+                },
+                {
+                    "isbn10": "0316024961",
+                    "isbn13": "9780316024969"
+                },
+                {
+                    "isbn10": "031612558X",
+                    "isbn13": "9780316125581"
+                },
+                {
+                    "isbn10": "0316027650",
+                    "isbn13": "9780316027656"
+                },
+                {
+                    "isbn10": "031606792X",
+                    "isbn13": "9780316067928"
+                },
+                {
+                    "isbn10": "031608736X",
+                    "isbn13": "9780316087360"
+                },
+                {
+                    "isbn10": "0316038385",
+                    "isbn13": "9780316038386"
+                },
+                {
+                    "isbn10": "0316075639",
+                    "isbn13": "9780316075633"
+                },
+                {
+                    "isbn10": "0316038377",
+                    "isbn13": "9780316038379"
+                },
+                {
+                    "isbn10": "0316160172",
+                    "isbn13": "9780316160179"
+                },
+                {
+                    "isbn10": "0316160199",
+                    "isbn13": "9780316160193"
+                },
+                {
+                    "isbn10": "0316160202",
+                    "isbn13": "9780316160209"
+                },
+                {
+                    "isbn10": "0316078166",
+                    "isbn13": "9780316078160"
+                },
+                {
+                    "isbn10": "0316031844",
+                    "isbn13": "9780316031844"
+                },
+                {
+                    "isbn10": "031613290X",
+                    "isbn13": "9780316132909"
+                },
+                {
+                    "isbn10": "0316053465",
+                    "isbn13": "9780316053464"
+                },
+                {
+                    "isbn10": "0316133930",
+                    "isbn13": "9780316133937"
+                },
+                {
+                    "isbn10": "0316134082",
+                    "isbn13": "9780316134088"
+                },
+                {
+                    "isbn10": "031617615X",
+                    "isbn13": "9780316176156"
+                },
+                {
+                    "isbn10": "0316243981",
+                    "isbn13": "9780316243988"
+                },
+                {
+                    "isbn10": "0316226130",
+                    "isbn13": "9780316226134"
+                },
+                {
+                    "isbn10": "0316007447",
+                    "isbn13": "9780316007443"
+                },
+                {
+                    "isbn10": "0316032832",
+                    "isbn13": "9780316032834"
+                },
+                {
+                    "isbn10": "0316007722",
+                    "isbn13": "9780316007726"
+                },
+                {
+                    "isbn10": "0316008184",
+                    "isbn13": "9780316008181"
+                },
+                {
+                    "isbn10": "0316089508",
+                    "isbn13": "9780316089500"
+                },
+                {
+                    "isbn10": "0316007692",
+                    "isbn13": "9780316007696"
+                },
+                {
+                    "isbn10": "0316182931",
+                    "isbn13": "9780316182935"
+                },
+                {
+                    "isbn10": "0316268399",
+                    "isbn13": "9780316268394"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2007/08/12/books/review/Schillinger7-t.html"
+                }
+            ],
+            "weeks_on_list": 63
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inheritance-Cycle-Christopher-Paolini/dp/0375856110?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Christopher Paolini",
+                    "contributor": "by Christopher Paolini",
+                    "contributor_note": "",
+                    "description": "A teenager and his dragon learn the secrets of a fantasy world.",
+                    "price": 0,
+                    "primary_isbn10": "0440240735",
+                    "primary_isbn13": "9780440240730",
+                    "publisher": "Knopf, hardcover and paper",
+                    "title": "INHERITANCE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375856110",
+                    "isbn13": "9780375856112"
+                },
+                {
+                    "isbn10": "0375826696",
+                    "isbn13": "9780375826696"
+                },
+                {
+                    "isbn10": "0375826742",
+                    "isbn13": "9780375826740"
+                },
+                {
+                    "isbn10": "0375972617",
+                    "isbn13": "9780375972614"
+                },
+                {
+                    "isbn10": "0375840400",
+                    "isbn13": "9780375840401"
+                },
+                {
+                    "isbn10": "0375826688",
+                    "isbn13": "9780375826689"
+                },
+                {
+                    "isbn10": "037582670X",
+                    "isbn13": "9780375826702"
+                },
+                {
+                    "isbn10": "0375826726",
+                    "isbn13": "9780375826726"
+                },
+                {
+                    "isbn10": "0375857044",
+                    "isbn13": "9780375857041"
+                },
+                {
+                    "isbn10": "0375872035",
+                    "isbn13": "9780375872037"
+                },
+                {
+                    "isbn10": "0375846158",
+                    "isbn13": "9780375846151"
+                },
+                {
+                    "isbn10": "0440238498",
+                    "isbn13": "9780440238492"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2003/11/16/books/children-s-books-the-egg-and-him.html"
+                }
+            ],
+            "weeks_on_list": 5
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Untamed-House-Night-Book-4/dp/0312379838?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "PC Cast and Kristin Cast",
+                    "contributor": "by P.C. Cast and Kristin Cast",
+                    "contributor_note": "",
+                    "description": "Vampires in school.",
+                    "price": 0,
+                    "primary_isbn10": "0312379838",
+                    "primary_isbn13": "9780312379834",
+                    "publisher": "St. Martin\u2019s, paper only",
+                    "title": "HOUSE OF NIGHT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0312650248",
+                    "isbn13": "9780312650247"
+                },
+                {
+                    "isbn10": "0312360266",
+                    "isbn13": "9780312360269"
+                },
+                {
+                    "isbn10": "0312606168",
+                    "isbn13": "9780312606169"
+                },
+                {
+                    "isbn10": "0312360282",
+                    "isbn13": "9780312360283"
+                },
+                {
+                    "isbn10": "0312577990",
+                    "isbn13": "9780312577995"
+                },
+                {
+                    "isbn10": "0312567480",
+                    "isbn13": "9780312567484"
+                },
+                {
+                    "isbn10": "0312379838",
+                    "isbn13": "9780312379834"
+                },
+                {
+                    "isbn10": "0312360304",
+                    "isbn13": "9780312360306"
+                },
+                {
+                    "isbn10": "0312596308",
+                    "isbn13": "9780312596309"
+                },
+                {
+                    "isbn10": "031237982X",
+                    "isbn13": "9780312379827"
+                },
+                {
+                    "isbn10": "0312360258",
+                    "isbn13": "9780312360252"
+                },
+                {
+                    "isbn10": "0312596294",
+                    "isbn13": "9780312596293"
+                },
+                {
+                    "isbn10": "0312360290",
+                    "isbn13": "9780312360290"
+                },
+                {
+                    "isbn10": "0312372132",
+                    "isbn13": "9780312372132"
+                },
+                {
+                    "isbn10": "0312609388",
+                    "isbn13": "9780312609382"
+                },
+                {
+                    "isbn10": "1250000238",
+                    "isbn13": "9781250000231"
+                },
+                {
+                    "isbn10": "0312650256",
+                    "isbn13": "9780312650254"
+                },
+                {
+                    "isbn10": "1250000246",
+                    "isbn13": "9781250000248"
+                },
+                {
+                    "isbn10": "0312387970",
+                    "isbn13": "9780312387976"
+                },
+                {
+                    "isbn10": "1250014158",
+                    "isbn13": "9781250014153"
+                },
+                {
+                    "isbn10": "1250000254",
+                    "isbn13": "9781250000255"
+                },
+                {
+                    "isbn10": "0312594437",
+                    "isbn13": "9780312594435"
+                },
+                {
+                    "isbn10": "1250037239",
+                    "isbn13": "9781250037237"
+                },
+                {
+                    "isbn10": "1466858494",
+                    "isbn13": "9781466858497"
+                },
+                {
+                    "isbn10": "0312594445",
+                    "isbn13": "9780312594442"
+                },
+                {
+                    "isbn10": "1250046114",
+                    "isbn13": "9781250046116"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 8
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inkdeath-Inkheart-Trilogy-Cornelia-Funke/dp/0439866286?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 and up",
+                    "author": "Cornelia Funke",
+                    "contributor": "by Cornelia Funke",
+                    "contributor_note": "",
+                    "description": "The characters of a book come to life and ensnare its readers.",
+                    "price": 0,
+                    "primary_isbn10": "0439866286",
+                    "primary_isbn13": "9780439866286",
+                    "publisher": "Scholastic, hardcover and paper",
+                    "title": "INKHEART"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 4
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/If-You-Take-Mouse-School/dp/0060283289?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Laura Numeroff",
+                    "contributor": "by Laura Numeroff. Illustrated by Felicia Bond",
+                    "contributor_note": "Illustrated by Felicia Bond",
+                    "description": "Fun with cause and effect.",
+                    "price": 0,
+                    "primary_isbn10": "0060283289",
+                    "primary_isbn13": "9780060283285",
+                    "publisher": "Geringer/HarperCollins, hardcover and paper",
+                    "title": "IF YOU GIVE . . ."
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 21
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/High-Tide-Hawaii-Magic-House/dp/0375806164?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Mary Pope Osborne",
+                    "contributor": "by Mary Pope Osborne. Illustrated by Sal Murdocca",
+                    "contributor_note": "Illustrated by Sal Murdocca",
+                    "description": "Children travel in time.",
+                    "price": 0,
+                    "primary_isbn10": "067989070X",
+                    "primary_isbn13": "9780679890706",
+                    "publisher": "Stepping Stone/Random House, hardcover and paper",
+                    "title": "MAGIC TREE HOUSE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375868232",
+                    "isbn13": "9780375868238"
+                },
+                {
+                    "isbn10": "0375837280",
+                    "isbn13": "9780375837289"
+                },
+                {
+                    "isbn10": "0679890637",
+                    "isbn13": "9780679890638"
+                },
+                {
+                    "isbn10": "0679883401",
+                    "isbn13": "9780679883401"
+                },
+                {
+                    "isbn10": "0375837345",
+                    "isbn13": "9780375837340"
+                },
+                {
+                    "isbn10": "0679890688",
+                    "isbn13": "9780679890683"
+                },
+                {
+                    "isbn10": "0375856528",
+                    "isbn13": "9780375856525"
+                },
+                {
+                    "isbn10": "0375860908",
+                    "isbn13": "9780375860904"
+                },
+                {
+                    "isbn10": "0679890629",
+                    "isbn13": "9780679890621"
+                },
+                {
+                    "isbn10": "0679890505",
+                    "isbn13": "9780679890508"
+                },
+                {
+                    "isbn10": "067989067X",
+                    "isbn13": "9780679890676"
+                },
+                {
+                    "isbn10": "067988341X",
+                    "isbn13": "9780679883418"
+                },
+                {
+                    "isbn10": "0375806164",
+                    "isbn13": "9780375806162"
+                },
+                {
+                    "isbn10": "0375830367",
+                    "isbn13": "9780375830365"
+                },
+                {
+                    "isbn10": "0375830340",
+                    "isbn13": "9780375830341"
+                },
+                {
+                    "isbn10": "0375827366",
+                    "isbn13": "9780375827365"
+                },
+                {
+                    "isbn10": "0679890610",
+                    "isbn13": "9780679890614"
+                },
+                {
+                    "isbn10": "0679890653",
+                    "isbn13": "9780679890652"
+                },
+                {
+                    "isbn10": "0679890696",
+                    "isbn13": "9780679890690"
+                },
+                {
+                    "isbn10": "0679890645",
+                    "isbn13": "9780679890645"
+                },
+                {
+                    "isbn10": "0375830324",
+                    "isbn13": "9780375830327"
+                },
+                {
+                    "isbn10": "0375827358",
+                    "isbn13": "9780375827358"
+                },
+                {
+                    "isbn10": "0375837329",
+                    "isbn13": "9780375837326"
+                },
+                {
+                    "isbn10": "037585648X",
+                    "isbn13": "9780375856488"
+                },
+                {
+                    "isbn10": "0375856501",
+                    "isbn13": "9780375856501"
+                },
+                {
+                    "isbn10": "0375860096",
+                    "isbn13": "9780375860096"
+                },
+                {
+                    "isbn10": "0375806148",
+                    "isbn13": "9780375806148"
+                },
+                {
+                    "isbn10": "0375837302",
+                    "isbn13": "9780375837302"
+                },
+                {
+                    "isbn10": "0679890513",
+                    "isbn13": "9780679890515"
+                },
+                {
+                    "isbn10": "067989070X",
+                    "isbn13": "9780679890706"
+                },
+                {
+                    "isbn10": "0375858113",
+                    "isbn13": "9780375858116"
+                },
+                {
+                    "isbn10": "0375806113",
+                    "isbn13": "9780375806117"
+                },
+                {
+                    "isbn10": "0375806156",
+                    "isbn13": "9780375806155"
+                },
+                {
+                    "isbn10": "0679890661",
+                    "isbn13": "9780679890669"
+                },
+                {
+                    "isbn10": "0375846638",
+                    "isbn13": "9780375846632"
+                },
+                {
+                    "isbn10": "0375837299",
+                    "isbn13": "9780375837296"
+                },
+                {
+                    "isbn10": "0375856463",
+                    "isbn13": "9780375856464"
+                },
+                {
+                    "isbn10": "0375825215",
+                    "isbn13": "9780375825217"
+                },
+                {
+                    "isbn10": "0375837337",
+                    "isbn13": "9780375837333"
+                },
+                {
+                    "isbn10": "0375837310",
+                    "isbn13": "9780375837319"
+                },
+                {
+                    "isbn10": "0375830316",
+                    "isbn13": "9780375830310"
+                },
+                {
+                    "isbn10": "037581373X",
+                    "isbn13": "9780375813733"
+                },
+                {
+                    "isbn10": "0375830332",
+                    "isbn13": "9780375830334"
+                },
+                {
+                    "isbn10": "0375837272",
+                    "isbn13": "9780375837272"
+                },
+                {
+                    "isbn10": "0375830375",
+                    "isbn13": "9780375830372"
+                },
+                {
+                    "isbn10": "0375864911",
+                    "isbn13": "9780375864919"
+                },
+                {
+                    "isbn10": "0375868240",
+                    "isbn13": "9780375868245"
+                },
+                {
+                    "isbn10": "0375856498",
+                    "isbn13": "9780375856495"
+                },
+                {
+                    "isbn10": "0375830359",
+                    "isbn13": "9780375830358"
+                },
+                {
+                    "isbn10": "0375873953",
+                    "isbn13": "9780375873959"
+                },
+                {
+                    "isbn10": "0375868259",
+                    "isbn13": "9780375868252"
+                },
+                {
+                    "isbn10": "0375870245",
+                    "isbn13": "9780375870248"
+                },
+                {
+                    "isbn10": "037585651X",
+                    "isbn13": "9780375856518"
+                },
+                {
+                    "isbn10": "0375868267",
+                    "isbn13": "9780375868269"
+                },
+                {
+                    "isbn10": "0307980405",
+                    "isbn13": "9780307980403"
+                },
+                {
+                    "isbn10": "0375867953",
+                    "isbn13": "9780375867958"
+                },
+                {
+                    "isbn10": "0307980456",
+                    "isbn13": "9780307980458"
+                },
+                {
+                    "isbn10": "0375894187",
+                    "isbn13": "9780375894183"
+                },
+                {
+                    "isbn10": "0375894748",
+                    "isbn13": "9780375894749"
+                },
+                {
+                    "isbn10": "0307980499",
+                    "isbn13": "9780307980496"
+                },
+                {
+                    "isbn10": "037586797X",
+                    "isbn13": "9780375867972"
+                },
+                {
+                    "isbn10": "0307980537",
+                    "isbn13": "9780307980533"
+                },
+                {
+                    "isbn10": "0553510819",
+                    "isbn13": "9780553510812"
+                },
+                {
+                    "isbn10": "0553497723",
+                    "isbn13": "9780553497724"
+                },
+                {
+                    "isbn10": "0553510851",
+                    "isbn13": "9780553510850"
+                },
+                {
+                    "isbn10": "0553510894",
+                    "isbn13": "9780553510898"
+                },
+                {
+                    "isbn10": "0375813659",
+                    "isbn13": "9780375813658"
+                },
+                {
+                    "isbn10": "0307980529",
+                    "isbn13": "9780307980526"
+                },
+                {
+                    "isbn10": "0307980561",
+                    "isbn13": "9780307980564"
+                },
+                {
+                    "isbn10": "0553510843",
+                    "isbn13": "9780553510843"
+                },
+                {
+                    "isbn10": "1524713082",
+                    "isbn13": "9781524713089"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 197
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-People-Sparks-Second-Ember/dp/0375828257?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 to 13",
+                    "author": "Jeanne DuPrau",
+                    "contributor": "by Jeanne DuPrau",
+                    "contributor_note": "",
+                    "description": "In a postapocalyptic future, children try to save the world.",
+                    "price": 0,
+                    "primary_isbn10": "0375828257",
+                    "primary_isbn13": "9780375828256",
+                    "publisher": "Random House, hardcover and paper",
+                    "title": "BOOKS OF EMBER"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 30
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Junie-B-First-Grader-Jones/dp/0375828079?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Barbara Park",
+                    "contributor": "by Barbara Park",
+                    "contributor_note": "",
+                    "description": "Antics in the classroom.",
+                    "price": 0,
+                    "primary_isbn10": "0375828079",
+                    "primary_isbn13": "9780375828072",
+                    "publisher": "Random House, hardcover and paper",
+                    "title": "JUNIE B. JONES"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 179
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Titans-Curse-Percy-Jackson-Olympians/dp/1423101480?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rick Riordan",
+                    "contributor": "by Rick Riordan",
+                    "contributor_note": "",
+                    "description": "Battling mythological monsters.",
+                    "price": 0,
+                    "primary_isbn10": "1423103343",
+                    "primary_isbn13": "9781423103349",
+                    "publisher": "Disney-Hyperion, hardcover and paper",
+                    "title": "PERCY JACKSON & THE OLYMPIANS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "1423101502",
+                    "isbn13": "9781423101505"
+                },
+                {
+                    "isbn10": "1423101472",
+                    "isbn13": "9781423101475"
+                },
+                {
+                    "isbn10": "1423101499",
+                    "isbn13": "9781423101499"
+                },
+                {
+                    "isbn10": "0786838655",
+                    "isbn13": "9780786838653"
+                },
+                {
+                    "isbn10": "1423103343",
+                    "isbn13": "9781423103349"
+                },
+                {
+                    "isbn10": "1423101480",
+                    "isbn13": "9781423101482"
+                },
+                {
+                    "isbn10": "1423113497",
+                    "isbn13": "9781423113492"
+                },
+                {
+                    "isbn10": "142312166X",
+                    "isbn13": "9781423121664"
+                },
+                {
+                    "isbn10": "0786856866",
+                    "isbn13": "9780786856862"
+                },
+                {
+                    "isbn10": "1423101456",
+                    "isbn13": "9781423101451"
+                },
+                {
+                    "isbn10": "142313494X",
+                    "isbn13": "9781423134947"
+                },
+                {
+                    "isbn10": "142314189X",
+                    "isbn13": "9781423141891"
+                },
+                {
+                    "isbn10": "1423121708",
+                    "isbn13": "9781423121701"
+                },
+                {
+                    "isbn10": "1423117107",
+                    "isbn13": "9781423117100"
+                },
+                {
+                    "isbn10": "1423119509",
+                    "isbn13": "9781423119500"
+                },
+                {
+                    "isbn10": "142313589X",
+                    "isbn13": "9781423135890"
+                },
+                {
+                    "isbn10": "1423136802",
+                    "isbn13": "9781423136804"
+                },
+                {
+                    "isbn10": "1423131894",
+                    "isbn13": "9781423131892"
+                },
+                {
+                    "isbn10": "1423131967",
+                    "isbn13": "9781423131960"
+                },
+                {
+                    "isbn10": "1423131975",
+                    "isbn13": "9781423131977"
+                },
+                {
+                    "isbn10": "1423131991",
+                    "isbn13": "9781423131991"
+                },
+                {
+                    "isbn10": "1423131983",
+                    "isbn13": "9781423131984"
+                },
+                {
+                    "isbn10": "1423140346",
+                    "isbn13": "9781423140344"
+                },
+                {
+                    "isbn10": "142316007X",
+                    "isbn13": "9781423160076"
+                },
+                {
+                    "isbn10": "1423132009",
+                    "isbn13": "9781423132004"
+                },
+                {
+                    "isbn10": "1484707230",
+                    "isbn13": "9781484707234"
+                },
+                {
+                    "isbn10": "1423116968",
+                    "isbn13": "9781423116967"
+                },
+                {
+                    "isbn10": "1484787781",
+                    "isbn13": "9781484787786"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/31/books/review/Devereaux-t.html"
+                }
+            ],
+            "weeks_on_list": 77
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Redwall-Brian-Jacques/dp/0441005489?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-18",
+            "book_details": [
+                {
+                    "age_group": "Ages 8 and up",
+                    "author": "Brian Jacques",
+                    "contributor": "by Brian Jacques",
+                    "contributor_note": "",
+                    "description": "A battle of good and evil among mice, rats and other woodland animals.",
+                    "price": 0,
+                    "primary_isbn10": "0441005489",
+                    "primary_isbn13": "9780441005482",
+                    "publisher": "Philomel, hardcover and paper",
+                    "title": "REdWALL"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-02",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 48
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Eclipse-Twilight-Stephenie-Meyer/dp/0316160202?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Stephenie Meyer",
+                    "contributor": "by Stephenie Meyer",
+                    "contributor_note": "",
+                    "description": "Vampires and werewolves in high school.",
+                    "price": 0,
+                    "primary_isbn10": "0316160202",
+                    "primary_isbn13": "9780316160209",
+                    "publisher": "Megan Tingley/Little Brown, hardcover and paper",
+                    "title": "THE TWILIGHT SAGA"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0316067938",
+                    "isbn13": "9780316067935"
+                },
+                {
+                    "isbn10": "0316015849",
+                    "isbn13": "9780316015844"
+                },
+                {
+                    "isbn10": "0316024961",
+                    "isbn13": "9780316024969"
+                },
+                {
+                    "isbn10": "031612558X",
+                    "isbn13": "9780316125581"
+                },
+                {
+                    "isbn10": "0316027650",
+                    "isbn13": "9780316027656"
+                },
+                {
+                    "isbn10": "031606792X",
+                    "isbn13": "9780316067928"
+                },
+                {
+                    "isbn10": "031608736X",
+                    "isbn13": "9780316087360"
+                },
+                {
+                    "isbn10": "0316038385",
+                    "isbn13": "9780316038386"
+                },
+                {
+                    "isbn10": "0316075639",
+                    "isbn13": "9780316075633"
+                },
+                {
+                    "isbn10": "0316038377",
+                    "isbn13": "9780316038379"
+                },
+                {
+                    "isbn10": "0316160172",
+                    "isbn13": "9780316160179"
+                },
+                {
+                    "isbn10": "0316160199",
+                    "isbn13": "9780316160193"
+                },
+                {
+                    "isbn10": "0316160202",
+                    "isbn13": "9780316160209"
+                },
+                {
+                    "isbn10": "0316078166",
+                    "isbn13": "9780316078160"
+                },
+                {
+                    "isbn10": "0316031844",
+                    "isbn13": "9780316031844"
+                },
+                {
+                    "isbn10": "031613290X",
+                    "isbn13": "9780316132909"
+                },
+                {
+                    "isbn10": "0316053465",
+                    "isbn13": "9780316053464"
+                },
+                {
+                    "isbn10": "0316133930",
+                    "isbn13": "9780316133937"
+                },
+                {
+                    "isbn10": "0316134082",
+                    "isbn13": "9780316134088"
+                },
+                {
+                    "isbn10": "031617615X",
+                    "isbn13": "9780316176156"
+                },
+                {
+                    "isbn10": "0316243981",
+                    "isbn13": "9780316243988"
+                },
+                {
+                    "isbn10": "0316226130",
+                    "isbn13": "9780316226134"
+                },
+                {
+                    "isbn10": "0316007447",
+                    "isbn13": "9780316007443"
+                },
+                {
+                    "isbn10": "0316032832",
+                    "isbn13": "9780316032834"
+                },
+                {
+                    "isbn10": "0316007722",
+                    "isbn13": "9780316007726"
+                },
+                {
+                    "isbn10": "0316008184",
+                    "isbn13": "9780316008181"
+                },
+                {
+                    "isbn10": "0316089508",
+                    "isbn13": "9780316089500"
+                },
+                {
+                    "isbn10": "0316007692",
+                    "isbn13": "9780316007696"
+                },
+                {
+                    "isbn10": "0316182931",
+                    "isbn13": "9780316182935"
+                },
+                {
+                    "isbn10": "0316268399",
+                    "isbn13": "9780316268394"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2007/08/12/books/review/Schillinger7-t.html"
+                }
+            ],
+            "weeks_on_list": 64
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inheritance-Cycle-Christopher-Paolini/dp/0375856110?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Christopher Paolini",
+                    "contributor": "by Christopher Paolini",
+                    "contributor_note": "",
+                    "description": "A teenager and his dragon learn the secrets of a fantasy world.",
+                    "price": 0,
+                    "primary_isbn10": "0440240735",
+                    "primary_isbn13": "9780440240730",
+                    "publisher": "Knopf, hardcover and paper",
+                    "title": "INHERITANCE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375856110",
+                    "isbn13": "9780375856112"
+                },
+                {
+                    "isbn10": "0375826696",
+                    "isbn13": "9780375826696"
+                },
+                {
+                    "isbn10": "0375826742",
+                    "isbn13": "9780375826740"
+                },
+                {
+                    "isbn10": "0375972617",
+                    "isbn13": "9780375972614"
+                },
+                {
+                    "isbn10": "0375840400",
+                    "isbn13": "9780375840401"
+                },
+                {
+                    "isbn10": "0375826688",
+                    "isbn13": "9780375826689"
+                },
+                {
+                    "isbn10": "037582670X",
+                    "isbn13": "9780375826702"
+                },
+                {
+                    "isbn10": "0375826726",
+                    "isbn13": "9780375826726"
+                },
+                {
+                    "isbn10": "0375857044",
+                    "isbn13": "9780375857041"
+                },
+                {
+                    "isbn10": "0375872035",
+                    "isbn13": "9780375872037"
+                },
+                {
+                    "isbn10": "0375846158",
+                    "isbn13": "9780375846151"
+                },
+                {
+                    "isbn10": "0440238498",
+                    "isbn13": "9780440238492"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2003/11/16/books/children-s-books-the-egg-and-him.html"
+                }
+            ],
+            "weeks_on_list": 6
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Untamed-House-Night-Book-4/dp/0312379838?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "PC Cast and Kristin Cast",
+                    "contributor": "by P.C. Cast and Kristin Cast",
+                    "contributor_note": "",
+                    "description": "Vampires in school.",
+                    "price": 0,
+                    "primary_isbn10": "0312379838",
+                    "primary_isbn13": "9780312379834",
+                    "publisher": "St. Martin\u2019s, paper only",
+                    "title": "HOUSE OF NIGHT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0312650248",
+                    "isbn13": "9780312650247"
+                },
+                {
+                    "isbn10": "0312360266",
+                    "isbn13": "9780312360269"
+                },
+                {
+                    "isbn10": "0312606168",
+                    "isbn13": "9780312606169"
+                },
+                {
+                    "isbn10": "0312360282",
+                    "isbn13": "9780312360283"
+                },
+                {
+                    "isbn10": "0312577990",
+                    "isbn13": "9780312577995"
+                },
+                {
+                    "isbn10": "0312567480",
+                    "isbn13": "9780312567484"
+                },
+                {
+                    "isbn10": "0312379838",
+                    "isbn13": "9780312379834"
+                },
+                {
+                    "isbn10": "0312360304",
+                    "isbn13": "9780312360306"
+                },
+                {
+                    "isbn10": "0312596308",
+                    "isbn13": "9780312596309"
+                },
+                {
+                    "isbn10": "031237982X",
+                    "isbn13": "9780312379827"
+                },
+                {
+                    "isbn10": "0312360258",
+                    "isbn13": "9780312360252"
+                },
+                {
+                    "isbn10": "0312596294",
+                    "isbn13": "9780312596293"
+                },
+                {
+                    "isbn10": "0312360290",
+                    "isbn13": "9780312360290"
+                },
+                {
+                    "isbn10": "0312372132",
+                    "isbn13": "9780312372132"
+                },
+                {
+                    "isbn10": "0312609388",
+                    "isbn13": "9780312609382"
+                },
+                {
+                    "isbn10": "1250000238",
+                    "isbn13": "9781250000231"
+                },
+                {
+                    "isbn10": "0312650256",
+                    "isbn13": "9780312650254"
+                },
+                {
+                    "isbn10": "1250000246",
+                    "isbn13": "9781250000248"
+                },
+                {
+                    "isbn10": "0312387970",
+                    "isbn13": "9780312387976"
+                },
+                {
+                    "isbn10": "1250014158",
+                    "isbn13": "9781250014153"
+                },
+                {
+                    "isbn10": "1250000254",
+                    "isbn13": "9781250000255"
+                },
+                {
+                    "isbn10": "0312594437",
+                    "isbn13": "9780312594435"
+                },
+                {
+                    "isbn10": "1250037239",
+                    "isbn13": "9781250037237"
+                },
+                {
+                    "isbn10": "1466858494",
+                    "isbn13": "9781466858497"
+                },
+                {
+                    "isbn10": "0312594445",
+                    "isbn13": "9780312594442"
+                },
+                {
+                    "isbn10": "1250046114",
+                    "isbn13": "9781250046116"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 9
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/If-You-Take-Mouse-School/dp/0060283289?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Laura Numeroff",
+                    "contributor": "by Laura Numeroff. Illustrated by Felicia Bond",
+                    "contributor_note": "Illustrated by Felicia Bond",
+                    "description": "Fun with cause and effect.",
+                    "price": 0,
+                    "primary_isbn10": "0060283289",
+                    "primary_isbn13": "9780060283285",
+                    "publisher": "Geringer/HarperCollins, hardcover and paper",
+                    "title": "IF YOU GIVE . . ."
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 22
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inkdeath-Inkheart-Trilogy-Cornelia-Funke/dp/0439866286?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 and up",
+                    "author": "Cornelia Funke",
+                    "contributor": "by Cornelia Funke",
+                    "contributor_note": "",
+                    "description": "The characters of a book come to life and ensnare its readers.",
+                    "price": 0,
+                    "primary_isbn10": "0439866286",
+                    "primary_isbn13": "9780439866286",
+                    "publisher": "Scholastic, hardcover and paper",
+                    "title": "INKHEART"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 5
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/High-Tide-Hawaii-Magic-House/dp/0375806164?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Mary Pope Osborne",
+                    "contributor": "by Mary Pope Osborne. Illustrated by Sal Murdocca",
+                    "contributor_note": "Illustrated by Sal Murdocca",
+                    "description": "Children travel in time.",
+                    "price": 0,
+                    "primary_isbn10": "067989070X",
+                    "primary_isbn13": "9780679890706",
+                    "publisher": "Stepping Stone/Random House, hardcover and paper",
+                    "title": "MAGIC TREE HOUSE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375868232",
+                    "isbn13": "9780375868238"
+                },
+                {
+                    "isbn10": "0375837280",
+                    "isbn13": "9780375837289"
+                },
+                {
+                    "isbn10": "0679890637",
+                    "isbn13": "9780679890638"
+                },
+                {
+                    "isbn10": "0679883401",
+                    "isbn13": "9780679883401"
+                },
+                {
+                    "isbn10": "0375837345",
+                    "isbn13": "9780375837340"
+                },
+                {
+                    "isbn10": "0679890688",
+                    "isbn13": "9780679890683"
+                },
+                {
+                    "isbn10": "0375856528",
+                    "isbn13": "9780375856525"
+                },
+                {
+                    "isbn10": "0375860908",
+                    "isbn13": "9780375860904"
+                },
+                {
+                    "isbn10": "0679890629",
+                    "isbn13": "9780679890621"
+                },
+                {
+                    "isbn10": "0679890505",
+                    "isbn13": "9780679890508"
+                },
+                {
+                    "isbn10": "067989067X",
+                    "isbn13": "9780679890676"
+                },
+                {
+                    "isbn10": "067988341X",
+                    "isbn13": "9780679883418"
+                },
+                {
+                    "isbn10": "0375806164",
+                    "isbn13": "9780375806162"
+                },
+                {
+                    "isbn10": "0375830367",
+                    "isbn13": "9780375830365"
+                },
+                {
+                    "isbn10": "0375830340",
+                    "isbn13": "9780375830341"
+                },
+                {
+                    "isbn10": "0375827366",
+                    "isbn13": "9780375827365"
+                },
+                {
+                    "isbn10": "0679890610",
+                    "isbn13": "9780679890614"
+                },
+                {
+                    "isbn10": "0679890653",
+                    "isbn13": "9780679890652"
+                },
+                {
+                    "isbn10": "0679890696",
+                    "isbn13": "9780679890690"
+                },
+                {
+                    "isbn10": "0679890645",
+                    "isbn13": "9780679890645"
+                },
+                {
+                    "isbn10": "0375830324",
+                    "isbn13": "9780375830327"
+                },
+                {
+                    "isbn10": "0375827358",
+                    "isbn13": "9780375827358"
+                },
+                {
+                    "isbn10": "0375837329",
+                    "isbn13": "9780375837326"
+                },
+                {
+                    "isbn10": "037585648X",
+                    "isbn13": "9780375856488"
+                },
+                {
+                    "isbn10": "0375856501",
+                    "isbn13": "9780375856501"
+                },
+                {
+                    "isbn10": "0375860096",
+                    "isbn13": "9780375860096"
+                },
+                {
+                    "isbn10": "0375806148",
+                    "isbn13": "9780375806148"
+                },
+                {
+                    "isbn10": "0375837302",
+                    "isbn13": "9780375837302"
+                },
+                {
+                    "isbn10": "0679890513",
+                    "isbn13": "9780679890515"
+                },
+                {
+                    "isbn10": "067989070X",
+                    "isbn13": "9780679890706"
+                },
+                {
+                    "isbn10": "0375858113",
+                    "isbn13": "9780375858116"
+                },
+                {
+                    "isbn10": "0375806113",
+                    "isbn13": "9780375806117"
+                },
+                {
+                    "isbn10": "0375806156",
+                    "isbn13": "9780375806155"
+                },
+                {
+                    "isbn10": "0679890661",
+                    "isbn13": "9780679890669"
+                },
+                {
+                    "isbn10": "0375846638",
+                    "isbn13": "9780375846632"
+                },
+                {
+                    "isbn10": "0375837299",
+                    "isbn13": "9780375837296"
+                },
+                {
+                    "isbn10": "0375856463",
+                    "isbn13": "9780375856464"
+                },
+                {
+                    "isbn10": "0375825215",
+                    "isbn13": "9780375825217"
+                },
+                {
+                    "isbn10": "0375837337",
+                    "isbn13": "9780375837333"
+                },
+                {
+                    "isbn10": "0375837310",
+                    "isbn13": "9780375837319"
+                },
+                {
+                    "isbn10": "0375830316",
+                    "isbn13": "9780375830310"
+                },
+                {
+                    "isbn10": "037581373X",
+                    "isbn13": "9780375813733"
+                },
+                {
+                    "isbn10": "0375830332",
+                    "isbn13": "9780375830334"
+                },
+                {
+                    "isbn10": "0375837272",
+                    "isbn13": "9780375837272"
+                },
+                {
+                    "isbn10": "0375830375",
+                    "isbn13": "9780375830372"
+                },
+                {
+                    "isbn10": "0375864911",
+                    "isbn13": "9780375864919"
+                },
+                {
+                    "isbn10": "0375868240",
+                    "isbn13": "9780375868245"
+                },
+                {
+                    "isbn10": "0375856498",
+                    "isbn13": "9780375856495"
+                },
+                {
+                    "isbn10": "0375830359",
+                    "isbn13": "9780375830358"
+                },
+                {
+                    "isbn10": "0375873953",
+                    "isbn13": "9780375873959"
+                },
+                {
+                    "isbn10": "0375868259",
+                    "isbn13": "9780375868252"
+                },
+                {
+                    "isbn10": "0375870245",
+                    "isbn13": "9780375870248"
+                },
+                {
+                    "isbn10": "037585651X",
+                    "isbn13": "9780375856518"
+                },
+                {
+                    "isbn10": "0375868267",
+                    "isbn13": "9780375868269"
+                },
+                {
+                    "isbn10": "0307980405",
+                    "isbn13": "9780307980403"
+                },
+                {
+                    "isbn10": "0375867953",
+                    "isbn13": "9780375867958"
+                },
+                {
+                    "isbn10": "0307980456",
+                    "isbn13": "9780307980458"
+                },
+                {
+                    "isbn10": "0375894187",
+                    "isbn13": "9780375894183"
+                },
+                {
+                    "isbn10": "0375894748",
+                    "isbn13": "9780375894749"
+                },
+                {
+                    "isbn10": "0307980499",
+                    "isbn13": "9780307980496"
+                },
+                {
+                    "isbn10": "037586797X",
+                    "isbn13": "9780375867972"
+                },
+                {
+                    "isbn10": "0307980537",
+                    "isbn13": "9780307980533"
+                },
+                {
+                    "isbn10": "0553510819",
+                    "isbn13": "9780553510812"
+                },
+                {
+                    "isbn10": "0553497723",
+                    "isbn13": "9780553497724"
+                },
+                {
+                    "isbn10": "0553510851",
+                    "isbn13": "9780553510850"
+                },
+                {
+                    "isbn10": "0553510894",
+                    "isbn13": "9780553510898"
+                },
+                {
+                    "isbn10": "0375813659",
+                    "isbn13": "9780375813658"
+                },
+                {
+                    "isbn10": "0307980529",
+                    "isbn13": "9780307980526"
+                },
+                {
+                    "isbn10": "0307980561",
+                    "isbn13": "9780307980564"
+                },
+                {
+                    "isbn10": "0553510843",
+                    "isbn13": "9780553510843"
+                },
+                {
+                    "isbn10": "1524713082",
+                    "isbn13": "9781524713089"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 198
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-People-Sparks-Second-Ember/dp/0375828257?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 to 13",
+                    "author": "Jeanne DuPrau",
+                    "contributor": "by Jeanne DuPrau",
+                    "contributor_note": "",
+                    "description": "In a postapocalyptic future, children try to save the world.",
+                    "price": 0,
+                    "primary_isbn10": "0375828257",
+                    "primary_isbn13": "9780375828256",
+                    "publisher": "Random House, hardcover and paper",
+                    "title": "BOOKS OF EMBER"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 31
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Disney-High-School-Musical-Senior/dp/1423112024?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 8 to 12",
+                    "author": "various authors",
+                    "contributor": "by various authors",
+                    "contributor_note": "",
+                    "description": "The adventures of the drama crowd at East High; based on a series of movies.",
+                    "price": 0,
+                    "primary_isbn10": "1423112024",
+                    "primary_isbn13": "9781423112020",
+                    "publisher": "Disney, paper only",
+                    "title": "HIGH SCHOOL MUSICAL"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Redwall-Brian-Jacques/dp/0441005489?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 8 and up",
+                    "author": "Brian Jacques",
+                    "contributor": "by Brian Jacques",
+                    "contributor_note": "",
+                    "description": "A battle of good and evil among mice, rats and other woodland animals.",
+                    "price": 0,
+                    "primary_isbn10": "0441005489",
+                    "primary_isbn13": "9780441005482",
+                    "publisher": "Philomel, hardcover and paper",
+                    "title": "REDWALL"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 49
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Junie-B-First-Grader-Jones/dp/0375828079?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-10-25",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Barbara Park",
+                    "contributor": "by Barbara Park",
+                    "contributor_note": "",
+                    "description": "Antics in the classroom.",
+                    "price": 0,
+                    "primary_isbn10": "0375828079",
+                    "primary_isbn13": "9780375828072",
+                    "publisher": "Random House, hardcover and paper",
+                    "title": "JUNIE B. JONES"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-09",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 180
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Eclipse-Twilight-Stephenie-Meyer/dp/0316160202?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Stephenie Meyer",
+                    "contributor": "by Stephenie Meyer",
+                    "contributor_note": "",
+                    "description": "Vampires and werewolves in high school.",
+                    "price": 0,
+                    "primary_isbn10": "0316160202",
+                    "primary_isbn13": "9780316160209",
+                    "publisher": "Megan Tingley/Little Brown, hardcover and paper",
+                    "title": "THE TWILIGHT SAGA"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0316067938",
+                    "isbn13": "9780316067935"
+                },
+                {
+                    "isbn10": "0316015849",
+                    "isbn13": "9780316015844"
+                },
+                {
+                    "isbn10": "0316024961",
+                    "isbn13": "9780316024969"
+                },
+                {
+                    "isbn10": "031612558X",
+                    "isbn13": "9780316125581"
+                },
+                {
+                    "isbn10": "0316027650",
+                    "isbn13": "9780316027656"
+                },
+                {
+                    "isbn10": "031606792X",
+                    "isbn13": "9780316067928"
+                },
+                {
+                    "isbn10": "031608736X",
+                    "isbn13": "9780316087360"
+                },
+                {
+                    "isbn10": "0316038385",
+                    "isbn13": "9780316038386"
+                },
+                {
+                    "isbn10": "0316075639",
+                    "isbn13": "9780316075633"
+                },
+                {
+                    "isbn10": "0316038377",
+                    "isbn13": "9780316038379"
+                },
+                {
+                    "isbn10": "0316160172",
+                    "isbn13": "9780316160179"
+                },
+                {
+                    "isbn10": "0316160199",
+                    "isbn13": "9780316160193"
+                },
+                {
+                    "isbn10": "0316160202",
+                    "isbn13": "9780316160209"
+                },
+                {
+                    "isbn10": "0316078166",
+                    "isbn13": "9780316078160"
+                },
+                {
+                    "isbn10": "0316031844",
+                    "isbn13": "9780316031844"
+                },
+                {
+                    "isbn10": "031613290X",
+                    "isbn13": "9780316132909"
+                },
+                {
+                    "isbn10": "0316053465",
+                    "isbn13": "9780316053464"
+                },
+                {
+                    "isbn10": "0316133930",
+                    "isbn13": "9780316133937"
+                },
+                {
+                    "isbn10": "0316134082",
+                    "isbn13": "9780316134088"
+                },
+                {
+                    "isbn10": "031617615X",
+                    "isbn13": "9780316176156"
+                },
+                {
+                    "isbn10": "0316243981",
+                    "isbn13": "9780316243988"
+                },
+                {
+                    "isbn10": "0316226130",
+                    "isbn13": "9780316226134"
+                },
+                {
+                    "isbn10": "0316007447",
+                    "isbn13": "9780316007443"
+                },
+                {
+                    "isbn10": "0316032832",
+                    "isbn13": "9780316032834"
+                },
+                {
+                    "isbn10": "0316007722",
+                    "isbn13": "9780316007726"
+                },
+                {
+                    "isbn10": "0316008184",
+                    "isbn13": "9780316008181"
+                },
+                {
+                    "isbn10": "0316089508",
+                    "isbn13": "9780316089500"
+                },
+                {
+                    "isbn10": "0316007692",
+                    "isbn13": "9780316007696"
+                },
+                {
+                    "isbn10": "0316182931",
+                    "isbn13": "9780316182935"
+                },
+                {
+                    "isbn10": "0316268399",
+                    "isbn13": "9780316268394"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2007/08/12/books/review/Schillinger7-t.html"
+                }
+            ],
+            "weeks_on_list": 65
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inheritance-Cycle-Christopher-Paolini/dp/0375856110?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Christopher Paolini",
+                    "contributor": "by Christopher Paolini",
+                    "contributor_note": "",
+                    "description": "A teenager and his dragon learn the secrets of a fantasy world.",
+                    "price": 0,
+                    "primary_isbn10": "0440240735",
+                    "primary_isbn13": "9780440240730",
+                    "publisher": "Knopf, hardcover and paper",
+                    "title": "INHERITANCE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375856110",
+                    "isbn13": "9780375856112"
+                },
+                {
+                    "isbn10": "0375826696",
+                    "isbn13": "9780375826696"
+                },
+                {
+                    "isbn10": "0375826742",
+                    "isbn13": "9780375826740"
+                },
+                {
+                    "isbn10": "0375972617",
+                    "isbn13": "9780375972614"
+                },
+                {
+                    "isbn10": "0375840400",
+                    "isbn13": "9780375840401"
+                },
+                {
+                    "isbn10": "0375826688",
+                    "isbn13": "9780375826689"
+                },
+                {
+                    "isbn10": "037582670X",
+                    "isbn13": "9780375826702"
+                },
+                {
+                    "isbn10": "0375826726",
+                    "isbn13": "9780375826726"
+                },
+                {
+                    "isbn10": "0375857044",
+                    "isbn13": "9780375857041"
+                },
+                {
+                    "isbn10": "0375872035",
+                    "isbn13": "9780375872037"
+                },
+                {
+                    "isbn10": "0375846158",
+                    "isbn13": "9780375846151"
+                },
+                {
+                    "isbn10": "0440238498",
+                    "isbn13": "9780440238492"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2003/11/16/books/children-s-books-the-egg-and-him.html"
+                }
+            ],
+            "weeks_on_list": 7
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Untamed-House-Night-Book-4/dp/0312379838?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "PC Cast and Kristin Cast",
+                    "contributor": "by P.C. Cast and Kristin Cast",
+                    "contributor_note": "",
+                    "description": "Vampires in school.",
+                    "price": 0,
+                    "primary_isbn10": "0312379838",
+                    "primary_isbn13": "9780312379834",
+                    "publisher": "St. Martin\u2019s, paper only",
+                    "title": "HOUSE OF NIGHT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0312650248",
+                    "isbn13": "9780312650247"
+                },
+                {
+                    "isbn10": "0312360266",
+                    "isbn13": "9780312360269"
+                },
+                {
+                    "isbn10": "0312606168",
+                    "isbn13": "9780312606169"
+                },
+                {
+                    "isbn10": "0312360282",
+                    "isbn13": "9780312360283"
+                },
+                {
+                    "isbn10": "0312577990",
+                    "isbn13": "9780312577995"
+                },
+                {
+                    "isbn10": "0312567480",
+                    "isbn13": "9780312567484"
+                },
+                {
+                    "isbn10": "0312379838",
+                    "isbn13": "9780312379834"
+                },
+                {
+                    "isbn10": "0312360304",
+                    "isbn13": "9780312360306"
+                },
+                {
+                    "isbn10": "0312596308",
+                    "isbn13": "9780312596309"
+                },
+                {
+                    "isbn10": "031237982X",
+                    "isbn13": "9780312379827"
+                },
+                {
+                    "isbn10": "0312360258",
+                    "isbn13": "9780312360252"
+                },
+                {
+                    "isbn10": "0312596294",
+                    "isbn13": "9780312596293"
+                },
+                {
+                    "isbn10": "0312360290",
+                    "isbn13": "9780312360290"
+                },
+                {
+                    "isbn10": "0312372132",
+                    "isbn13": "9780312372132"
+                },
+                {
+                    "isbn10": "0312609388",
+                    "isbn13": "9780312609382"
+                },
+                {
+                    "isbn10": "1250000238",
+                    "isbn13": "9781250000231"
+                },
+                {
+                    "isbn10": "0312650256",
+                    "isbn13": "9780312650254"
+                },
+                {
+                    "isbn10": "1250000246",
+                    "isbn13": "9781250000248"
+                },
+                {
+                    "isbn10": "0312387970",
+                    "isbn13": "9780312387976"
+                },
+                {
+                    "isbn10": "1250014158",
+                    "isbn13": "9781250014153"
+                },
+                {
+                    "isbn10": "1250000254",
+                    "isbn13": "9781250000255"
+                },
+                {
+                    "isbn10": "0312594437",
+                    "isbn13": "9780312594435"
+                },
+                {
+                    "isbn10": "1250037239",
+                    "isbn13": "9781250037237"
+                },
+                {
+                    "isbn10": "1466858494",
+                    "isbn13": "9781466858497"
+                },
+                {
+                    "isbn10": "0312594445",
+                    "isbn13": "9780312594442"
+                },
+                {
+                    "isbn10": "1250046114",
+                    "isbn13": "9781250046116"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 10
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Revelations-Blue-Bloods-Book-3/dp/1423102282?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "Melissa de la Cruz",
+                    "contributor": "by Melissa de la Cruz",
+                    "contributor_note": "",
+                    "description": "Young and privileged vampires are having a blood feud.",
+                    "price": 0,
+                    "primary_isbn10": "1423102282",
+                    "primary_isbn13": "9781423102281",
+                    "publisher": "Hyperion",
+                    "title": "BLUE BLOODS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "1423121287",
+                    "isbn13": "9781423121282"
+                },
+                {
+                    "isbn10": "1423134540",
+                    "isbn13": "9781423134541"
+                },
+                {
+                    "isbn10": "1423102274",
+                    "isbn13": "9781423102274"
+                },
+                {
+                    "isbn10": "1423134494",
+                    "isbn13": "9781423134497"
+                },
+                {
+                    "isbn10": "142310126X",
+                    "isbn13": "9781423101260"
+                },
+                {
+                    "isbn10": "1423102266",
+                    "isbn13": "9781423102267"
+                },
+                {
+                    "isbn10": "1423102290",
+                    "isbn13": "9781423102298"
+                },
+                {
+                    "isbn10": "1423121295",
+                    "isbn13": "9781423121299"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inkdeath-Inkheart-Trilogy-Cornelia-Funke/dp/0439866286?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 and up",
+                    "author": "Cornelia Funke",
+                    "contributor": "by Cornelia Funke",
+                    "contributor_note": "",
+                    "description": "The characters of a book come to life and ensnare its readers.",
+                    "price": 0,
+                    "primary_isbn10": "0439866286",
+                    "primary_isbn13": "9780439866286",
+                    "publisher": "Scholastic, hardcover and paper",
+                    "title": "INKHEART"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 6
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/If-You-Take-Mouse-School/dp/0060283289?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Laura Numeroff",
+                    "contributor": "by Laura Numeroff. Illustrated by Felicia Bond",
+                    "contributor_note": "Illustrated by Felicia Bond",
+                    "description": "Fun with cause and effect.",
+                    "price": 0,
+                    "primary_isbn10": "0060283289",
+                    "primary_isbn13": "9780060283285",
+                    "publisher": "Geringer/HarperCollins, hardcover and paper",
+                    "title": "IF YOU GIVE . . ."
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 23
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/High-Tide-Hawaii-Magic-House/dp/0375806164?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Mary Pope Osborne",
+                    "contributor": "by Mary Pope Osborne. Illustrated by Sal Murdocca",
+                    "contributor_note": "Illustrated by Sal Murdocca",
+                    "description": "Children travel in time.",
+                    "price": 0,
+                    "primary_isbn10": "067989070X",
+                    "primary_isbn13": "9780679890706",
+                    "publisher": "Stepping Stone/Random House, hardcover and paper",
+                    "title": "MAGIC TREE HOUSE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375868232",
+                    "isbn13": "9780375868238"
+                },
+                {
+                    "isbn10": "0375837280",
+                    "isbn13": "9780375837289"
+                },
+                {
+                    "isbn10": "0679890637",
+                    "isbn13": "9780679890638"
+                },
+                {
+                    "isbn10": "0679883401",
+                    "isbn13": "9780679883401"
+                },
+                {
+                    "isbn10": "0375837345",
+                    "isbn13": "9780375837340"
+                },
+                {
+                    "isbn10": "0679890688",
+                    "isbn13": "9780679890683"
+                },
+                {
+                    "isbn10": "0375856528",
+                    "isbn13": "9780375856525"
+                },
+                {
+                    "isbn10": "0375860908",
+                    "isbn13": "9780375860904"
+                },
+                {
+                    "isbn10": "0679890629",
+                    "isbn13": "9780679890621"
+                },
+                {
+                    "isbn10": "0679890505",
+                    "isbn13": "9780679890508"
+                },
+                {
+                    "isbn10": "067989067X",
+                    "isbn13": "9780679890676"
+                },
+                {
+                    "isbn10": "067988341X",
+                    "isbn13": "9780679883418"
+                },
+                {
+                    "isbn10": "0375806164",
+                    "isbn13": "9780375806162"
+                },
+                {
+                    "isbn10": "0375830367",
+                    "isbn13": "9780375830365"
+                },
+                {
+                    "isbn10": "0375830340",
+                    "isbn13": "9780375830341"
+                },
+                {
+                    "isbn10": "0375827366",
+                    "isbn13": "9780375827365"
+                },
+                {
+                    "isbn10": "0679890610",
+                    "isbn13": "9780679890614"
+                },
+                {
+                    "isbn10": "0679890653",
+                    "isbn13": "9780679890652"
+                },
+                {
+                    "isbn10": "0679890696",
+                    "isbn13": "9780679890690"
+                },
+                {
+                    "isbn10": "0679890645",
+                    "isbn13": "9780679890645"
+                },
+                {
+                    "isbn10": "0375830324",
+                    "isbn13": "9780375830327"
+                },
+                {
+                    "isbn10": "0375827358",
+                    "isbn13": "9780375827358"
+                },
+                {
+                    "isbn10": "0375837329",
+                    "isbn13": "9780375837326"
+                },
+                {
+                    "isbn10": "037585648X",
+                    "isbn13": "9780375856488"
+                },
+                {
+                    "isbn10": "0375856501",
+                    "isbn13": "9780375856501"
+                },
+                {
+                    "isbn10": "0375860096",
+                    "isbn13": "9780375860096"
+                },
+                {
+                    "isbn10": "0375806148",
+                    "isbn13": "9780375806148"
+                },
+                {
+                    "isbn10": "0375837302",
+                    "isbn13": "9780375837302"
+                },
+                {
+                    "isbn10": "0679890513",
+                    "isbn13": "9780679890515"
+                },
+                {
+                    "isbn10": "067989070X",
+                    "isbn13": "9780679890706"
+                },
+                {
+                    "isbn10": "0375858113",
+                    "isbn13": "9780375858116"
+                },
+                {
+                    "isbn10": "0375806113",
+                    "isbn13": "9780375806117"
+                },
+                {
+                    "isbn10": "0375806156",
+                    "isbn13": "9780375806155"
+                },
+                {
+                    "isbn10": "0679890661",
+                    "isbn13": "9780679890669"
+                },
+                {
+                    "isbn10": "0375846638",
+                    "isbn13": "9780375846632"
+                },
+                {
+                    "isbn10": "0375837299",
+                    "isbn13": "9780375837296"
+                },
+                {
+                    "isbn10": "0375856463",
+                    "isbn13": "9780375856464"
+                },
+                {
+                    "isbn10": "0375825215",
+                    "isbn13": "9780375825217"
+                },
+                {
+                    "isbn10": "0375837337",
+                    "isbn13": "9780375837333"
+                },
+                {
+                    "isbn10": "0375837310",
+                    "isbn13": "9780375837319"
+                },
+                {
+                    "isbn10": "0375830316",
+                    "isbn13": "9780375830310"
+                },
+                {
+                    "isbn10": "037581373X",
+                    "isbn13": "9780375813733"
+                },
+                {
+                    "isbn10": "0375830332",
+                    "isbn13": "9780375830334"
+                },
+                {
+                    "isbn10": "0375837272",
+                    "isbn13": "9780375837272"
+                },
+                {
+                    "isbn10": "0375830375",
+                    "isbn13": "9780375830372"
+                },
+                {
+                    "isbn10": "0375864911",
+                    "isbn13": "9780375864919"
+                },
+                {
+                    "isbn10": "0375868240",
+                    "isbn13": "9780375868245"
+                },
+                {
+                    "isbn10": "0375856498",
+                    "isbn13": "9780375856495"
+                },
+                {
+                    "isbn10": "0375830359",
+                    "isbn13": "9780375830358"
+                },
+                {
+                    "isbn10": "0375873953",
+                    "isbn13": "9780375873959"
+                },
+                {
+                    "isbn10": "0375868259",
+                    "isbn13": "9780375868252"
+                },
+                {
+                    "isbn10": "0375870245",
+                    "isbn13": "9780375870248"
+                },
+                {
+                    "isbn10": "037585651X",
+                    "isbn13": "9780375856518"
+                },
+                {
+                    "isbn10": "0375868267",
+                    "isbn13": "9780375868269"
+                },
+                {
+                    "isbn10": "0307980405",
+                    "isbn13": "9780307980403"
+                },
+                {
+                    "isbn10": "0375867953",
+                    "isbn13": "9780375867958"
+                },
+                {
+                    "isbn10": "0307980456",
+                    "isbn13": "9780307980458"
+                },
+                {
+                    "isbn10": "0375894187",
+                    "isbn13": "9780375894183"
+                },
+                {
+                    "isbn10": "0375894748",
+                    "isbn13": "9780375894749"
+                },
+                {
+                    "isbn10": "0307980499",
+                    "isbn13": "9780307980496"
+                },
+                {
+                    "isbn10": "037586797X",
+                    "isbn13": "9780375867972"
+                },
+                {
+                    "isbn10": "0307980537",
+                    "isbn13": "9780307980533"
+                },
+                {
+                    "isbn10": "0553510819",
+                    "isbn13": "9780553510812"
+                },
+                {
+                    "isbn10": "0553497723",
+                    "isbn13": "9780553497724"
+                },
+                {
+                    "isbn10": "0553510851",
+                    "isbn13": "9780553510850"
+                },
+                {
+                    "isbn10": "0553510894",
+                    "isbn13": "9780553510898"
+                },
+                {
+                    "isbn10": "0375813659",
+                    "isbn13": "9780375813658"
+                },
+                {
+                    "isbn10": "0307980529",
+                    "isbn13": "9780307980526"
+                },
+                {
+                    "isbn10": "0307980561",
+                    "isbn13": "9780307980564"
+                },
+                {
+                    "isbn10": "0553510843",
+                    "isbn13": "9780553510843"
+                },
+                {
+                    "isbn10": "1524713082",
+                    "isbn13": "9781524713089"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 199
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-People-Sparks-Second-Ember/dp/0375828257?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 to 13",
+                    "author": "Jeanne DuPrau",
+                    "contributor": "by Jeanne DuPrau",
+                    "contributor_note": "",
+                    "description": "In a postapocalyptic future, children try to save the world.",
+                    "price": 0,
+                    "primary_isbn10": "0375828257",
+                    "primary_isbn13": "9780375828256",
+                    "publisher": "Random House, hardcover and paper",
+                    "title": "BOOKS OF EMBER"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 32
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Titans-Curse-Percy-Jackson-Olympians/dp/1423101480?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rick Riordan",
+                    "contributor": "by Rick Riordan",
+                    "contributor_note": "",
+                    "description": "Battling mythological monsters.",
+                    "price": 0,
+                    "primary_isbn10": "1423103343",
+                    "primary_isbn13": "9781423103349",
+                    "publisher": "Disney-Hyperion, hardcover and paper",
+                    "title": "PERCY JACKSON & THE OLYMPIANS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "1423101502",
+                    "isbn13": "9781423101505"
+                },
+                {
+                    "isbn10": "1423101472",
+                    "isbn13": "9781423101475"
+                },
+                {
+                    "isbn10": "1423101499",
+                    "isbn13": "9781423101499"
+                },
+                {
+                    "isbn10": "0786838655",
+                    "isbn13": "9780786838653"
+                },
+                {
+                    "isbn10": "1423103343",
+                    "isbn13": "9781423103349"
+                },
+                {
+                    "isbn10": "1423101480",
+                    "isbn13": "9781423101482"
+                },
+                {
+                    "isbn10": "1423113497",
+                    "isbn13": "9781423113492"
+                },
+                {
+                    "isbn10": "142312166X",
+                    "isbn13": "9781423121664"
+                },
+                {
+                    "isbn10": "0786856866",
+                    "isbn13": "9780786856862"
+                },
+                {
+                    "isbn10": "1423101456",
+                    "isbn13": "9781423101451"
+                },
+                {
+                    "isbn10": "142313494X",
+                    "isbn13": "9781423134947"
+                },
+                {
+                    "isbn10": "142314189X",
+                    "isbn13": "9781423141891"
+                },
+                {
+                    "isbn10": "1423121708",
+                    "isbn13": "9781423121701"
+                },
+                {
+                    "isbn10": "1423117107",
+                    "isbn13": "9781423117100"
+                },
+                {
+                    "isbn10": "1423119509",
+                    "isbn13": "9781423119500"
+                },
+                {
+                    "isbn10": "142313589X",
+                    "isbn13": "9781423135890"
+                },
+                {
+                    "isbn10": "1423136802",
+                    "isbn13": "9781423136804"
+                },
+                {
+                    "isbn10": "1423131894",
+                    "isbn13": "9781423131892"
+                },
+                {
+                    "isbn10": "1423131967",
+                    "isbn13": "9781423131960"
+                },
+                {
+                    "isbn10": "1423131975",
+                    "isbn13": "9781423131977"
+                },
+                {
+                    "isbn10": "1423131991",
+                    "isbn13": "9781423131991"
+                },
+                {
+                    "isbn10": "1423131983",
+                    "isbn13": "9781423131984"
+                },
+                {
+                    "isbn10": "1423140346",
+                    "isbn13": "9781423140344"
+                },
+                {
+                    "isbn10": "142316007X",
+                    "isbn13": "9781423160076"
+                },
+                {
+                    "isbn10": "1423132009",
+                    "isbn13": "9781423132004"
+                },
+                {
+                    "isbn10": "1484707230",
+                    "isbn13": "9781484707234"
+                },
+                {
+                    "isbn10": "1423116968",
+                    "isbn13": "9781423116967"
+                },
+                {
+                    "isbn10": "1484787781",
+                    "isbn13": "9781484787786"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/31/books/review/Devereaux-t.html"
+                }
+            ],
+            "weeks_on_list": 78
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Disney-High-School-Musical-Senior/dp/1423112024?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-01",
+            "book_details": [
+                {
+                    "age_group": "Ages 8 to 12",
+                    "author": "various authors",
+                    "contributor": "by various authors",
+                    "contributor_note": "",
+                    "description": "The adventures of the drama crowd at East High; based on a series of movies.",
+                    "price": 0,
+                    "primary_isbn10": "1423112024",
+                    "primary_isbn13": "9781423112020",
+                    "publisher": "Disney, paper only",
+                    "title": "HIGH SCHOOL MUSICAL"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-16",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 2
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Eclipse-Twilight-Stephenie-Meyer/dp/0316160202?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Stephenie Meyer",
+                    "contributor": "by Stephenie Meyer",
+                    "contributor_note": "",
+                    "description": "Vampires and werewolves in high school.",
+                    "price": 0,
+                    "primary_isbn10": "0316160202",
+                    "primary_isbn13": "9780316160209",
+                    "publisher": "Megan Tingley/Little Brown, hardcover and paper",
+                    "title": "THE TWILIGHT SAGA"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0316067938",
+                    "isbn13": "9780316067935"
+                },
+                {
+                    "isbn10": "0316015849",
+                    "isbn13": "9780316015844"
+                },
+                {
+                    "isbn10": "0316024961",
+                    "isbn13": "9780316024969"
+                },
+                {
+                    "isbn10": "031612558X",
+                    "isbn13": "9780316125581"
+                },
+                {
+                    "isbn10": "0316027650",
+                    "isbn13": "9780316027656"
+                },
+                {
+                    "isbn10": "031606792X",
+                    "isbn13": "9780316067928"
+                },
+                {
+                    "isbn10": "031608736X",
+                    "isbn13": "9780316087360"
+                },
+                {
+                    "isbn10": "0316038385",
+                    "isbn13": "9780316038386"
+                },
+                {
+                    "isbn10": "0316075639",
+                    "isbn13": "9780316075633"
+                },
+                {
+                    "isbn10": "0316038377",
+                    "isbn13": "9780316038379"
+                },
+                {
+                    "isbn10": "0316160172",
+                    "isbn13": "9780316160179"
+                },
+                {
+                    "isbn10": "0316160199",
+                    "isbn13": "9780316160193"
+                },
+                {
+                    "isbn10": "0316160202",
+                    "isbn13": "9780316160209"
+                },
+                {
+                    "isbn10": "0316078166",
+                    "isbn13": "9780316078160"
+                },
+                {
+                    "isbn10": "0316031844",
+                    "isbn13": "9780316031844"
+                },
+                {
+                    "isbn10": "031613290X",
+                    "isbn13": "9780316132909"
+                },
+                {
+                    "isbn10": "0316053465",
+                    "isbn13": "9780316053464"
+                },
+                {
+                    "isbn10": "0316133930",
+                    "isbn13": "9780316133937"
+                },
+                {
+                    "isbn10": "0316134082",
+                    "isbn13": "9780316134088"
+                },
+                {
+                    "isbn10": "031617615X",
+                    "isbn13": "9780316176156"
+                },
+                {
+                    "isbn10": "0316243981",
+                    "isbn13": "9780316243988"
+                },
+                {
+                    "isbn10": "0316226130",
+                    "isbn13": "9780316226134"
+                },
+                {
+                    "isbn10": "0316007447",
+                    "isbn13": "9780316007443"
+                },
+                {
+                    "isbn10": "0316032832",
+                    "isbn13": "9780316032834"
+                },
+                {
+                    "isbn10": "0316007722",
+                    "isbn13": "9780316007726"
+                },
+                {
+                    "isbn10": "0316008184",
+                    "isbn13": "9780316008181"
+                },
+                {
+                    "isbn10": "0316089508",
+                    "isbn13": "9780316089500"
+                },
+                {
+                    "isbn10": "0316007692",
+                    "isbn13": "9780316007696"
+                },
+                {
+                    "isbn10": "0316182931",
+                    "isbn13": "9780316182935"
+                },
+                {
+                    "isbn10": "0316268399",
+                    "isbn13": "9780316268394"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2007/08/12/books/review/Schillinger7-t.html"
+                }
+            ],
+            "weeks_on_list": 66
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inheritance-Cycle-Christopher-Paolini/dp/0375856110?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 12 and up",
+                    "author": "Christopher Paolini",
+                    "contributor": "by Christopher Paolini",
+                    "contributor_note": "",
+                    "description": "A teenager and his dragon learn the secrets of a fantasy world.",
+                    "price": 0,
+                    "primary_isbn10": "0440240735",
+                    "primary_isbn13": "9780440240730",
+                    "publisher": "Knopf, hardcover and paper",
+                    "title": "INHERITANCE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375856110",
+                    "isbn13": "9780375856112"
+                },
+                {
+                    "isbn10": "0375826696",
+                    "isbn13": "9780375826696"
+                },
+                {
+                    "isbn10": "0375826742",
+                    "isbn13": "9780375826740"
+                },
+                {
+                    "isbn10": "0375972617",
+                    "isbn13": "9780375972614"
+                },
+                {
+                    "isbn10": "0375840400",
+                    "isbn13": "9780375840401"
+                },
+                {
+                    "isbn10": "0375826688",
+                    "isbn13": "9780375826689"
+                },
+                {
+                    "isbn10": "037582670X",
+                    "isbn13": "9780375826702"
+                },
+                {
+                    "isbn10": "0375826726",
+                    "isbn13": "9780375826726"
+                },
+                {
+                    "isbn10": "0375857044",
+                    "isbn13": "9780375857041"
+                },
+                {
+                    "isbn10": "0375872035",
+                    "isbn13": "9780375872037"
+                },
+                {
+                    "isbn10": "0375846158",
+                    "isbn13": "9780375846151"
+                },
+                {
+                    "isbn10": "0440238498",
+                    "isbn13": "9780440238492"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2003/11/16/books/children-s-books-the-egg-and-him.html"
+                }
+            ],
+            "weeks_on_list": 8
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Emperor-Nihon-Ja-Rangers-Apprentice/dp/0399255001?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "John Flanagan",
+                    "contributor": "by John Flanagan",
+                    "contributor_note": "",
+                    "description": "A boy warrior battles evil.",
+                    "price": 0,
+                    "primary_isbn10": "0399244565",
+                    "primary_isbn13": "9780399244568",
+                    "publisher": "Philomel, hardcover and paper",
+                    "title": "RANGER\u2019S APPRENTICE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "039925207X",
+                    "isbn13": "9780399252075"
+                },
+                {
+                    "isbn10": "0399252061",
+                    "isbn13": "9780399252068"
+                },
+                {
+                    "isbn10": "0399252053",
+                    "isbn13": "9780399252051"
+                },
+                {
+                    "isbn10": "0142406635",
+                    "isbn13": "9780142406632"
+                },
+                {
+                    "isbn10": "0142408425",
+                    "isbn13": "9780142408421"
+                },
+                {
+                    "isbn10": "0142413402",
+                    "isbn13": "9780142413401"
+                },
+                {
+                    "isbn10": "0142414298",
+                    "isbn13": "9780142414293"
+                },
+                {
+                    "isbn10": "0142410756",
+                    "isbn13": "9780142410752"
+                },
+                {
+                    "isbn10": "0142417440",
+                    "isbn13": "9780142417447"
+                },
+                {
+                    "isbn10": "0142411736",
+                    "isbn13": "9780142411735"
+                },
+                {
+                    "isbn10": "0399250336",
+                    "isbn13": "9780399250330"
+                },
+                {
+                    "isbn10": "0399244549",
+                    "isbn13": "9780399244544"
+                },
+                {
+                    "isbn10": "0399244557",
+                    "isbn13": "9780399244551"
+                },
+                {
+                    "isbn10": "0399244565",
+                    "isbn13": "9780399244568"
+                },
+                {
+                    "isbn10": "0399244573",
+                    "isbn13": "9780399244575"
+                },
+                {
+                    "isbn10": "0399250328",
+                    "isbn13": "9780399250323"
+                },
+                {
+                    "isbn10": "0399255001",
+                    "isbn13": "9780399255007"
+                },
+                {
+                    "isbn10": "0142415251",
+                    "isbn13": "9780142415252"
+                },
+                {
+                    "isbn10": "0142418579",
+                    "isbn13": "9780142418574"
+                },
+                {
+                    "isbn10": "0399256180",
+                    "isbn13": "9780399256189"
+                },
+                {
+                    "isbn10": "0142418587",
+                    "isbn13": "9780142418581"
+                },
+                {
+                    "isbn10": "0142418595",
+                    "isbn13": "9780142418598"
+                },
+                {
+                    "isbn10": "0399163603",
+                    "isbn13": "9780399163609"
+                },
+                {
+                    "isbn10": "0142421952",
+                    "isbn13": "9780142421956"
+                },
+                {
+                    "isbn10": "0399163611",
+                    "isbn13": "9780399163616"
+                },
+                {
+                    "isbn10": "039916362X",
+                    "isbn13": "9780399163623"
+                },
+                {
+                    "isbn10": "0142427314",
+                    "isbn13": "9780142427316"
+                },
+                {
+                    "isbn10": "1524741388",
+                    "isbn13": "9781524741389"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 25
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Untamed-House-Night-Book-4/dp/0312379838?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "PC Cast and Kristin Cast",
+                    "contributor": "by P.C. Cast and Kristin Cast",
+                    "contributor_note": "",
+                    "description": "Vampires in school.",
+                    "price": 0,
+                    "primary_isbn10": "0312379838",
+                    "primary_isbn13": "9780312379834",
+                    "publisher": "St. Martin\u2019s, paper only",
+                    "title": "HOUSE OF NIGHT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0312650248",
+                    "isbn13": "9780312650247"
+                },
+                {
+                    "isbn10": "0312360266",
+                    "isbn13": "9780312360269"
+                },
+                {
+                    "isbn10": "0312606168",
+                    "isbn13": "9780312606169"
+                },
+                {
+                    "isbn10": "0312360282",
+                    "isbn13": "9780312360283"
+                },
+                {
+                    "isbn10": "0312577990",
+                    "isbn13": "9780312577995"
+                },
+                {
+                    "isbn10": "0312567480",
+                    "isbn13": "9780312567484"
+                },
+                {
+                    "isbn10": "0312379838",
+                    "isbn13": "9780312379834"
+                },
+                {
+                    "isbn10": "0312360304",
+                    "isbn13": "9780312360306"
+                },
+                {
+                    "isbn10": "0312596308",
+                    "isbn13": "9780312596309"
+                },
+                {
+                    "isbn10": "031237982X",
+                    "isbn13": "9780312379827"
+                },
+                {
+                    "isbn10": "0312360258",
+                    "isbn13": "9780312360252"
+                },
+                {
+                    "isbn10": "0312596294",
+                    "isbn13": "9780312596293"
+                },
+                {
+                    "isbn10": "0312360290",
+                    "isbn13": "9780312360290"
+                },
+                {
+                    "isbn10": "0312372132",
+                    "isbn13": "9780312372132"
+                },
+                {
+                    "isbn10": "0312609388",
+                    "isbn13": "9780312609382"
+                },
+                {
+                    "isbn10": "1250000238",
+                    "isbn13": "9781250000231"
+                },
+                {
+                    "isbn10": "0312650256",
+                    "isbn13": "9780312650254"
+                },
+                {
+                    "isbn10": "1250000246",
+                    "isbn13": "9781250000248"
+                },
+                {
+                    "isbn10": "0312387970",
+                    "isbn13": "9780312387976"
+                },
+                {
+                    "isbn10": "1250014158",
+                    "isbn13": "9781250014153"
+                },
+                {
+                    "isbn10": "1250000254",
+                    "isbn13": "9781250000255"
+                },
+                {
+                    "isbn10": "0312594437",
+                    "isbn13": "9780312594435"
+                },
+                {
+                    "isbn10": "1250037239",
+                    "isbn13": "9781250037237"
+                },
+                {
+                    "isbn10": "1466858494",
+                    "isbn13": "9781466858497"
+                },
+                {
+                    "isbn10": "0312594445",
+                    "isbn13": "9780312594442"
+                },
+                {
+                    "isbn10": "1250046114",
+                    "isbn13": "9781250046116"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 11
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/If-You-Take-Mouse-School/dp/0060283289?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Laura Numeroff",
+                    "contributor": "by Laura Numeroff. Illustrated by Felicia Bond",
+                    "contributor_note": "Illustrated by Felicia Bond",
+                    "description": "Fun with cause and effect.",
+                    "price": 0,
+                    "primary_isbn10": "0060283289",
+                    "primary_isbn13": "9780060283285",
+                    "publisher": "Geringer/HarperCollins, hardcover and paper",
+                    "title": "IF YOU GIVE . . ."
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 24
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Inkdeath-Inkheart-Trilogy-Cornelia-Funke/dp/0439866286?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 10 and up",
+                    "author": "Cornelia Funke",
+                    "contributor": "by Cornelia Funke",
+                    "contributor_note": "",
+                    "description": "The characters of a book come to life and ensnare its readers.",
+                    "price": 0,
+                    "primary_isbn10": "0439866286",
+                    "primary_isbn13": "9780439866286",
+                    "publisher": "Scholastic, hardcover and paper",
+                    "title": "INKHEART"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 7
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Revelations-Blue-Bloods-Book-3/dp/1423102282?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "Melissa de la Cruz",
+                    "contributor": "by Melissa de la Cruz",
+                    "contributor_note": "",
+                    "description": "Young and privileged vampires are having a blood feud.",
+                    "price": 0,
+                    "primary_isbn10": "1423102282",
+                    "primary_isbn13": "9781423102281",
+                    "publisher": "Hyperion, hardcover and paper",
+                    "title": "BLUE BLOODS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "1423121287",
+                    "isbn13": "9781423121282"
+                },
+                {
+                    "isbn10": "1423134540",
+                    "isbn13": "9781423134541"
+                },
+                {
+                    "isbn10": "1423102274",
+                    "isbn13": "9781423102274"
+                },
+                {
+                    "isbn10": "1423134494",
+                    "isbn13": "9781423134497"
+                },
+                {
+                    "isbn10": "142310126X",
+                    "isbn13": "9781423101260"
+                },
+                {
+                    "isbn10": "1423102266",
+                    "isbn13": "9781423102267"
+                },
+                {
+                    "isbn10": "1423102290",
+                    "isbn13": "9781423102298"
+                },
+                {
+                    "isbn10": "1423121295",
+                    "isbn13": "9781423121299"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 2
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/High-Tide-Hawaii-Magic-House/dp/0375806164?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Mary Pope Osborne",
+                    "contributor": "by Mary Pope Osborne. Illustrated by Sal Murdocca",
+                    "contributor_note": "Illustrated by Sal Murdocca",
+                    "description": "Children travel in time.",
+                    "price": 0,
+                    "primary_isbn10": "067989070X",
+                    "primary_isbn13": "9780679890706",
+                    "publisher": "Stepping Stone/Random House, hardcover and paper",
+                    "title": "MAGIC TREE HOUSE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [
+                {
+                    "isbn10": "0375868232",
+                    "isbn13": "9780375868238"
+                },
+                {
+                    "isbn10": "0375837280",
+                    "isbn13": "9780375837289"
+                },
+                {
+                    "isbn10": "0679890637",
+                    "isbn13": "9780679890638"
+                },
+                {
+                    "isbn10": "0679883401",
+                    "isbn13": "9780679883401"
+                },
+                {
+                    "isbn10": "0375837345",
+                    "isbn13": "9780375837340"
+                },
+                {
+                    "isbn10": "0679890688",
+                    "isbn13": "9780679890683"
+                },
+                {
+                    "isbn10": "0375856528",
+                    "isbn13": "9780375856525"
+                },
+                {
+                    "isbn10": "0375860908",
+                    "isbn13": "9780375860904"
+                },
+                {
+                    "isbn10": "0679890629",
+                    "isbn13": "9780679890621"
+                },
+                {
+                    "isbn10": "0679890505",
+                    "isbn13": "9780679890508"
+                },
+                {
+                    "isbn10": "067989067X",
+                    "isbn13": "9780679890676"
+                },
+                {
+                    "isbn10": "067988341X",
+                    "isbn13": "9780679883418"
+                },
+                {
+                    "isbn10": "0375806164",
+                    "isbn13": "9780375806162"
+                },
+                {
+                    "isbn10": "0375830367",
+                    "isbn13": "9780375830365"
+                },
+                {
+                    "isbn10": "0375830340",
+                    "isbn13": "9780375830341"
+                },
+                {
+                    "isbn10": "0375827366",
+                    "isbn13": "9780375827365"
+                },
+                {
+                    "isbn10": "0679890610",
+                    "isbn13": "9780679890614"
+                },
+                {
+                    "isbn10": "0679890653",
+                    "isbn13": "9780679890652"
+                },
+                {
+                    "isbn10": "0679890696",
+                    "isbn13": "9780679890690"
+                },
+                {
+                    "isbn10": "0679890645",
+                    "isbn13": "9780679890645"
+                },
+                {
+                    "isbn10": "0375830324",
+                    "isbn13": "9780375830327"
+                },
+                {
+                    "isbn10": "0375827358",
+                    "isbn13": "9780375827358"
+                },
+                {
+                    "isbn10": "0375837329",
+                    "isbn13": "9780375837326"
+                },
+                {
+                    "isbn10": "037585648X",
+                    "isbn13": "9780375856488"
+                },
+                {
+                    "isbn10": "0375856501",
+                    "isbn13": "9780375856501"
+                },
+                {
+                    "isbn10": "0375860096",
+                    "isbn13": "9780375860096"
+                },
+                {
+                    "isbn10": "0375806148",
+                    "isbn13": "9780375806148"
+                },
+                {
+                    "isbn10": "0375837302",
+                    "isbn13": "9780375837302"
+                },
+                {
+                    "isbn10": "0679890513",
+                    "isbn13": "9780679890515"
+                },
+                {
+                    "isbn10": "067989070X",
+                    "isbn13": "9780679890706"
+                },
+                {
+                    "isbn10": "0375858113",
+                    "isbn13": "9780375858116"
+                },
+                {
+                    "isbn10": "0375806113",
+                    "isbn13": "9780375806117"
+                },
+                {
+                    "isbn10": "0375806156",
+                    "isbn13": "9780375806155"
+                },
+                {
+                    "isbn10": "0679890661",
+                    "isbn13": "9780679890669"
+                },
+                {
+                    "isbn10": "0375846638",
+                    "isbn13": "9780375846632"
+                },
+                {
+                    "isbn10": "0375837299",
+                    "isbn13": "9780375837296"
+                },
+                {
+                    "isbn10": "0375856463",
+                    "isbn13": "9780375856464"
+                },
+                {
+                    "isbn10": "0375825215",
+                    "isbn13": "9780375825217"
+                },
+                {
+                    "isbn10": "0375837337",
+                    "isbn13": "9780375837333"
+                },
+                {
+                    "isbn10": "0375837310",
+                    "isbn13": "9780375837319"
+                },
+                {
+                    "isbn10": "0375830316",
+                    "isbn13": "9780375830310"
+                },
+                {
+                    "isbn10": "037581373X",
+                    "isbn13": "9780375813733"
+                },
+                {
+                    "isbn10": "0375830332",
+                    "isbn13": "9780375830334"
+                },
+                {
+                    "isbn10": "0375837272",
+                    "isbn13": "9780375837272"
+                },
+                {
+                    "isbn10": "0375830375",
+                    "isbn13": "9780375830372"
+                },
+                {
+                    "isbn10": "0375864911",
+                    "isbn13": "9780375864919"
+                },
+                {
+                    "isbn10": "0375868240",
+                    "isbn13": "9780375868245"
+                },
+                {
+                    "isbn10": "0375856498",
+                    "isbn13": "9780375856495"
+                },
+                {
+                    "isbn10": "0375830359",
+                    "isbn13": "9780375830358"
+                },
+                {
+                    "isbn10": "0375873953",
+                    "isbn13": "9780375873959"
+                },
+                {
+                    "isbn10": "0375868259",
+                    "isbn13": "9780375868252"
+                },
+                {
+                    "isbn10": "0375870245",
+                    "isbn13": "9780375870248"
+                },
+                {
+                    "isbn10": "037585651X",
+                    "isbn13": "9780375856518"
+                },
+                {
+                    "isbn10": "0375868267",
+                    "isbn13": "9780375868269"
+                },
+                {
+                    "isbn10": "0307980405",
+                    "isbn13": "9780307980403"
+                },
+                {
+                    "isbn10": "0375867953",
+                    "isbn13": "9780375867958"
+                },
+                {
+                    "isbn10": "0307980456",
+                    "isbn13": "9780307980458"
+                },
+                {
+                    "isbn10": "0375894187",
+                    "isbn13": "9780375894183"
+                },
+                {
+                    "isbn10": "0375894748",
+                    "isbn13": "9780375894749"
+                },
+                {
+                    "isbn10": "0307980499",
+                    "isbn13": "9780307980496"
+                },
+                {
+                    "isbn10": "037586797X",
+                    "isbn13": "9780375867972"
+                },
+                {
+                    "isbn10": "0307980537",
+                    "isbn13": "9780307980533"
+                },
+                {
+                    "isbn10": "0553510819",
+                    "isbn13": "9780553510812"
+                },
+                {
+                    "isbn10": "0553497723",
+                    "isbn13": "9780553497724"
+                },
+                {
+                    "isbn10": "0553510851",
+                    "isbn13": "9780553510850"
+                },
+                {
+                    "isbn10": "0553510894",
+                    "isbn13": "9780553510898"
+                },
+                {
+                    "isbn10": "0375813659",
+                    "isbn13": "9780375813658"
+                },
+                {
+                    "isbn10": "0307980529",
+                    "isbn13": "9780307980526"
+                },
+                {
+                    "isbn10": "0307980561",
+                    "isbn13": "9780307980564"
+                },
+                {
+                    "isbn10": "0553510843",
+                    "isbn13": "9780553510843"
+                },
+                {
+                    "isbn10": "1524713082",
+                    "isbn13": "9781524713089"
+                }
+            ],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 200
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Tempted-It-Girl-Book-6/dp/0316025089?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 14 and up",
+                    "author": "Cecily von Ziegesar",
+                    "contributor": "by Cecily von Ziegesar",
+                    "contributor_note": "",
+                    "description": "Dramas of girls at an elite prep school.",
+                    "price": 0,
+                    "primary_isbn10": "0316025089",
+                    "primary_isbn13": "9780316025089",
+                    "publisher": "Litttle, Brown, paper only",
+                    "title": "THE IT GIRL"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Fancy-Nancy-Butterfly-Jane-OConnor/dp/0061235881?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2008-11-08",
+            "book_details": [
+                {
+                    "age_group": "Ages 4 to 8",
+                    "author": "Jane O\u2019Connor",
+                    "contributor": "by Jane O\u2019Connor. Illustrated by Robin Preiss Glasser",
+                    "contributor_note": "Illustrated by Robin Preiss Glasser",
+                    "description": "A glamour girl\u2019s divine life.",
+                    "price": 0,
+                    "primary_isbn10": "0061235881",
+                    "primary_isbn13": "9780061235887",
+                    "publisher": "HarperCollins, hardcover and paper",
+                    "title": "FANCY NANCY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Children\u2019s Series",
+            "isbns": [],
+            "list_name": "Series Books",
+            "published_date": "2008-11-23",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 30
+        }
+    ],
+    "status": "OK"
+}
