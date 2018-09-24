@@ -1,0 +1,4040 @@
+{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2016-04-28T15:03:27-04:00",
+    "num_results": 15,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Andy Weir",
+                    "contributor": "by Andy Weir",
+                    "contributor_note": "",
+                    "description": "Separated from his crew, an astronaut embarks on a quest to stay alive on Mars. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "0553418025",
+                    "primary_isbn13": "9780553418026",
+                    "publisher": "Broadway",
+                    "title": "THE MARTIAN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0804139024",
+                    "isbn13": "9780804139021"
+                },
+                {
+                    "isbn10": "0553418025",
+                    "isbn13": "9780553418026"
+                },
+                {
+                    "isbn10": "0091956145",
+                    "isbn13": "9780091956141"
+                },
+                {
+                    "isbn10": "1594138540",
+                    "isbn13": "9781594138546"
+                },
+                {
+                    "isbn10": "1101903589",
+                    "isbn13": "9781101903582"
+                },
+                {
+                    "isbn10": "110190500X",
+                    "isbn13": "9781101905005"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 61
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Paulo Coelho",
+                    "contributor": "by Paulo Coelho",
+                    "contributor_note": "",
+                    "description": "A Spanish shepherd boy ventures to Egypt in search of treasure.",
+                    "price": 0,
+                    "primary_isbn10": "0062315005",
+                    "primary_isbn13": "9780062315007",
+                    "publisher": "HarperOne/HarperCollins",
+                    "title": "THE ALCHEMIST"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061122416",
+                    "isbn13": "9780061122415"
+                },
+                {
+                    "isbn10": "0062502182",
+                    "isbn13": "9780062502186"
+                },
+                {
+                    "isbn10": "0062502174",
+                    "isbn13": "9780062502179"
+                },
+                {
+                    "isbn10": "0060887966",
+                    "isbn13": "9780060887964"
+                },
+                {
+                    "isbn10": "0060834838",
+                    "isbn13": "9780060834838"
+                },
+                {
+                    "isbn10": "0061741248",
+                    "isbn13": "9780061741241"
+                },
+                {
+                    "isbn10": "0062315005",
+                    "isbn13": "9780062315007"
+                },
+                {
+                    "isbn10": "0062326775",
+                    "isbn13": "9780062326775"
+                },
+                {
+                    "isbn10": "0062416219",
+                    "isbn13": "9780062416216"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 386
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brooklyn-A-Novel-Colm-Toibin/dp/1439138311?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Colm Toibin",
+                    "contributor": "by Colm Toibin",
+                    "contributor_note": "",
+                    "description": "An unsophisticated young Irishwoman leaves her home for New York in the 1950s. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1501106473",
+                    "primary_isbn13": "9781501106477",
+                    "publisher": "Scribner",
+                    "title": "BROOKLYN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1439148953",
+                    "isbn13": "9781439148952"
+                },
+                {
+                    "isbn10": "1501106473",
+                    "isbn13": "9781501106477"
+                },
+                {
+                    "isbn10": "1439149828",
+                    "isbn13": "9781439149829"
+                },
+                {
+                    "isbn10": "1439138311",
+                    "isbn13": "9781439138311"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "https://www.nytimes.com/2009/05/03/magazine/03toibin-t.html",
+                    "book_review_link": "",
+                    "first_chapter_link": "https://www.nytimes.com/2009/05/03/books/chapter-brooklyn.html",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/03/books/review/Schillinger-t.html"
+                }
+            ],
+            "weeks_on_list": 9
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brilliant-Friend-Neapolitan-Elena-Ferrante/dp/1609450787?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "The first installment in the author\u2019s Neapolitan series, about the lifelong friendship between two women.",
+                    "price": 0,
+                    "primary_isbn10": "1609450787",
+                    "primary_isbn13": "9781609450786",
+                    "publisher": "Europa Editions",
+                    "title": "MY BRILLIANT FRIEND"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609450787",
+                    "isbn13": "9781609450786"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 17
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/14th-Deadly-Womens-Murder-Club/dp/031640702X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Maxine Paetro",
+                    "contributor": "by James Patterson and Maxine Paetro",
+                    "contributor_note": "",
+                    "description": "Detective Lindsay Boxer and her friends must risk their lives to save the city and each other when a rash of murders grips San Francisco.",
+                    "price": 0,
+                    "primary_isbn10": "1455584991",
+                    "primary_isbn13": "9781455584994",
+                    "publisher": "Grand Central",
+                    "title": "14TH DEADLY SIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "031640702X",
+                    "isbn13": "9780316407021"
+                },
+                {
+                    "isbn10": "031640876X",
+                    "isbn13": "9780316408769"
+                },
+                {
+                    "isbn10": "1455584991",
+                    "isbn13": "9781455584994"
+                },
+                {
+                    "isbn10": "1455584983",
+                    "isbn13": "9781455584987"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Revenant-A-Novel-Revenge/dp/1250101190?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Michael Punke",
+                    "contributor": "by Michael Punke",
+                    "contributor_note": "",
+                    "description": "In the old American West, a wounded bear trapper is left to die alone but sets out on a 3,000-mile journey for retribution; inspiration for the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1250101190",
+                    "primary_isbn13": "9781250101198",
+                    "publisher": "Picador",
+                    "title": "THE REVENANT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1250101190",
+                    "isbn13": "9781250101198"
+                },
+                {
+                    "isbn10": "1250072689",
+                    "isbn13": "9781250072689"
+                },
+                {
+                    "isbn10": "1250066638",
+                    "isbn13": "9781250066633"
+                },
+                {
+                    "isbn10": "125006662X",
+                    "isbn13": "9781250066626"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-High-Castle-Philip-Dick-ebook/dp/B005MZN2B2?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Philip K Dick",
+                    "contributor": "by Philip K. Dick",
+                    "contributor_note": "",
+                    "description": "In this alternative history, the Allies lost World War II, and America is ruled by Japan and Nazi Germany. The basis of the TV series.",
+                    "price": 0,
+                    "primary_isbn10": "0547572484",
+                    "primary_isbn13": "9780547572482",
+                    "publisher": "Mariner",
+                    "title": "THE MAN IN THE HIGH CASTLE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0547572484",
+                    "isbn13": "9780547572482"
+                },
+                {
+                    "isbn10": "0547601204",
+                    "isbn13": "9780547601205"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 5
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Choice-Nicholas-Sparks/dp/0446698334?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "How a North Carolina man's decisions about love and death play out in his life.",
+                    "price": 0,
+                    "primary_isbn10": "1455588997",
+                    "primary_isbn13": "9781455588992",
+                    "publisher": "Grand Central",
+                    "title": "THE CHOICE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455588997",
+                    "isbn13": "9781455588992"
+                },
+                {
+                    "isbn10": "0446698334",
+                    "isbn13": "9780446698337"
+                },
+                {
+                    "isbn10": "1455588989",
+                    "isbn13": "9781455588985"
+                },
+                {
+                    "isbn10": "0446618314",
+                    "isbn13": "9780446618311"
+                },
+                {
+                    "isbn10": "0446401315",
+                    "isbn13": "9780446401319"
+                },
+                {
+                    "isbn10": "0446579920",
+                    "isbn13": "9780446579926"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 19
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "It\u2019s 2044, life on a resource-depleted Earth has grown increasingly grim, and the key to a vast fortune is hidden in a virtual-reality world.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 18
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brief-History-Seven-Killings-Novel/dp/1594633940?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Marlon James",
+                    "contributor": "by Marlon James",
+                    "contributor_note": "",
+                    "description": "This novel uses the attempted assassination of Bob Marley in 1976 to explore Jamaican politics, poverty, gang wars and drug trafficking.",
+                    "price": 0,
+                    "primary_isbn10": "1594633940",
+                    "primary_isbn13": "9781594633942",
+                    "publisher": "Riverhead",
+                    "title": "A BRIEF HISTORY OF SEVEN KILLINGS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1594633940",
+                    "isbn13": "9781594633942"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2014/09/22/books/marlon-jamess-a-brief-history-of-seven-killings.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/10/26/books/review/a-brief-history-of-seven-killings-by-marlon-james-review.html"
+                }
+            ],
+            "weeks_on_list": 6
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Orphan-Train-Christina-Baker-Kline-ebook/dp/B0089LOG02?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Christina Baker Kline",
+                    "contributor": "by Christina Baker Kline",
+                    "contributor_note": "",
+                    "description": "A historical novel about orphans swept off the streets of New York and sent to the Midwest in the 1920s.",
+                    "price": 0,
+                    "primary_isbn10": "0061950726",
+                    "primary_isbn13": "9780061950728",
+                    "publisher": "Morrow/HarperCollins",
+                    "title": "ORPHAN TRAIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061950726",
+                    "isbn13": "9780061950728"
+                },
+                {
+                    "isbn10": "1594137374",
+                    "isbn13": "9781594137372"
+                },
+                {
+                    "isbn10": "0606356649",
+                    "isbn13": "9780606356640"
+                },
+                {
+                    "isbn10": "006195070X",
+                    "isbn13": "9780061950704"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 11,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Stars-Fortune-Guardians-Trilogy-Roberts/dp/0425280101?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nora Roberts",
+                    "contributor": "by Nora Roberts",
+                    "contributor_note": "",
+                    "description": "A seer draws five people to her on Corfu, to find the legendary fire star and keep the world on course; first in the new Guardians trilogy.",
+                    "price": 0,
+                    "primary_isbn10": "0425280101",
+                    "primary_isbn13": "9780425280102",
+                    "publisher": "Berkley",
+                    "title": "STARS OF FORTUNE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0425280101",
+                    "isbn13": "9780425280102"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 12,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Everything-Never-Told-You-Novel/dp/159420571X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Celeste Ng",
+                    "contributor": "by Celeste Ng",
+                    "contributor_note": "",
+                    "description": "Lydia, bearing the hopes of a Chinese-American family in 1970s Ohio, ends up at the bottom of a lake.",
+                    "price": 0,
+                    "primary_isbn10": "0143127551",
+                    "primary_isbn13": "9780143127550",
+                    "publisher": "Penguin",
+                    "title": "EVERYTHING I NEVER TOLD YOU"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "159420571X",
+                    "isbn13": "9781594205712"
+                },
+                {
+                    "isbn10": "0143127551",
+                    "isbn13": "9780143127550"
+                },
+                {
+                    "isbn10": "1101634618",
+                    "isbn13": "9781101634615"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 13,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/08/17/books/review/everything-i-never-told-you-by-celeste-ng.html"
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Grey-Fifty-Shades-Told-Christian-ebook/dp/B00Y6QF0PE?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "E L James",
+                    "contributor": "by E. L. James",
+                    "contributor_note": "",
+                    "description": "A \"Fifty Shades of Grey\" sequel, told from Christian\u2019s point of view, revisits the tortured romance between the controlling billionaire and the unassuming Ana.",
+                    "price": 0,
+                    "primary_isbn10": "1101946342",
+                    "primary_isbn13": "9781101946343",
+                    "publisher": "Vintage",
+                    "title": "GREY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101946342",
+                    "isbn13": "9781101946343"
+                },
+                {
+                    "isbn10": "1784753254",
+                    "isbn13": "9781784753252"
+                },
+                {
+                    "isbn10": "1101946350",
+                    "isbn13": "9781101946350"
+                },
+                {
+                    "isbn10": "1101971541",
+                    "isbn13": "9781101971543"
+                },
+                {
+                    "isbn10": "1473535956",
+                    "isbn13": "9781473535954"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 14,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Goldfinch-Novel-Pulitzer-Fiction-ebook/dp/B00BAXFECK?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2015-12-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Donna Tartt",
+                    "contributor": "by Donna Tartt",
+                    "contributor_note": "",
+                    "description": "After his mother is killed in a museum explosion, a young man grapples with the world alone while hiding a prized Dutch painting.",
+                    "price": 0,
+                    "primary_isbn10": "0316055441",
+                    "primary_isbn13": "9780316055444",
+                    "publisher": "Back Bay/Little, Brown",
+                    "title": "THE GOLDFINCH"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0316055433",
+                    "isbn13": "9780316055437"
+                },
+                {
+                    "isbn10": "0316239879",
+                    "isbn13": "9780316239875"
+                },
+                {
+                    "isbn10": "0316055441",
+                    "isbn13": "9780316055444"
+                },
+                {
+                    "isbn10": "0349139636",
+                    "isbn13": "9780349139630"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-10",
+            "rank": 15,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2013/10/08/books/the-goldfinch-a-dickensian-novel-by-donna-tartt.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2013/10/13/books/review/donna-tartts-goldfinch.html"
+                }
+            ],
+            "weeks_on_list": 0
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2016-04-28T15:03:27-04:00",
+    "num_results": 15,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Andy Weir",
+                    "contributor": "by Andy Weir",
+                    "contributor_note": "",
+                    "description": "Separated from his crew, an astronaut embarks on a quest to stay alive on Mars. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "0553418025",
+                    "primary_isbn13": "9780553418026",
+                    "publisher": "Broadway",
+                    "title": "THE MARTIAN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0804139024",
+                    "isbn13": "9780804139021"
+                },
+                {
+                    "isbn10": "0553418025",
+                    "isbn13": "9780553418026"
+                },
+                {
+                    "isbn10": "0091956145",
+                    "isbn13": "9780091956141"
+                },
+                {
+                    "isbn10": "1594138540",
+                    "isbn13": "9781594138546"
+                },
+                {
+                    "isbn10": "1101903589",
+                    "isbn13": "9781101903582"
+                },
+                {
+                    "isbn10": "110190500X",
+                    "isbn13": "9781101905005"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 62
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Revenant-A-Novel-Revenge/dp/1250101190?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Michael Punke",
+                    "contributor": "by Michael Punke",
+                    "contributor_note": "",
+                    "description": "In the old American West, a wounded bear trapper is left to die alone but sets out on a 3,000-mile journey for retribution; inspiration for the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1250072689",
+                    "primary_isbn13": "9781250072689",
+                    "publisher": "Picador",
+                    "title": "THE REVENANT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1250101190",
+                    "isbn13": "9781250101198"
+                },
+                {
+                    "isbn10": "1250072689",
+                    "isbn13": "9781250072689"
+                },
+                {
+                    "isbn10": "1250066638",
+                    "isbn13": "9781250066633"
+                },
+                {
+                    "isbn10": "125006662X",
+                    "isbn13": "9781250066626"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 2
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brooklyn-A-Novel-Colm-Toibin/dp/1439138311?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Colm Toibin",
+                    "contributor": "by Colm Toibin",
+                    "contributor_note": "",
+                    "description": "An unsophisticated young Irishwoman leaves her home for New York in the 1950s. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1501106473",
+                    "primary_isbn13": "9781501106477",
+                    "publisher": "Scribner",
+                    "title": "BROOKLYN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1439148953",
+                    "isbn13": "9781439148952"
+                },
+                {
+                    "isbn10": "1501106473",
+                    "isbn13": "9781501106477"
+                },
+                {
+                    "isbn10": "1439149828",
+                    "isbn13": "9781439149829"
+                },
+                {
+                    "isbn10": "1439138311",
+                    "isbn13": "9781439138311"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "https://www.nytimes.com/2009/05/03/magazine/03toibin-t.html",
+                    "book_review_link": "",
+                    "first_chapter_link": "https://www.nytimes.com/2009/05/03/books/chapter-brooklyn.html",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/03/books/review/Schillinger-t.html"
+                }
+            ],
+            "weeks_on_list": 10
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Paulo Coelho",
+                    "contributor": "by Paulo Coelho",
+                    "contributor_note": "",
+                    "description": "A Spanish shepherd boy ventures to Egypt in search of treasure.",
+                    "price": 0,
+                    "primary_isbn10": "0062315005",
+                    "primary_isbn13": "9780062315007",
+                    "publisher": "HarperOne/HarperCollins",
+                    "title": "THE ALCHEMIST"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061122416",
+                    "isbn13": "9780061122415"
+                },
+                {
+                    "isbn10": "0062502182",
+                    "isbn13": "9780062502186"
+                },
+                {
+                    "isbn10": "0062502174",
+                    "isbn13": "9780062502179"
+                },
+                {
+                    "isbn10": "0060887966",
+                    "isbn13": "9780060887964"
+                },
+                {
+                    "isbn10": "0060834838",
+                    "isbn13": "9780060834838"
+                },
+                {
+                    "isbn10": "0061741248",
+                    "isbn13": "9780061741241"
+                },
+                {
+                    "isbn10": "0062315005",
+                    "isbn13": "9780062315007"
+                },
+                {
+                    "isbn10": "0062326775",
+                    "isbn13": "9780062326775"
+                },
+                {
+                    "isbn10": "0062416219",
+                    "isbn13": "9780062416216"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 387
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brilliant-Friend-Neapolitan-Elena-Ferrante/dp/1609450787?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "The first installment in the author\u2019s Neapolitan series, about the lifelong friendship between two women.",
+                    "price": 0,
+                    "primary_isbn10": "1609450787",
+                    "primary_isbn13": "9781609450786",
+                    "publisher": "Europa Editions",
+                    "title": "MY BRILLIANT FRIEND"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609450787",
+                    "isbn13": "9781609450786"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 18
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-High-Castle-Philip-Dick-ebook/dp/B005MZN2B2?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Philip K Dick",
+                    "contributor": "by Philip K. Dick",
+                    "contributor_note": "",
+                    "description": "In this alternative history, the Allies lost World War II, and America is ruled by Japan and Nazi Germany. The basis of the TV series.",
+                    "price": 0,
+                    "primary_isbn10": "0547572484",
+                    "primary_isbn13": "9780547572482",
+                    "publisher": "Mariner",
+                    "title": "THE MAN IN THE HIGH CASTLE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0547572484",
+                    "isbn13": "9780547572482"
+                },
+                {
+                    "isbn10": "0547601204",
+                    "isbn13": "9780547601205"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 6
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/14th-Deadly-Womens-Murder-Club/dp/031640702X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Maxine Paetro",
+                    "contributor": "by James Patterson and Maxine Paetro",
+                    "contributor_note": "",
+                    "description": "Detective Lindsay Boxer and her friends must risk their lives to save the city and each other when a rash of murders grips San Francisco.",
+                    "price": 0,
+                    "primary_isbn10": "1455584991",
+                    "primary_isbn13": "9781455584994",
+                    "publisher": "Grand Central",
+                    "title": "14TH DEADLY SIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "031640702X",
+                    "isbn13": "9780316407021"
+                },
+                {
+                    "isbn10": "031640876X",
+                    "isbn13": "9780316408769"
+                },
+                {
+                    "isbn10": "1455584991",
+                    "isbn13": "9781455584994"
+                },
+                {
+                    "isbn10": "1455584983",
+                    "isbn13": "9781455584987"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 2
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Choice-Nicholas-Sparks/dp/0446698334?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "How a North Carolina man's decisions about love and death play out in his life.",
+                    "price": 0,
+                    "primary_isbn10": "1455588997",
+                    "primary_isbn13": "9781455588992",
+                    "publisher": "Grand Central",
+                    "title": "THE CHOICE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455588997",
+                    "isbn13": "9781455588992"
+                },
+                {
+                    "isbn10": "0446698334",
+                    "isbn13": "9780446698337"
+                },
+                {
+                    "isbn10": "1455588989",
+                    "isbn13": "9781455588985"
+                },
+                {
+                    "isbn10": "0446618314",
+                    "isbn13": "9780446618311"
+                },
+                {
+                    "isbn10": "0446401315",
+                    "isbn13": "9780446401319"
+                },
+                {
+                    "isbn10": "0446579920",
+                    "isbn13": "9780446579926"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 20
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Orphan-Train-Christina-Baker-Kline-ebook/dp/B0089LOG02?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Christina Baker Kline",
+                    "contributor": "by Christina Baker Kline",
+                    "contributor_note": "",
+                    "description": "A historical novel about orphans swept off the streets of New York and sent to the Midwest in the 1920s.\u00a0",
+                    "price": 0,
+                    "primary_isbn10": "0061950726",
+                    "primary_isbn13": "9780061950728",
+                    "publisher": "Morrow/HarperCollins",
+                    "title": "ORPHAN TRAIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061950726",
+                    "isbn13": "9780061950728"
+                },
+                {
+                    "isbn10": "1594137374",
+                    "isbn13": "9781594137372"
+                },
+                {
+                    "isbn10": "0606356649",
+                    "isbn13": "9780606356640"
+                },
+                {
+                    "isbn10": "006195070X",
+                    "isbn13": "9780061950704"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 106
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Fredrik Backman",
+                    "contributor": "by Fredrik Backman",
+                    "contributor_note": "",
+                    "description": "An angry old curmudgeon gets new next-door neighbors, and things are about to change for all of them \u2014 and others.",
+                    "price": 0,
+                    "primary_isbn10": "1476738025",
+                    "primary_isbn13": "9781476738024",
+                    "publisher": "Washington Square",
+                    "title": "A MAN CALLED OVE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476738025",
+                    "isbn13": "9781476738024"
+                },
+                {
+                    "isbn10": "1476738017",
+                    "isbn13": "9781476738017"
+                },
+                {
+                    "isbn10": "1594139830",
+                    "isbn13": "9781594139833"
+                },
+                {
+                    "isbn10": "1410472922",
+                    "isbn13": "9781410472922"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Grey-Fifty-Shades-Told-Christian-ebook/dp/B00Y6QF0PE?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "E L James",
+                    "contributor": "by E. L. James",
+                    "contributor_note": "",
+                    "description": "A \"Fifty Shades of Grey\" sequel, told from Christian\u2019s point of view, revisits the tortured romance between the controlling billionaire and the unassuming Ana.",
+                    "price": 0,
+                    "primary_isbn10": "1101946342",
+                    "primary_isbn13": "9781101946343",
+                    "publisher": "Vintage",
+                    "title": "GREY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101946342",
+                    "isbn13": "9781101946343"
+                },
+                {
+                    "isbn10": "1784753254",
+                    "isbn13": "9781784753252"
+                },
+                {
+                    "isbn10": "1101946350",
+                    "isbn13": "9781101946350"
+                },
+                {
+                    "isbn10": "1101971541",
+                    "isbn13": "9781101971543"
+                },
+                {
+                    "isbn10": "1473535956",
+                    "isbn13": "9781473535954"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 11,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 12,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Everything-Never-Told-You-Novel/dp/159420571X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Celeste Ng",
+                    "contributor": "by Celeste Ng",
+                    "contributor_note": "",
+                    "description": "Lydia, bearing the hopes of a Chinese-American family in 1970s Ohio, ends up at the bottom of a lake.",
+                    "price": 0,
+                    "primary_isbn10": "0143127551",
+                    "primary_isbn13": "9780143127550",
+                    "publisher": "Penguin",
+                    "title": "EVERYTHING I NEVER TOLD YOU"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "159420571X",
+                    "isbn13": "9781594205712"
+                },
+                {
+                    "isbn10": "0143127551",
+                    "isbn13": "9780143127550"
+                },
+                {
+                    "isbn10": "1101634618",
+                    "isbn13": "9781101634615"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 13,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/08/17/books/review/everything-i-never-told-you-by-celeste-ng.html"
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Story-New-Name-Neapolitan/dp/1609451341?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "Book 2 of the Neapolitan series continues the story of two women and their lifelong friendship.",
+                    "price": 0,
+                    "primary_isbn10": "1609451341",
+                    "primary_isbn13": "9781609451349",
+                    "publisher": "Europa Editions",
+                    "title": "THE STORY OF A NEW NAME"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609451341",
+                    "isbn13": "9781609451349"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 14,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2013/09/29/books/review/elena-ferrantes-story-of-a-new-name.html"
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Goldfinch-Novel-Pulitzer-Fiction-ebook/dp/B00BAXFECK?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Donna Tartt",
+                    "contributor": "by Donna Tartt",
+                    "contributor_note": "",
+                    "description": "After his mother is killed in a museum explosion, a young man grapples with the world alone while hiding a prized Dutch painting.",
+                    "price": 0,
+                    "primary_isbn10": "0316055441",
+                    "primary_isbn13": "9780316055444",
+                    "publisher": "Back Bay/Little, Brown",
+                    "title": "THE GOLDFINCH"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0316055433",
+                    "isbn13": "9780316055437"
+                },
+                {
+                    "isbn10": "0316239879",
+                    "isbn13": "9780316239875"
+                },
+                {
+                    "isbn10": "0316055441",
+                    "isbn13": "9780316055444"
+                },
+                {
+                    "isbn10": "0349139636",
+                    "isbn13": "9780349139630"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-17",
+            "rank": 15,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2013/10/08/books/the-goldfinch-a-dickensian-novel-by-donna-tartt.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2013/10/13/books/review/donna-tartts-goldfinch.html"
+                }
+            ],
+            "weeks_on_list": 0
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 15,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Revenant-A-Novel-Revenge/dp/1250101190?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Michael Punke",
+                    "contributor": "by Michael Punke",
+                    "contributor_note": "",
+                    "description": "In the old American West, a wounded bear trapper is left to die alone but sets out on a 3,000-mile journey for retribution; an inspiration for the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1250072689",
+                    "primary_isbn13": "9781250072689",
+                    "publisher": "Picador",
+                    "title": "THE REVENANT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1250101190",
+                    "isbn13": "9781250101198"
+                },
+                {
+                    "isbn10": "1250072689",
+                    "isbn13": "9781250072689"
+                },
+                {
+                    "isbn10": "1250066638",
+                    "isbn13": "9781250066633"
+                },
+                {
+                    "isbn10": "125006662X",
+                    "isbn13": "9781250066626"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 3
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Andy Weir",
+                    "contributor": "by Andy Weir",
+                    "contributor_note": "",
+                    "description": "Separated from his crew, an astronaut embarks on a quest to stay alive on Mars. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "0553418025",
+                    "primary_isbn13": "9780553418026",
+                    "publisher": "Broadway",
+                    "title": "THE MARTIAN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0804139024",
+                    "isbn13": "9780804139021"
+                },
+                {
+                    "isbn10": "0553418025",
+                    "isbn13": "9780553418026"
+                },
+                {
+                    "isbn10": "0091956145",
+                    "isbn13": "9780091956141"
+                },
+                {
+                    "isbn10": "1594138540",
+                    "isbn13": "9781594138546"
+                },
+                {
+                    "isbn10": "1101903589",
+                    "isbn13": "9781101903582"
+                },
+                {
+                    "isbn10": "110190500X",
+                    "isbn13": "9781101905005"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 63
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Paulo Coelho",
+                    "contributor": "by Paulo Coelho",
+                    "contributor_note": "",
+                    "description": "A Spanish shepherd boy ventures to Egypt in search of treasure.",
+                    "price": 0,
+                    "primary_isbn10": "0062315005",
+                    "primary_isbn13": "9780062315007",
+                    "publisher": "HarperOne/HarperCollins",
+                    "title": "THE ALCHEMIST"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061122416",
+                    "isbn13": "9780061122415"
+                },
+                {
+                    "isbn10": "0062502182",
+                    "isbn13": "9780062502186"
+                },
+                {
+                    "isbn10": "0062502174",
+                    "isbn13": "9780062502179"
+                },
+                {
+                    "isbn10": "0060887966",
+                    "isbn13": "9780060887964"
+                },
+                {
+                    "isbn10": "0060834838",
+                    "isbn13": "9780060834838"
+                },
+                {
+                    "isbn10": "0061741248",
+                    "isbn13": "9780061741241"
+                },
+                {
+                    "isbn10": "0062315005",
+                    "isbn13": "9780062315007"
+                },
+                {
+                    "isbn10": "0062326775",
+                    "isbn13": "9780062326775"
+                },
+                {
+                    "isbn10": "0062416219",
+                    "isbn13": "9780062416216"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 388
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brooklyn-A-Novel-Colm-Toibin/dp/1439138311?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Colm Toibin",
+                    "contributor": "by Colm Toibin",
+                    "contributor_note": "",
+                    "description": "An unsophisticated young Irishwoman leaves her home for New York in the 1950s. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1501106473",
+                    "primary_isbn13": "9781501106477",
+                    "publisher": "Scribner",
+                    "title": "BROOKLYN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1439148953",
+                    "isbn13": "9781439148952"
+                },
+                {
+                    "isbn10": "1501106473",
+                    "isbn13": "9781501106477"
+                },
+                {
+                    "isbn10": "1439149828",
+                    "isbn13": "9781439149829"
+                },
+                {
+                    "isbn10": "1439138311",
+                    "isbn13": "9781439138311"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "https://www.nytimes.com/2009/05/03/magazine/03toibin-t.html",
+                    "book_review_link": "",
+                    "first_chapter_link": "https://www.nytimes.com/2009/05/03/books/chapter-brooklyn.html",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/03/books/review/Schillinger-t.html"
+                }
+            ],
+            "weeks_on_list": 11
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brilliant-Friend-Neapolitan-Elena-Ferrante/dp/1609450787?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "The first installment in the author\u2019s Neapolitan series, about the lifelong friendship between two women.",
+                    "price": 0,
+                    "primary_isbn10": "1609450787",
+                    "primary_isbn13": "9781609450786",
+                    "publisher": "Europa Editions",
+                    "title": "MY BRILLIANT FRIEND"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609450787",
+                    "isbn13": "9781609450786"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 19
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/14th-Deadly-Womens-Murder-Club/dp/031640702X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Maxine Paetro",
+                    "contributor": "by James Patterson and Maxine Paetro",
+                    "contributor_note": "",
+                    "description": "Detective Lindsay Boxer and her friends must risk their lives to save the city and each other when a rash of murders grips San Francisco.",
+                    "price": 0,
+                    "primary_isbn10": "1455584991",
+                    "primary_isbn13": "9781455584994",
+                    "publisher": "Grand Central",
+                    "title": "14TH DEADLY SIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "031640702X",
+                    "isbn13": "9780316407021"
+                },
+                {
+                    "isbn10": "031640876X",
+                    "isbn13": "9780316408769"
+                },
+                {
+                    "isbn10": "1455584991",
+                    "isbn13": "9781455584994"
+                },
+                {
+                    "isbn10": "1455584983",
+                    "isbn13": "9781455584987"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 3
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-High-Castle-Philip-Dick-ebook/dp/B005MZN2B2?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Philip K Dick",
+                    "contributor": "by Philip K. Dick",
+                    "contributor_note": "",
+                    "description": "In this alternative history, the Allies lost World War II, and America is ruled by Japan and Nazi Germany. The basis of the TV series.",
+                    "price": 0,
+                    "primary_isbn10": "0547572484",
+                    "primary_isbn13": "9780547572482",
+                    "publisher": "Mariner",
+                    "title": "THE MAN IN THE HIGH CASTLE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0547572484",
+                    "isbn13": "9780547572482"
+                },
+                {
+                    "isbn10": "0547601204",
+                    "isbn13": "9780547601205"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 7
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Truth-Die-James-Patterson-ebook/dp/B00QQQL8VM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Howard Roughan",
+                    "contributor": "by James Patterson and Howard Roughan",
+                    "contributor_note": "",
+                    "description": "A lawyer discovers a shocking secret that must be kept out of the wrong hands.",
+                    "price": 0,
+                    "primary_isbn10": "1455584967",
+                    "primary_isbn13": "9781455584963",
+                    "publisher": "Grand Central",
+                    "title": "TRUTH OR DIE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0316407011",
+                    "isbn13": "9780316407014"
+                },
+                {
+                    "isbn10": "0316408735",
+                    "isbn13": "9780316408738"
+                },
+                {
+                    "isbn10": "1455584967",
+                    "isbn13": "9781455584963"
+                },
+                {
+                    "isbn10": "1455584975",
+                    "isbn13": "9781455584970"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Orphan-Train-Christina-Baker-Kline-ebook/dp/B0089LOG02?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Christina Baker Kline",
+                    "contributor": "by Christina Baker Kline",
+                    "contributor_note": "",
+                    "description": "A historical novel about orphans swept off the streets of New York and sent to the Midwest in the 1920s.\u00a0",
+                    "price": 0,
+                    "primary_isbn10": "0061950726",
+                    "primary_isbn13": "9780061950728",
+                    "publisher": "Morrow/HarperCollins",
+                    "title": "ORPHAN TRAIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061950726",
+                    "isbn13": "9780061950728"
+                },
+                {
+                    "isbn10": "1594137374",
+                    "isbn13": "9781594137372"
+                },
+                {
+                    "isbn10": "0606356649",
+                    "isbn13": "9780606356640"
+                },
+                {
+                    "isbn10": "006195070X",
+                    "isbn13": "9780061950704"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 107
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Fredrik Backman",
+                    "contributor": "by Fredrik Backman",
+                    "contributor_note": "",
+                    "description": "An angry old curmudgeon gets new next-door neighbors, and things are about to change for all of them \u2014 and others.",
+                    "price": 0,
+                    "primary_isbn10": "1476738025",
+                    "primary_isbn13": "9781476738024",
+                    "publisher": "Washington Square",
+                    "title": "A MAN CALLED OVE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476738025",
+                    "isbn13": "9781476738024"
+                },
+                {
+                    "isbn10": "1476738017",
+                    "isbn13": "9781476738017"
+                },
+                {
+                    "isbn10": "1594139830",
+                    "isbn13": "9781594139833"
+                },
+                {
+                    "isbn10": "1410472922",
+                    "isbn13": "9781410472922"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 2
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Choice-Nicholas-Sparks/dp/0446698334?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "When Travis meets his new neighbor, his bachelor status erodes.",
+                    "price": 0,
+                    "primary_isbn10": "1455588997",
+                    "primary_isbn13": "9781455588992",
+                    "publisher": "Grand Central",
+                    "title": "THE CHOICE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455588997",
+                    "isbn13": "9781455588992"
+                },
+                {
+                    "isbn10": "0446698334",
+                    "isbn13": "9780446698337"
+                },
+                {
+                    "isbn10": "1455588989",
+                    "isbn13": "9781455588985"
+                },
+                {
+                    "isbn10": "0446618314",
+                    "isbn13": "9780446618311"
+                },
+                {
+                    "isbn10": "0446401315",
+                    "isbn13": "9780446401319"
+                },
+                {
+                    "isbn10": "0446579920",
+                    "isbn13": "9780446579926"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 11,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Grey-Fifty-Shades-Told-Christian-ebook/dp/B00Y6QF0PE?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "E L James",
+                    "contributor": "by E. L. James",
+                    "contributor_note": "",
+                    "description": "A \"Fifty Shades of Grey\" sequel, told from Christian\u2019s point of view, revisits the tortured romance between the controlling billionaire and the unassuming Ana.",
+                    "price": 0,
+                    "primary_isbn10": "1101946342",
+                    "primary_isbn13": "9781101946343",
+                    "publisher": "Vintage",
+                    "title": "GREY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101946342",
+                    "isbn13": "9781101946343"
+                },
+                {
+                    "isbn10": "1784753254",
+                    "isbn13": "9781784753252"
+                },
+                {
+                    "isbn10": "1101946350",
+                    "isbn13": "9781101946350"
+                },
+                {
+                    "isbn10": "1101971541",
+                    "isbn13": "9781101971543"
+                },
+                {
+                    "isbn10": "1473535956",
+                    "isbn13": "9781473535954"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 12,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 13,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Everything-Never-Told-You-Novel/dp/159420571X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Celeste Ng",
+                    "contributor": "by Celeste Ng",
+                    "contributor_note": "",
+                    "description": "Lydia, bearing the hopes of a Chinese-American family in 1970s Ohio, ends up at the bottom of a lake.",
+                    "price": 0,
+                    "primary_isbn10": "0143127551",
+                    "primary_isbn13": "9780143127550",
+                    "publisher": "Penguin",
+                    "title": "EVERYTHING I NEVER TOLD YOU"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "159420571X",
+                    "isbn13": "9781594205712"
+                },
+                {
+                    "isbn10": "0143127551",
+                    "isbn13": "9780143127550"
+                },
+                {
+                    "isbn10": "1101634618",
+                    "isbn13": "9781101634615"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 14,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/08/17/books/review/everything-i-never-told-you-by-celeste-ng.html"
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Story-New-Name-Neapolitan/dp/1609451341?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "Book 2 of the Neapolitan series continues the story of two women and their lifelong friendship.",
+                    "price": 0,
+                    "primary_isbn10": "1609451341",
+                    "primary_isbn13": "9781609451349",
+                    "publisher": "Europa Editions",
+                    "title": "THE STORY OF A NEW NAME"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609451341",
+                    "isbn13": "9781609451349"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-24",
+            "rank": 15,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2013/09/29/books/review/elena-ferrantes-story-of-a-new-name.html"
+                }
+            ],
+            "weeks_on_list": 0
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 15,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Revenant-A-Novel-Revenge/dp/1250101190?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Michael Punke",
+                    "contributor": "by Michael Punke",
+                    "contributor_note": "",
+                    "description": "Left for dead after a mauling, the master tracker Hugh Glass is consumed by a singular desire for revenge; an inspiration for the 2015 film.",
+                    "price": 0,
+                    "primary_isbn10": "1250072689",
+                    "primary_isbn13": "9781250072689",
+                    "publisher": "Picador",
+                    "title": "THE REVENANT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1250101190",
+                    "isbn13": "9781250101198"
+                },
+                {
+                    "isbn10": "1250072689",
+                    "isbn13": "9781250072689"
+                },
+                {
+                    "isbn10": "1250066638",
+                    "isbn13": "9781250066633"
+                },
+                {
+                    "isbn10": "125006662X",
+                    "isbn13": "9781250066626"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 4
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Andy Weir",
+                    "contributor": "by Andy Weir",
+                    "contributor_note": "",
+                    "description": "Separated from his crew, an astronaut embarks on a quest to stay alive on Mars. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "0553418025",
+                    "primary_isbn13": "9780553418026",
+                    "publisher": "Broadway",
+                    "title": "THE MARTIAN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0804139024",
+                    "isbn13": "9780804139021"
+                },
+                {
+                    "isbn10": "0553418025",
+                    "isbn13": "9780553418026"
+                },
+                {
+                    "isbn10": "0091956145",
+                    "isbn13": "9780091956141"
+                },
+                {
+                    "isbn10": "1594138540",
+                    "isbn13": "9781594138546"
+                },
+                {
+                    "isbn10": "1101903589",
+                    "isbn13": "9781101903582"
+                },
+                {
+                    "isbn10": "110190500X",
+                    "isbn13": "9781101905005"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 64
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brooklyn-A-Novel-Colm-Toibin/dp/1439138311?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Colm Toibin",
+                    "contributor": "by Colm Toibin",
+                    "contributor_note": "",
+                    "description": "An unsophisticated young Irishwoman leaves her home for New York in the 1950s. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1501106473",
+                    "primary_isbn13": "9781501106477",
+                    "publisher": "Scribner",
+                    "title": "BROOKLYN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1439148953",
+                    "isbn13": "9781439148952"
+                },
+                {
+                    "isbn10": "1501106473",
+                    "isbn13": "9781501106477"
+                },
+                {
+                    "isbn10": "1439149828",
+                    "isbn13": "9781439149829"
+                },
+                {
+                    "isbn10": "1439138311",
+                    "isbn13": "9781439138311"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "https://www.nytimes.com/2009/05/03/magazine/03toibin-t.html",
+                    "book_review_link": "",
+                    "first_chapter_link": "https://www.nytimes.com/2009/05/03/books/chapter-brooklyn.html",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/03/books/review/Schillinger-t.html"
+                }
+            ],
+            "weeks_on_list": 12
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brilliant-Friend-Neapolitan-Elena-Ferrante/dp/1609450787?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "The first installment in the author\u2019s Neapolitan series, about the lifelong friendship between two women.",
+                    "price": 0,
+                    "primary_isbn10": "1609450787",
+                    "primary_isbn13": "9781609450786",
+                    "publisher": "Europa Editions",
+                    "title": "MY BRILLIANT FRIEND"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609450787",
+                    "isbn13": "9781609450786"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 20
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Paulo Coelho",
+                    "contributor": "by Paulo Coelho",
+                    "contributor_note": "",
+                    "description": "A Spanish shepherd boy ventures to Egypt in search of treasure.",
+                    "price": 0,
+                    "primary_isbn10": "0062315005",
+                    "primary_isbn13": "9780062315007",
+                    "publisher": "HarperOne/HarperCollins",
+                    "title": "THE ALCHEMIST"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061122416",
+                    "isbn13": "9780061122415"
+                },
+                {
+                    "isbn10": "0062502182",
+                    "isbn13": "9780062502186"
+                },
+                {
+                    "isbn10": "0062502174",
+                    "isbn13": "9780062502179"
+                },
+                {
+                    "isbn10": "0060887966",
+                    "isbn13": "9780060887964"
+                },
+                {
+                    "isbn10": "0060834838",
+                    "isbn13": "9780060834838"
+                },
+                {
+                    "isbn10": "0061741248",
+                    "isbn13": "9780061741241"
+                },
+                {
+                    "isbn10": "0062315005",
+                    "isbn13": "9780062315007"
+                },
+                {
+                    "isbn10": "0062326775",
+                    "isbn13": "9780062326775"
+                },
+                {
+                    "isbn10": "0062416219",
+                    "isbn13": "9780062416216"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 389
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Fredrik Backman",
+                    "contributor": "by Fredrik Backman",
+                    "contributor_note": "",
+                    "description": "An angry old curmudgeon gets new next-door neighbors, and things are about to change for all of them \u2014 and others.",
+                    "price": 0,
+                    "primary_isbn10": "1476738025",
+                    "primary_isbn13": "9781476738024",
+                    "publisher": "Washington Square",
+                    "title": "A MAN CALLED OVE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476738025",
+                    "isbn13": "9781476738024"
+                },
+                {
+                    "isbn10": "1476738017",
+                    "isbn13": "9781476738017"
+                },
+                {
+                    "isbn10": "1594139830",
+                    "isbn13": "9781594139833"
+                },
+                {
+                    "isbn10": "1410472922",
+                    "isbn13": "9781410472922"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 3
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Room-A-Novel-Emma-Donoghue/dp/0316098329?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Emma Donoghue",
+                    "contributor": "by Emma Donoghue",
+                    "contributor_note": "",
+                    "description": "The entire world of the 5-year-old boy who narrates this novel is the 11-by-11-foot room in which his mother is being held prisoner.",
+                    "price": 0,
+                    "primary_isbn10": "0316098329",
+                    "primary_isbn13": "9780316098328",
+                    "publisher": "Back Bay/Little, Brown",
+                    "title": "ROOM"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0316098337",
+                    "isbn13": "9780316098335"
+                },
+                {
+                    "isbn10": "0316129119",
+                    "isbn13": "9780316129114"
+                },
+                {
+                    "isbn10": "0316098329",
+                    "isbn13": "9780316098328"
+                },
+                {
+                    "isbn10": "0316223239",
+                    "isbn13": "9780316223232"
+                },
+                {
+                    "isbn10": "0316391344",
+                    "isbn13": "9780316391344"
+                },
+                {
+                    "isbn10": "0330519026",
+                    "isbn13": "9780330519021"
+                },
+                {
+                    "isbn10": "0316268356",
+                    "isbn13": "9780316268356"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2010/09/13/books/13book.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2010/09/19/books/review/Bender-t.html"
+                }
+            ],
+            "weeks_on_list": 41
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-High-Castle-Philip-Dick-ebook/dp/B005MZN2B2?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Philip K Dick",
+                    "contributor": "by Philip K. Dick",
+                    "contributor_note": "",
+                    "description": "In this alternative history, the Allies lost World War II, and America is ruled by Japan and Nazi Germany. The basis of the TV series.",
+                    "price": 0,
+                    "primary_isbn10": "0547572484",
+                    "primary_isbn13": "9780547572482",
+                    "publisher": "Mariner",
+                    "title": "THE MAN IN THE HIGH CASTLE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0547572484",
+                    "isbn13": "9780547572482"
+                },
+                {
+                    "isbn10": "0547601204",
+                    "isbn13": "9780547601205"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 8
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Choice-Nicholas-Sparks/dp/0446698334?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "How a North Carolina man's decisions about love and death play out in his life.",
+                    "price": 0,
+                    "primary_isbn10": "1455588997",
+                    "primary_isbn13": "9781455588992",
+                    "publisher": "Grand Central",
+                    "title": "THE CHOICE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455588997",
+                    "isbn13": "9781455588992"
+                },
+                {
+                    "isbn10": "0446698334",
+                    "isbn13": "9780446698337"
+                },
+                {
+                    "isbn10": "1455588989",
+                    "isbn13": "9781455588985"
+                },
+                {
+                    "isbn10": "0446618314",
+                    "isbn13": "9780446618311"
+                },
+                {
+                    "isbn10": "0446401315",
+                    "isbn13": "9780446401319"
+                },
+                {
+                    "isbn10": "0446579920",
+                    "isbn13": "9780446579926"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 21
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Truth-Die-James-Patterson-ebook/dp/B00QQQL8VM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Howard Roughan",
+                    "contributor": "by James Patterson and Howard Roughan",
+                    "contributor_note": "",
+                    "description": "A lawyer discovers a shocking secret that must be kept out of the wrong hands.",
+                    "price": 0,
+                    "primary_isbn10": "1455584967",
+                    "primary_isbn13": "9781455584963",
+                    "publisher": "Grand Central",
+                    "title": "TRUTH OR DIE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0316407011",
+                    "isbn13": "9780316407014"
+                },
+                {
+                    "isbn10": "0316408735",
+                    "isbn13": "9780316408738"
+                },
+                {
+                    "isbn10": "1455584967",
+                    "isbn13": "9781455584963"
+                },
+                {
+                    "isbn10": "1455584975",
+                    "isbn13": "9781455584970"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 2
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/14th-Deadly-Womens-Murder-Club/dp/031640702X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Maxine Paetro",
+                    "contributor": "by James Patterson and Maxine Paetro",
+                    "contributor_note": "",
+                    "description": "Detective Lindsay Boxer and her friends must risk their lives to save the city and one another when a rash of murders grips San Francisco.",
+                    "price": 0,
+                    "primary_isbn10": "1455584991",
+                    "primary_isbn13": "9781455584994",
+                    "publisher": "Grand Central",
+                    "title": "14TH DEADLY SIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "031640702X",
+                    "isbn13": "9780316407021"
+                },
+                {
+                    "isbn10": "031640876X",
+                    "isbn13": "9780316408769"
+                },
+                {
+                    "isbn10": "1455584991",
+                    "isbn13": "9781455584994"
+                },
+                {
+                    "isbn10": "1455584983",
+                    "isbn13": "9781455584987"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 11,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 12,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Everything-Never-Told-You-Novel/dp/159420571X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Celeste Ng",
+                    "contributor": "by Celeste Ng",
+                    "contributor_note": "",
+                    "description": "Lydia, bearing the hopes of a Chinese-American family in 1970s Ohio, ends up at the bottom of a lake.",
+                    "price": 0,
+                    "primary_isbn10": "0143127551",
+                    "primary_isbn13": "9780143127550",
+                    "publisher": "Penguin",
+                    "title": "EVERYTHING I NEVER TOLD YOU"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "159420571X",
+                    "isbn13": "9781594205712"
+                },
+                {
+                    "isbn10": "0143127551",
+                    "isbn13": "9780143127550"
+                },
+                {
+                    "isbn10": "1101634618",
+                    "isbn13": "9781101634615"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 13,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/08/17/books/review/everything-i-never-told-you-by-celeste-ng.html"
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Story-New-Name-Neapolitan/dp/1609451341?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "Book 2 of the Neapolitan series continues the story of two women and their lifelong friendship.",
+                    "price": 0,
+                    "primary_isbn10": "1609451341",
+                    "primary_isbn13": "9781609451349",
+                    "publisher": "Europa Editions",
+                    "title": "THE STORY OF A NEW NAME"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609451341",
+                    "isbn13": "9781609451349"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 14,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2013/09/29/books/review/elena-ferrantes-story-of-a-new-name.html"
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Me-Before-You-A-Novel/dp/0143124544?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Jojo Moyes",
+                    "contributor": "by Jojo Moyes",
+                    "contributor_note": "",
+                    "description": "A young woman who has barely been farther afield than her English village finds herself while caring for a wealthy, embittered quadriplegic.",
+                    "price": 0,
+                    "primary_isbn10": "0143124544",
+                    "primary_isbn13": "9780143124542",
+                    "publisher": "Penguin",
+                    "title": "ME BEFORE YOU"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0670026603",
+                    "isbn13": "9780670026609"
+                },
+                {
+                    "isbn10": "0143124544",
+                    "isbn13": "9780143124542"
+                },
+                {
+                    "isbn10": "1594137390",
+                    "isbn13": "9781594137396"
+                },
+                {
+                    "isbn10": "0143109464",
+                    "isbn13": "9780143109464"
+                },
+                {
+                    "isbn10": "0143130153",
+                    "isbn13": "9780143130154"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-01-31",
+            "rank": 15,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2013/01/06/books/review/me-before-you-by-jojo-moyes.html"
+                }
+            ],
+            "weeks_on_list": 0
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-03-21T13:38:01-04:00",
+    "num_results": 15,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Revenant-A-Novel-Revenge/dp/1250101190?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Michael Punke",
+                    "contributor": "by Michael Punke",
+                    "contributor_note": "",
+                    "description": "Left for dead after a mauling, the master tracker Hugh Glass is consumed by a singular desire for revenge; an inspiration for the 2015 film.",
+                    "price": 0,
+                    "primary_isbn10": "1250072689",
+                    "primary_isbn13": "9781250072689",
+                    "publisher": "Picador",
+                    "title": "THE REVENANT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1250101190",
+                    "isbn13": "9781250101198"
+                },
+                {
+                    "isbn10": "1250072689",
+                    "isbn13": "9781250072689"
+                },
+                {
+                    "isbn10": "1250066638",
+                    "isbn13": "9781250066633"
+                },
+                {
+                    "isbn10": "125006662X",
+                    "isbn13": "9781250066626"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 1,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 5
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Andy Weir",
+                    "contributor": "by Andy Weir",
+                    "contributor_note": "",
+                    "description": "Separated from his crew, an astronaut embarks on a quest to stay alive on Mars. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "0553418025",
+                    "primary_isbn13": "9780553418026",
+                    "publisher": "Broadway",
+                    "title": "THE MARTIAN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0804139024",
+                    "isbn13": "9780804139021"
+                },
+                {
+                    "isbn10": "0553418025",
+                    "isbn13": "9780553418026"
+                },
+                {
+                    "isbn10": "0091956145",
+                    "isbn13": "9780091956141"
+                },
+                {
+                    "isbn10": "1594138540",
+                    "isbn13": "9781594138546"
+                },
+                {
+                    "isbn10": "1101903589",
+                    "isbn13": "9781101903582"
+                },
+                {
+                    "isbn10": "110190500X",
+                    "isbn13": "9781101905005"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 2,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 65
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brilliant-Friend-Neapolitan-Elena-Ferrante/dp/1609450787?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "The first installment in the author\u2019s Neapolitan series, about the lifelong friendship between two women.",
+                    "price": 0,
+                    "primary_isbn10": "1609450787",
+                    "primary_isbn13": "9781609450786",
+                    "publisher": "Europa Editions",
+                    "title": "MY BRILLIANT FRIEND"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609450787",
+                    "isbn13": "9781609450786"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 3,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 21
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Brooklyn-A-Novel-Colm-Toibin/dp/1439138311?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Colm Toibin",
+                    "contributor": "by Colm Toibin",
+                    "contributor_note": "",
+                    "description": "An unsophisticated young Irishwoman leaves her home for New York in the 1950s. The basis of the movie.",
+                    "price": 0,
+                    "primary_isbn10": "1501106473",
+                    "primary_isbn13": "9781501106477",
+                    "publisher": "Scribner",
+                    "title": "BROOKLYN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1439148953",
+                    "isbn13": "9781439148952"
+                },
+                {
+                    "isbn10": "1501106473",
+                    "isbn13": "9781501106477"
+                },
+                {
+                    "isbn10": "1439149828",
+                    "isbn13": "9781439149829"
+                },
+                {
+                    "isbn10": "1439138311",
+                    "isbn13": "9781439138311"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "https://www.nytimes.com/2009/05/03/magazine/03toibin-t.html",
+                    "book_review_link": "",
+                    "first_chapter_link": "https://www.nytimes.com/2009/05/03/books/chapter-brooklyn.html",
+                    "sunday_review_link": "https://www.nytimes.com/2009/05/03/books/review/Schillinger-t.html"
+                }
+            ],
+            "weeks_on_list": 13
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Paulo Coelho",
+                    "contributor": "by Paulo Coelho",
+                    "contributor_note": "",
+                    "description": "A Spanish shepherd boy ventures to Egypt in search of treasure.",
+                    "price": 0,
+                    "primary_isbn10": "0062315005",
+                    "primary_isbn13": "9780062315007",
+                    "publisher": "HarperOne/HarperCollins",
+                    "title": "THE ALCHEMIST"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061122416",
+                    "isbn13": "9780061122415"
+                },
+                {
+                    "isbn10": "0062502182",
+                    "isbn13": "9780062502186"
+                },
+                {
+                    "isbn10": "0062502174",
+                    "isbn13": "9780062502179"
+                },
+                {
+                    "isbn10": "0060887966",
+                    "isbn13": "9780060887964"
+                },
+                {
+                    "isbn10": "0060834838",
+                    "isbn13": "9780060834838"
+                },
+                {
+                    "isbn10": "0061741248",
+                    "isbn13": "9780061741241"
+                },
+                {
+                    "isbn10": "0062315005",
+                    "isbn13": "9780062315007"
+                },
+                {
+                    "isbn10": "0062326775",
+                    "isbn13": "9780062326775"
+                },
+                {
+                    "isbn10": "0062416219",
+                    "isbn13": "9780062416216"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 5,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 390
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Fredrik Backman",
+                    "contributor": "by Fredrik Backman",
+                    "contributor_note": "",
+                    "description": "An angry old curmudgeon gets new next-door neighbors, and things are about to change for all of them \u2014 and others.",
+                    "price": 0,
+                    "primary_isbn10": "1476738025",
+                    "primary_isbn13": "9781476738024",
+                    "publisher": "Washington Square",
+                    "title": "A MAN CALLED OVE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476738025",
+                    "isbn13": "9781476738024"
+                },
+                {
+                    "isbn10": "1476738017",
+                    "isbn13": "9781476738017"
+                },
+                {
+                    "isbn10": "1594139830",
+                    "isbn13": "9781594139833"
+                },
+                {
+                    "isbn10": "1410472922",
+                    "isbn13": "9781410472922"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 4
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Room-A-Novel-Emma-Donoghue/dp/0316098329?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Emma Donoghue",
+                    "contributor": "by Emma Donoghue",
+                    "contributor_note": "",
+                    "description": "The entire world of the 5-year-old boy who narrates this novel is the 11-by-11-foot room in which his mother is being held prisoner.",
+                    "price": 0,
+                    "primary_isbn10": "0316098329",
+                    "primary_isbn13": "9780316098328",
+                    "publisher": "Back Bay/Little, Brown",
+                    "title": "ROOM"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0316098337",
+                    "isbn13": "9780316098335"
+                },
+                {
+                    "isbn10": "0316129119",
+                    "isbn13": "9780316129114"
+                },
+                {
+                    "isbn10": "0316098329",
+                    "isbn13": "9780316098328"
+                },
+                {
+                    "isbn10": "0316223239",
+                    "isbn13": "9780316223232"
+                },
+                {
+                    "isbn10": "0316391344",
+                    "isbn13": "9780316391344"
+                },
+                {
+                    "isbn10": "0330519026",
+                    "isbn13": "9780330519021"
+                },
+                {
+                    "isbn10": "0316268356",
+                    "isbn13": "9780316268356"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 7,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2010/09/13/books/13book.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2010/09/19/books/review/Bender-t.html"
+                }
+            ],
+            "weeks_on_list": 42
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Choice-Nicholas-Sparks/dp/0446698334?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "How a North Carolina man's decisions about love and death play out in his life.",
+                    "price": 0,
+                    "primary_isbn10": "1455588997",
+                    "primary_isbn13": "9781455588992",
+                    "publisher": "Grand Central",
+                    "title": "THE CHOICE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455588997",
+                    "isbn13": "9781455588992"
+                },
+                {
+                    "isbn10": "0446698334",
+                    "isbn13": "9780446698337"
+                },
+                {
+                    "isbn10": "1455588989",
+                    "isbn13": "9781455588985"
+                },
+                {
+                    "isbn10": "0446618314",
+                    "isbn13": "9780446618311"
+                },
+                {
+                    "isbn10": "0446401315",
+                    "isbn13": "9780446401319"
+                },
+                {
+                    "isbn10": "0446579920",
+                    "isbn13": "9780446579926"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 22
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Truth-Die-James-Patterson-ebook/dp/B00QQQL8VM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Howard Roughan",
+                    "contributor": "by James Patterson and Howard Roughan",
+                    "contributor_note": "",
+                    "description": "A lawyer discovers a shocking secret that must be kept out of the wrong hands.",
+                    "price": 0,
+                    "primary_isbn10": "1455584967",
+                    "primary_isbn13": "9781455584963",
+                    "publisher": "Grand Central",
+                    "title": "TRUTH OR DIE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0316407011",
+                    "isbn13": "9780316407014"
+                },
+                {
+                    "isbn10": "0316408735",
+                    "isbn13": "9780316408738"
+                },
+                {
+                    "isbn10": "1455584967",
+                    "isbn13": "9781455584963"
+                },
+                {
+                    "isbn10": "1455584975",
+                    "isbn13": "9781455584970"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 9,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 3
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-High-Castle-Philip-Dick-ebook/dp/B005MZN2B2?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Philip K Dick",
+                    "contributor": "by Philip K. Dick",
+                    "contributor_note": "",
+                    "description": "In this alternative history, the Allies lost World War II, and America is ruled by Japan and Nazi Germany. The basis of the Amazon TV series.",
+                    "price": 0,
+                    "primary_isbn10": "0547572484",
+                    "primary_isbn13": "9780547572482",
+                    "publisher": "Mariner",
+                    "title": "THE MAN IN THE HIGH CASTLE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0547572484",
+                    "isbn13": "9780547572482"
+                },
+                {
+                    "isbn10": "0547601204",
+                    "isbn13": "9780547601205"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 9
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Radiant-Angel-John-Corey-Novel/dp/0446580856?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nelson DeMille",
+                    "contributor": "by Nelson DeMille",
+                    "contributor_note": "",
+                    "description": "A surveillance expert monitors the activities of a newly resurgent Russia.",
+                    "price": 0,
+                    "primary_isbn10": "0446699624",
+                    "primary_isbn13": "9780446699624",
+                    "publisher": "Grand Central",
+                    "title": "RADIANT ANGEL"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0446580856",
+                    "isbn13": "9780446580854"
+                },
+                {
+                    "isbn10": "145558231X",
+                    "isbn13": "9781455582310"
+                },
+                {
+                    "isbn10": "1455589594",
+                    "isbn13": "9781455589593"
+                },
+                {
+                    "isbn10": "0446699624",
+                    "isbn13": "9780446699624"
+                },
+                {
+                    "isbn10": "0446619272",
+                    "isbn13": "9780446619271"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 11,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Orphan-Train-Christina-Baker-Kline-ebook/dp/B0089LOG02?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Christina Baker Kline",
+                    "contributor": "by Christina Baker Kline",
+                    "contributor_note": "",
+                    "description": "A historical novel about orphans swept off the streets of New York and sent to the Midwest in the 1920s.",
+                    "price": 0,
+                    "primary_isbn10": "0061950726",
+                    "primary_isbn13": "9780061950728",
+                    "publisher": "Morrow/HarperCollins",
+                    "title": "ORPHAN TRAIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061950726",
+                    "isbn13": "9780061950728"
+                },
+                {
+                    "isbn10": "1594137374",
+                    "isbn13": "9781594137372"
+                },
+                {
+                    "isbn10": "0606356649",
+                    "isbn13": "9780606356640"
+                },
+                {
+                    "isbn10": "006195070X",
+                    "isbn13": "9780061950704"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 12,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/14th-Deadly-Womens-Murder-Club/dp/031640702X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson and Maxine Paetro",
+                    "contributor": "by James Patterson and Maxine Paetro",
+                    "contributor_note": "",
+                    "description": "Detective Lindsay Boxer and her friends must risk their lives to save the city and one another when a rash of murders grips San Francisco.",
+                    "price": 0,
+                    "primary_isbn10": "1455584991",
+                    "primary_isbn13": "9781455584994",
+                    "publisher": "Grand Central",
+                    "title": "14TH DEADLY SIN"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "031640702X",
+                    "isbn13": "9780316407021"
+                },
+                {
+                    "isbn10": "031640876X",
+                    "isbn13": "9780316408769"
+                },
+                {
+                    "isbn10": "1455584991",
+                    "isbn13": "9781455584994"
+                },
+                {
+                    "isbn10": "1455584983",
+                    "isbn13": "9781455584987"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 13,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Story-New-Name-Neapolitan/dp/1609451341?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Elena Ferrante",
+                    "contributor": "by Elena Ferrante",
+                    "contributor_note": "",
+                    "description": "Book 2 of the Neapolitan series continues the story of two women and their lifelong friendship.",
+                    "price": 0,
+                    "primary_isbn10": "1609451341",
+                    "primary_isbn13": "9781609451349",
+                    "publisher": "Europa Editions",
+                    "title": "THE STORY OF A NEW NAME"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1609451341",
+                    "isbn13": "9781609451349"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 14,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2013/09/29/books/review/elena-ferrantes-story-of-a-new-name.html"
+                }
+            ],
+            "weeks_on_list": 0
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/The-Readers-Broken-Wheel-Recommend/dp/149262344X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2016-01-23",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Katarina Bivald",
+                    "contributor": "by Katarina Bivald",
+                    "contributor_note": "",
+                    "description": "",
+                    "price": 0,
+                    "primary_isbn10": "149262344X",
+                    "primary_isbn13": "9781492623441",
+                    "publisher": "Sourcebooks Landmark",
+                    "title": "THE READERS OF BROKEN WHEEL RECOMMEND"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "149262344X",
+                    "isbn13": "9781492623441"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2016-02-07",
+            "rank": 15,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 0
+        }
+    ],
+    "status": "OK"
+}
