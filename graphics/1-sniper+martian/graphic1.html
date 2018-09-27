@@ -5,6 +5,12 @@
 
 <style>
 
+#movie-title {
+  margin: 20px 0px 0px 25px;
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
 .grid path {
   stroke: #aaaaaa;
 }
@@ -23,6 +29,7 @@
 
 <body>
 
+<div id="movie-title">American Sniper</div>
 <svg width="750" height="300"></svg>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -48,7 +55,13 @@ var line = d3.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.rank); });
 
-d3.csv("data.csv", function(d) {
+var arc = d3.arc()
+    .innerRadius(24)
+    .outerRadius(25)
+    .startAngle(Math.PI / 2)
+    .endAngle(-Math.PI / 4);
+
+d3.csv("data1.csv", function(d) {
   d.date = parseTime(d.date);
   d.rank = +d.rank;
   return d;
@@ -72,9 +85,7 @@ d3.csv("data.csv", function(d) {
       .attr("fill", "#000")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
-      .attr("dy", "0.71em")
-      .attr("text-anchor", "end")
-      .text("Ranking on Best Sellers List");
+      .attr("dy", "0.71em");
 
   svg.append("text")
 		.attr("class","carter-name")
@@ -123,6 +134,7 @@ d3.csv("data.csv", function(d) {
       });
 
     //BOOK RELEASED
+    /*
     svg.append("line")
         .data(data)
         .attr("class","carter")
@@ -153,6 +165,7 @@ d3.csv("data.csv", function(d) {
   		.attr("font-size", "10px")
   		.attr("fill","#a0acd6")
   		.attr("text-anchor","left");
+      */
 
     //FIRST TRAILER RELEASED
     svg.append("line")
@@ -169,7 +182,7 @@ d3.csv("data.csv", function(d) {
     svg.append("text")
   		.attr("class","carter-name")
   		.attr("x", function(d) { return x(parseTime("2-Oct-14")) - 10; })
-  		.attr("y", (margin.top/2) + 10)
+  		.attr("y", (margin.top/2) + 15)
   		.text("First trailer")
       .attr("font-family","Poppins")
   		.attr("font-size", "10px")
@@ -179,7 +192,7 @@ d3.csv("data.csv", function(d) {
     svg.append("text")
   		.attr("class","carter-name")
   		.attr("x", function(d) { return x(parseTime("2-Oct-14")) - 2; })
-  		.attr("y", (margin.top/2) + 22)
+  		.attr("y", (margin.top/2) + 27)
   		.text("released")
       .attr("font-family","Poppins")
   		.attr("font-size", "10px")
@@ -222,12 +235,58 @@ d3.csv("data.csv", function(d) {
   	svg.append("text")
   		.attr("class","carter-name")
   		.attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")) + margin.left; })
-  		.attr("y", (margin.top/2) - 7)
+  		.attr("y", (margin.top/2) + 15)
   		.text("Movie in theaters")
       .attr("font-family","Poppins")
   		.attr("font-size", "10px")
   		.attr("fill","#a0acd6")
   		.attr("text-anchor","middle");
+
+    defs = svg.append("defs")
+
+    defs.append("marker")
+        .attr("id","arrow")
+         .attr("viewBox","0 -5 10 10")
+         .attr("refX",5)
+         .attr("refY",0)
+         .attr("markerWidth",4)
+         .attr("markerHeight",4)
+         .attr("orient","auto")
+         .attr("fill","#1557a3")
+        .append("path")
+            .attr("d", "M0,-5L10,0L0,5")
+            .attr("class","arrowHead");
+
+    // arrow pointing to first ranking
+    svg.append("path")
+      .data(data)
+      .attr("class","curve")
+      .attr("d", arc)
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13")) + margin.left - 21) + ",100)"; })
+      .attr("fill","#939393")
+      .attr("marker-end","url(#arrow)");
+
+   svg.append("text")
+       .data(data)
+       .style("text-anchor", "end")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13")) + margin.left); }  ))
+       .attr("class","anno2017_1")
+       .attr("y", 150)
+       .text("Book first appeared on")
+       .attr("font-size", "10px")
+       .attr("font-family","Poppins")
+       .attr("fill","#aaaaaa");
+
+    svg.append("text")
+        .data(data)
+       .attr("class","anno2017_2")
+       .style("text-anchor", "end")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13")) + margin.left); }  ))
+        .attr("y", 165)
+        .text("best sellers list")
+        .attr("font-size", "10px")
+        .attr("font-family","Poppins")
+        .attr("fill","#aaaaaa");
 
 });
 
