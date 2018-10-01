@@ -30,17 +30,20 @@
 <body>
 
 <div id="movie-title">American Sniper</div>
-<svg width="750" height="300"></svg>
+<div id="chart1"></div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
 <script>
 
-var svg = d3.select("svg"),
-    margin = {top: 70, right: 20, bottom: 30, left: 50},
-    width = +svg.attr("width") - margin.left - margin.right,
-    height = +svg.attr("height") - margin.top - margin.bottom,
-    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var margin = {top: 70, right: 20, bottom: 30, left: 50},
+    width = 750 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+var svg = d3.select('#chart1')
+  .append('svg')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom);
 
 var parseTime = d3.timeParse("%d-%b-%y");
 
@@ -56,10 +59,13 @@ var line = d3.line()
     .y(function(d) { return y(d.rank); });
 
 var arc = d3.arc()
-    .innerRadius(24)
-    .outerRadius(25)
-    .startAngle(Math.PI / 2)
-    .endAngle(-Math.PI / 4);
+    .innerRadius(32)
+    .outerRadius(33)
+    .startAngle(-Math.PI / 4)
+    .endAngle(-Math.PI / 1.5);
+
+var g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv("data1.csv", function(d) {
   d.date = parseTime(d.date);
@@ -87,27 +93,27 @@ d3.csv("data1.csv", function(d) {
       .attr("y", 6)
       .attr("dy", "0.71em");
 
-  svg.append("text")
+  g.append("text")
 		.attr("class","carter-name")
-		.attr("x", 25)
-		.attr("y", (margin.top/2) + 10)
+		.attr("x", -15)
+		.attr("y", -35)
 		.text("Ranking on")
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
     .attr("font-weight", "500")
 		.attr("fill","#aaaaaa")
-		.attr("text-anchor","center");
+		.attr("text-anchor","start");
 
-  svg.append("text")
+  g.append("text")
 		.attr("class","carter-name")
-		.attr("x", 25)
-		.attr("y", margin.top - 12)
+		.attr("x", -15)
+		.attr("y", -22)
 		.text("Best Sellers List")
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
     .attr("font-weight", "500")
 		.attr("fill","#aaaaaa")
-		.attr("text-anchor","center");
+		.attr("text-anchor","start");
 
   g.append("path")
       .datum(data)
@@ -118,12 +124,12 @@ d3.csv("data1.csv", function(d) {
       .attr("stroke-width", 1)
       .attr("d", line);
 
-  svg.selectAll(".dot")
+  g.selectAll(".dot")
      .data(data)
    .enter().append("circle") // Uses the enter().append() method
      .attr("class", "dot") // Assign a class for styling
-     .attr("cx", function(d, i) { return x(d.date) + margin.left })
-     .attr("cy", function(d) { return y(d.rank) + margin.top })
+     .attr("cx", function(d, i) { return x(d.date)})
+     .attr("cy", function(d) { return y(d.rank)})
      .attr("r", 2)
      .attr("fill", "#ff8368")
      .style("display", function(d) {
@@ -139,7 +145,7 @@ d3.csv("data1.csv", function(d) {
         .data(data)
         .attr("class","carter")
         .attr("stroke-width", 1)
-        .attr("stroke", "#a0acd6")
+        .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("3-Jan-12")) + margin.left; })
         .attr("x2", function(d) { return x(parseTime("3-Jan-12")) + margin.left; })
         .attr("y1", margin.top/2)
@@ -153,7 +159,7 @@ d3.csv("data1.csv", function(d) {
   		.text("Book")
       .attr("font-family","Poppins")
   		.attr("font-size", "10px")
-  		.attr("fill","#a0acd6")
+  		.attr("fill","#657bc6")
   		.attr("text-anchor","left");
 
     svg.append("text")
@@ -163,86 +169,86 @@ d3.csv("data1.csv", function(d) {
   		.text("released")
       .attr("font-family","Poppins")
   		.attr("font-size", "10px")
-  		.attr("fill","#a0acd6")
+  		.attr("fill","#657bc6")
   		.attr("text-anchor","left");
       */
 
     //FIRST TRAILER RELEASED
-    svg.append("line")
+    g.append("line")
   			.data(data)
   			.attr("class","carter")
   			.attr("stroke-width", 1)
-  			.attr("stroke", "#a0acd6")
-  			.attr("x1", function(d) { return x(parseTime("2-Oct-14")) + margin.left; })
-  			.attr("x2", function(d) { return x(parseTime("2-Oct-14")) + margin.left; })
-  	    .attr("y1", margin.top/2)
-  			.attr("y2", height + margin.top)
+  			.attr("stroke", "#657bc6")
+  			.attr("x1", function(d) { return x(parseTime("2-Oct-14")); })
+  			.attr("x2", function(d) { return x(parseTime("2-Oct-14")); })
+  	    .attr("y1", -30)
+  			.attr("y2", height)
         .style("stroke-dasharray", 2);
 
-    svg.append("text")
+    g.append("text")
   		.attr("class","carter-name")
-  		.attr("x", function(d) { return x(parseTime("2-Oct-14")) - 10; })
-  		.attr("y", (margin.top/2) + 15)
+  		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
+  		.attr("y", -20)
   		.text("First trailer")
       .attr("font-family","Poppins")
-  		.attr("font-size", "10px")
-  		.attr("fill","#a0acd6")
-  		.attr("text-anchor","right");
+  		.attr("font-size", "11px")
+  		.attr("fill","#657bc6")
+  		.attr("text-anchor","end");
 
-    svg.append("text")
+    g.append("text")
   		.attr("class","carter-name")
-  		.attr("x", function(d) { return x(parseTime("2-Oct-14")) - 2; })
-  		.attr("y", (margin.top/2) + 27)
+  		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
+  		.attr("y", -7)
   		.text("released")
       .attr("font-family","Poppins")
-  		.attr("font-size", "10px")
-  		.attr("fill","#a0acd6")
-  		.attr("text-anchor","right");
+  		.attr("font-size", "11px")
+  		.attr("fill","#657bc6")
+  		.attr("text-anchor","end");
 
     //MOVIE IN THEATERS
-  	svg.append("line")
+  	g.append("line")
   			.data(data)
   			.attr("class","carter")
   			.attr("stroke-width", 1)
-  			.attr("stroke", "#a0acd6")
-  			.attr("x1", function(d) { return x(parseTime("25-Dec-14")) + margin.left; })
-  			.attr("x2", function(d) { return x(parseTime("25-Jun-15")) + margin.left; })
-  	    .attr("y1", margin.top/2)
-  			.attr("y2", margin.top/2);
+  			.attr("stroke", "#657bc6")
+  			.attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+  			.attr("x2", function(d) { return x(parseTime("25-Jun-15")); })
+  	    .attr("y1", -30)
+  			.attr("y2", -30);
 
-    svg.append("line")
+    g.append("line")
         .data(data)
         .attr("class","carter")
         .attr("stroke-width", 1)
-        .attr("stroke", "#a0acd6")
-        .attr("x1", function(d) { return x(parseTime("25-Dec-14")) + margin.left; })
-        .attr("x2", function(d) { return x(parseTime("25-Dec-14")) + margin.left; })
-        .attr("y1", margin.top/2)
-        .attr("y2", height + margin.top)
+        .attr("stroke", "#657bc6")
+        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("x2", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("y1", -30)
+        .attr("y2", height)
         .style("stroke-dasharray", 2);
 
-    svg.append("line")
+    g.append("line")
         .data(data)
         .attr("class","carter")
         .attr("stroke-width", 1)
-        .attr("stroke", "#a0acd6")
-        .attr("x1", function(d) { return x(parseTime("25-Jun-15")) + margin.left; })
-        .attr("x2", function(d) { return x(parseTime("25-Jun-15")) + margin.left; })
-        .attr("y1", margin.top/2)
-        .attr("y2", height + margin.top)
+        .attr("stroke", "#657bc6")
+        .attr("x1", function(d) { return x(parseTime("25-Jun-15")); })
+        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); })
+        .attr("y1", -30)
+        .attr("y2", height)
         .style("stroke-dasharray", 2);
 
-  	svg.append("text")
+  	g.append("text")
   		.attr("class","carter-name")
-  		.attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")) + margin.left; })
-  		.attr("y", (margin.top/2) + 15)
+  		.attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")); })
+  		.attr("y", -15)
   		.text("Movie in theaters")
       .attr("font-family","Poppins")
-  		.attr("font-size", "10px")
-  		.attr("fill","#a0acd6")
+  		.attr("font-size", "11px")
+  		.attr("fill","#657bc6")
   		.attr("text-anchor","middle");
 
-    defs = svg.append("defs")
+    defs = g.append("defs")
 
     defs.append("marker")
         .attr("id","arrow")
@@ -252,43 +258,75 @@ d3.csv("data1.csv", function(d) {
          .attr("markerWidth",4)
          .attr("markerHeight",4)
          .attr("orient","auto")
-         .attr("fill","#1557a3")
+         .attr("fill","#657bc6")
         .append("path")
             .attr("d", "M0,-5L10,0L0,5")
             .attr("class","arrowHead");
 
     // arrow pointing to first ranking
-    svg.append("path")
+    g.append("path")
       .data(data)
       .attr("class","curve")
       .attr("d", arc)
-      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13")) + margin.left - 21) + ",100)"; })
-      .attr("fill","#939393")
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
+      .attr("fill","#657bc6")
       .attr("marker-end","url(#arrow)");
 
-   svg.append("text")
+   g.append("text")
        .data(data)
-       .style("text-anchor", "end")
-       .attr("x", (function(d) { return (x(parseTime("2-Feb-13")) + margin.left); }  ))
+       .style("text-anchor", "start")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
        .attr("class","anno2017_1")
-       .attr("y", 150)
-       .text("Book first appeared on")
-       .attr("font-size", "10px")
+       .attr("y", 65)
+       .text("Book first appeared")
+       .attr("font-size", "11px")
        .attr("font-family","Poppins")
-       .attr("fill","#aaaaaa");
+       .attr("fill","#657bc6");
 
-    svg.append("text")
+    g.append("text")
         .data(data)
        .attr("class","anno2017_2")
-       .style("text-anchor", "end")
-       .attr("x", (function(d) { return (x(parseTime("2-Feb-13")) + margin.left); }  ))
-        .attr("y", 165)
-        .text("best sellers list")
-        .attr("font-size", "10px")
+       .style("text-anchor", "start")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
+        .attr("y", 78)
+        .text("on best sellers list")
+        .attr("font-size", "11px")
         .attr("font-family","Poppins")
-        .attr("fill","#aaaaaa");
+        .attr("fill","#657bc6");
 
 });
+
+document.addEventListener("DOMContentLoaded", resize);
+d3.select(window).on('resize', resize);
+
+function resize() {
+	console.log('----resize function----');
+  // update width
+  width = parseInt(d3.select('#chart1').style("width"), 10);
+  width = width - margin.left - margin.right;
+
+  height = parseInt(d3.select('#chart1').style("height"));
+  height = height - margin.top - margin.bottom;
+	console.log('----resize width----'+width);
+	console.log('----resize height----'+height);
+  // resize the chart
+
+  x.rangeRound([0, width]);
+  y.rangeRound([0, height]);
+
+  //xAxis.ticks(Math.max(width/50, 2));
+
+  d3.select(svg.node().parentNode)
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
+  //g.selectAll("path")
+  //    .attr("d", line);
+
+  g.selectAll(".dot")
+     .attr("cx", function(d, i) { return x(d.date)})
+     .attr("cy", function(d) { return y(d.rank)});
+
+}
 
 </script>
 
