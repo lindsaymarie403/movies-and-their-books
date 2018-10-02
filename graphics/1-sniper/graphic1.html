@@ -362,7 +362,7 @@ function resize() {
        .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
    // book first appeared
-   g.selectAll(".curve")
+   g.selectAll(".first-curve")
      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; });
 
    g.selectAll(".first-text")
