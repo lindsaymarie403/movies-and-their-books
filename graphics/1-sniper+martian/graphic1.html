@@ -78,12 +78,12 @@ d3.csv("data1.csv", function(d) {
   y.domain([1,35]);
 
   g.append("g")
-      .attr("class", "grid")
+      .attr("class", "x-axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
   g.append("g")
-      .attr("class", "grid")
+    .attr("class", "y-axis")
       .call(d3.axisLeft(y).tickValues([1,5,10,15,20,25,30,35]).tickSize(5).tickPadding(8))
       .select(".domain")
         .remove()
@@ -94,7 +94,6 @@ d3.csv("data1.csv", function(d) {
       .attr("dy", "0.71em");
 
   g.append("text")
-		.attr("class","carter-name")
 		.attr("x", -15)
 		.attr("y", -35)
 		.text("Ranking on")
@@ -105,7 +104,6 @@ d3.csv("data1.csv", function(d) {
 		.attr("text-anchor","start");
 
   g.append("text")
-		.attr("class","carter-name")
 		.attr("x", -15)
 		.attr("y", -22)
 		.text("Best Sellers List")
@@ -117,6 +115,7 @@ d3.csv("data1.csv", function(d) {
 
   g.append("path")
       .datum(data)
+      .attr("class", "line")
       .attr("fill", "none")
       .attr("stroke", "#ff8368")
       .attr("stroke-linejoin", "round")
@@ -176,7 +175,7 @@ d3.csv("data1.csv", function(d) {
     //FIRST TRAILER RELEASED
     g.append("line")
   			.data(data)
-  			.attr("class","carter")
+  			.attr("class","trailer")
   			.attr("stroke-width", 1)
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("2-Oct-14")); })
@@ -186,7 +185,7 @@ d3.csv("data1.csv", function(d) {
         .style("stroke-dasharray", 2);
 
     g.append("text")
-  		.attr("class","carter-name")
+  		.attr("class","trailer-text")
   		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
   		.attr("y", -20)
   		.text("First trailer")
@@ -196,7 +195,7 @@ d3.csv("data1.csv", function(d) {
   		.attr("text-anchor","end");
 
     g.append("text")
-  		.attr("class","carter-name")
+  		.attr("class","trailer-text")
   		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
   		.attr("y", -7)
   		.text("released")
@@ -208,7 +207,7 @@ d3.csv("data1.csv", function(d) {
     //MOVIE IN THEATERS
   	g.append("line")
   			.data(data)
-  			.attr("class","carter")
+  			.attr("class","theaters-horiz")
   			.attr("stroke-width", 1)
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
@@ -218,7 +217,7 @@ d3.csv("data1.csv", function(d) {
 
     g.append("line")
         .data(data)
-        .attr("class","carter")
+        .attr("class","theaters-vert1")
         .attr("stroke-width", 1)
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
@@ -229,7 +228,7 @@ d3.csv("data1.csv", function(d) {
 
     g.append("line")
         .data(data)
-        .attr("class","carter")
+        .attr("class","theaters-vert2")
         .attr("stroke-width", 1)
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("25-Jun-15")); })
@@ -239,7 +238,7 @@ d3.csv("data1.csv", function(d) {
         .style("stroke-dasharray", 2);
 
   	g.append("text")
-  		.attr("class","carter-name")
+  		.attr("class","theaters-text")
   		.attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")); })
   		.attr("y", -15)
   		.text("Movie in theaters")
@@ -276,7 +275,7 @@ d3.csv("data1.csv", function(d) {
        .data(data)
        .style("text-anchor", "start")
        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
-       .attr("class","anno2017_1")
+       .attr("class","first-text")
        .attr("y", 65)
        .text("Book first appeared")
        .attr("font-size", "11px")
@@ -285,7 +284,7 @@ d3.csv("data1.csv", function(d) {
 
     g.append("text")
         .data(data)
-       .attr("class","anno2017_2")
+       .attr("class","first-text")
        .style("text-anchor", "start")
        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
         .attr("y", 78)
@@ -301,7 +300,7 @@ d3.select(window).on('resize', resize);
 
 function resize() {
 	console.log('----resize function----');
-  // update width
+
   width = parseInt(d3.select('#chart1').style("width"), 10);
   width = width - margin.left - margin.right;
 
@@ -309,22 +308,53 @@ function resize() {
   height = height - margin.top - margin.bottom;
 	console.log('----resize width----'+width);
 	console.log('----resize height----'+height);
-  // resize the chart
 
   x.rangeRound([0, width]);
   y.rangeRound([0, height]);
 
-  //xAxis.ticks(Math.max(width/50, 2));
-
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
 
-  //g.selectAll("path")
-  //    .attr("d", line);
+  g.selectAll(".line")
+      .attr("d", line);
 
   g.selectAll(".dot")
      .attr("cx", function(d, i) { return x(d.date)})
      .attr("cy", function(d) { return y(d.rank)});
+
+   g.selectAll(".x-axis")
+       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
+
+   // first trailer released
+   g.selectAll(".trailer")
+      .attr("x1", function(d) { return x(parseTime("2-Oct-14")); })
+      .attr("x2", function(d) { return x(parseTime("2-Oct-14")); });
+
+    g.selectAll(".trailer-text")
+      .attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; });
+
+    // movie in theaters
+    g.selectAll(".theaters-horiz")
+        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); });
+
+    g.selectAll(".theaters-vert1")
+        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("x2", function(d) { return x(parseTime("25-Dec-14")); });
+
+    g.selectAll(".theaters-vert2")
+        .attr("x1", function(d) { return x(parseTime("25-Jun-15")); })
+        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); });
+
+    g.selectAll(".theaters-text")
+      .attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")); });
+
+    // book first appeared
+    g.selectAll(".curve")
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; });
+
+    g.selectAll(".first-text")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ));
 
 }
 
