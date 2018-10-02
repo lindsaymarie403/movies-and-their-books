@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+<style>
+
+#movie-title {
+  margin: 20px 0px 0px 25px;
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+#chart1 {
+  max-width: 1000px;
+  min-width: 630px;
+}
+
+.grid path {
+  stroke: #aaaaaa;
+}
+
+.grid line {
+  stroke: #aaaaaa;
+}
+
+.grid text {
+  fill: #aaaaaa;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="movie-title">American Sniper</div>
+<div id="chart1"></div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+
+var margin = {top: 70, right: 20, bottom: 30, left: 50},
+    width = 1000 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+var svg = d3.select('#chart1')
+  .append('svg')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom);
+
+var parseTime = d3.timeParse("%d-%b-%y");
+
+var x = d3.scaleTime()
+    .rangeRound([0, width]);
+
+var y = d3.scaleLinear()
+    .rangeRound([0, height]);
+
+var line = d3.line()
+		.defined(function (d) { return d.rank !== 0; })
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.rank); });
+
+var arc = d3.arc()
+    .innerRadius(32)
+    .outerRadius(33)
+    .startAngle(-Math.PI / 4)
+    .endAngle(-Math.PI / 1.5);
+
+var arc2 = d3.arc()
+    .innerRadius(32)
+    .outerRadius(33)
+    .startAngle(Math.PI / 2)
+    .endAngle(Math.PI);
+
+var g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("data1.csv", function(d) {
+  d.date = parseTime(d.date);
+  d.rank = +d.rank;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  x.domain(d3.extent(data, function(d) { return d.date; }));
+  y.domain([1,35]);
+
+  g.append("g")
+      .attr("class", "x-axis")
+      .style("font-family","Poppins")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
+
+  g.append("g")
+    .attr("class", "y-axis")
+    .style("font-family","Poppins")
+      .call(d3.axisLeft(y).tickValues([1,5,10,15,20,25,30,35]).tickSize(5).tickPadding(8))
+      .select(".domain")
+        .remove();
+
+  g.append("text")
+		.attr("x", -15)
+		.attr("y", -35)
+		.text("Ranking on")
+    .attr("font-family","Poppins")
+		.attr("font-size", "10px")
+    .attr("font-weight", "500")
+		.attr("fill","#aaaaaa")
+		.attr("text-anchor","start");
+
+  g.append("text")
+		.attr("x", -15)
+		.attr("y", -22)
+		.text("Best Sellers List")
+    .attr("font-family","Poppins")
+		.attr("font-size", "10px")
+    .attr("font-weight", "500")
+		.attr("fill","#aaaaaa")
+		.attr("text-anchor","start");
+
+  var path = g.append("path")
+      .datum(data)
+      .attr("class", "line")
+      .attr("fill", "none")
+      .attr("stroke", "#ff8368")
+      .attr("stroke-linejoin", "round")
+      .attr("stroke-linecap", "round")
+      .attr("stroke-width", 1)
+      .attr("d", line);
+
+  var totalLength = path.node().getTotalLength();
+
+  // Set Properties of Dash Array and Dash Offset and initiate Transition
+  path
+  	.attr("stroke-dasharray", totalLength + " " + totalLength)
+  	.attr("stroke-dashoffset", totalLength)
+    .transition() // Call Transition Method
+  	.duration(4000) // Set Duration timing (ms)
+  	.ease(d3.easeLinear) // Set Easing option
+  	.attr("stroke-dashoffset", 0); // Set final value of dash-offset for transition
+
+  g.selectAll(".dot")
+     .data(data)
+   .enter().append("circle") // Uses the enter().append() method
+     .attr("class", "dot") // Assign a class for styling
+     .attr("opacity", "0")
+     .attr("cx", function(d, i) { return x(d.date)})
+     .attr("cy", function(d) { return y(d.rank)})
+     .attr("r", 2)
+     .attr("fill", "#ff8368")
+     .style("display", function(d) {
+        var disp;
+        if (d.rank === 0) { disp = "none";
+      } else { disp = "inline";
+        } return disp;
+      });
+
+    // BOOK FIRST APPEARED
+    defs = g.append("defs")
+
+    defs.append("marker")
+        .attr("id","arrow")
+         .attr("viewBox","0 -5 10 10")
+         .attr("refX",5)
+         .attr("refY",0)
+         .attr("markerWidth",4)
+         .attr("markerHeight",4)
+         .attr("orient","auto")
+         .attr("fill","#657bc6")
+        .append("path")
+            .attr("d", "M0,-5L10,0L0,5")
+            .attr("class","arrowHead");
+
+    g.append("path")
+      .data(data)
+      .attr("class","first-curve")
+      .attr("opacity", "0")
+      .attr("d", arc)
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
+      .attr("fill","#657bc6")
+      .attr("marker-end","url(#arrow)");
+
+   g.append("text")
+       .data(data)
+       .style("text-anchor", "start")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
+       .attr("class","first-text")
+       .attr("opacity", "0")
+       .attr("y", 65)
+       .text("Book first appeared")
+       .attr("font-size", "11px")
+       .attr("font-family","Poppins")
+       .attr("fill","#657bc6");
+
+    g.append("text")
+        .data(data)
+       .attr("class","first-text")
+       .attr("opacity", "0")
+       .style("text-anchor", "start")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
+        .attr("y", 78)
+        .text("on best sellers list")
+        .attr("font-size", "11px")
+        .attr("font-family","Poppins")
+        .attr("fill","#657bc6");
+
+    //BOOK DROPPED OFF LIST
+    g.append("path")
+      .data(data)
+      .attr("class","dropped-curve")
+      .attr("opacity", "0")
+      .attr("d", arc2)
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13"))) + ",80)"; })
+      .attr("fill","#657bc6")
+      .attr("marker-end","url(#arrow)");
+
+   g.append("text")
+       .data(data)
+       .style("text-anchor", "end")
+       .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ))
+       .attr("class","dropped-text")
+       .attr("opacity", "0")
+       .attr("y", 115)
+       .text("Book dropped")
+       .attr("font-size", "11px")
+       .attr("font-family","Poppins")
+       .attr("fill","#657bc6");
+
+    g.append("text")
+        .data(data)
+       .attr("class","dropped-text")
+       .attr("opacity", "0")
+       .style("text-anchor", "end")
+       .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ))
+        .attr("y", 128)
+        .text("off list")
+        .attr("font-size", "11px")
+        .attr("font-family","Poppins")
+        .attr("fill","#657bc6");
+
+    //FIRST TRAILER RELEASED
+    g.append("line")
+  			.data(data)
+  			.attr("class","trailer")
+        .attr("opacity", "0")
+  			.attr("stroke-width", 1)
+  			.attr("stroke", "#657bc6")
+  			.attr("x1", function(d) { return x(parseTime("2-Oct-14")); })
+  			.attr("x2", function(d) { return x(parseTime("2-Oct-14")); })
+  	    .attr("y1", -30)
+  			.attr("y2", height)
+        .style("stroke-dasharray", 2);
+
+    g.append("text")
+  		.attr("class","trailer-text")
+      .attr("opacity", "0")
+  		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
+  		.attr("y", -20)
+  		.text("First trailer")
+      .attr("font-family","Poppins")
+  		.attr("font-size", "11px")
+  		.attr("fill","#657bc6")
+  		.attr("text-anchor","end");
+
+    g.append("text")
+  		.attr("class","trailer-text")
+      .attr("opacity", "0")
+  		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
+  		.attr("y", -7)
+  		.text("released")
+      .attr("font-family","Poppins")
+  		.attr("font-size", "11px")
+  		.attr("fill","#657bc6")
+  		.attr("text-anchor","end");
+
+    //MOVIE IN THEATERS
+  	g.append("line")
+  			.data(data)
+  			.attr("class","theaters-horiz")
+        .attr("opacity", "0")
+  			.attr("stroke-width", 1)
+  			.attr("stroke", "#657bc6")
+  			.attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+  			.attr("x2", function(d) { return x(parseTime("25-Jun-15")); })
+  	    .attr("y1", -30)
+  			.attr("y2", -30);
+
+    g.append("line")
+        .data(data)
+        .attr("class","theaters-vert1")
+        .attr("opacity", "0")
+        .attr("stroke-width", 1)
+        .attr("stroke", "#657bc6")
+        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("x2", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("y1", -30)
+        .attr("y2", height)
+        .style("stroke-dasharray", 2);
+
+    g.append("line")
+        .data(data)
+        .attr("class","theaters-vert2")
+        .attr("opacity", "0")
+        .attr("stroke-width", 1)
+        .attr("stroke", "#657bc6")
+        .attr("x1", function(d) { return x(parseTime("25-Jun-15")); })
+        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); })
+        .attr("y1", -30)
+        .attr("y2", height)
+        .style("stroke-dasharray", 2);
+
+  	g.append("text")
+  		.attr("class","theaters-text")
+      .attr("opacity", "0")
+  		.attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")); })
+  		.attr("y", -15)
+  		.text("Movie in theaters")
+      .attr("font-family","Poppins")
+  		.attr("font-size", "11px")
+  		.attr("fill","#657bc6")
+  		.attr("text-anchor","middle");
+
+    // fade in annotations
+    d3.selectAll(".dot, .first-curve, .first, .first-text, .dropped-curve, .dropped-text, .trailer, .trailer-text, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
+      .delay(750)
+      .attr("opacity", "100")
+      .duration(10000);
+
+});
+
+document.addEventListener("DOMContentLoaded", resize);
+d3.select(window).on('resize', resize);
+
+function resize() {
+	console.log('----resize function----');
+
+  width = parseInt(d3.select('#chart1').style("width"), 10);
+  width = width - margin.left - margin.right;
+
+  height = parseInt(d3.select('#chart1').style("height"));
+  height = height - margin.top - margin.bottom;
+	console.log('----resize width----'+width);
+	console.log('----resize height----'+height);
+
+  x.rangeRound([0, width]);
+  y.rangeRound([0, height]);
+
+  d3.select(svg.node().parentNode)
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
+  g.selectAll(".line")
+      .attr("d", line);
+
+  g.selectAll(".dot")
+     .attr("cx", function(d, i) { return x(d.date)})
+     .attr("cy", function(d) { return y(d.rank)});
+
+   g.selectAll(".x-axis")
+       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
+
+   // book first appeared
+   g.selectAll(".curve")
+     .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; });
+
+   g.selectAll(".first-text")
+      .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ));
+
+   // book dropped off list
+   g.selectAll(".dropped-curve")
+     .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13"))) + ",80)"; });
+
+  g.selectAll(".dropped-text")
+      .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ));
+
+   // first trailer released
+   g.selectAll(".trailer")
+      .attr("x1", function(d) { return x(parseTime("2-Oct-14")); })
+      .attr("x2", function(d) { return x(parseTime("2-Oct-14")); });
+
+    g.selectAll(".trailer-text")
+      .attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; });
+
+    // movie in theaters
+    g.selectAll(".theaters-horiz")
+        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); });
+
+    g.selectAll(".theaters-vert1")
+        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("x2", function(d) { return x(parseTime("25-Dec-14")); });
+
+    g.selectAll(".theaters-vert2")
+        .attr("x1", function(d) { return x(parseTime("25-Jun-15")); })
+        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); });
+
+    g.selectAll(".theaters-text")
+      .attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")); });
+
+}
+
+</script>
+
+</body>

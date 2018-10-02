@@ -11,6 +11,11 @@
   font-size: 20px;
 }
 
+#chart1 {
+  max-width: 1000px;
+  min-width: 630px;
+}
+
 .grid path {
   stroke: #aaaaaa;
 }
@@ -29,7 +34,7 @@
 
 <body>
 
-<div id="movie-title">American Sniper</div>
+<div id="movie-title">The Martian</div>
 <div id="chart1"></div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -37,7 +42,7 @@
 <script>
 
 var margin = {top: 70, right: 20, bottom: 30, left: 50},
-    width = 750 - margin.left - margin.right,
+    width = 1000 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
 var svg = d3.select('#chart1')
@@ -64,10 +69,16 @@ var arc = d3.arc()
     .startAngle(-Math.PI / 4)
     .endAngle(-Math.PI / 1.5);
 
+var arc2 = d3.arc()
+    .innerRadius(32)
+    .outerRadius(33)
+    .startAngle(Math.PI / 2)
+    .endAngle(Math.PI);
+
 var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("data1.csv", function(d) {
+d3.csv("data2.csv", function(d) {
   d.date = parseTime(d.date);
   d.rank = +d.rank;
   return d;
@@ -75,23 +86,20 @@ d3.csv("data1.csv", function(d) {
   if (error) throw error;
 
   x.domain(d3.extent(data, function(d) { return d.date; }));
-  y.domain([1,35]);
+  y.domain([1,20]);
 
   g.append("g")
       .attr("class", "x-axis")
+      .style("font-family","Poppins")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
   g.append("g")
     .attr("class", "y-axis")
-      .call(d3.axisLeft(y).tickValues([1,5,10,15,20,25,30,35]).tickSize(5).tickPadding(8))
+    .style("font-family","Poppins")
+      .call(d3.axisLeft(y).tickValues([1,5,10,15,20]).tickSize(5).tickPadding(8))
       .select(".domain")
-        .remove()
-    .append("text")
-      .attr("fill", "#000")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", "0.71em");
+        .remove();
 
   g.append("text")
 		.attr("x", -15)
@@ -113,7 +121,7 @@ d3.csv("data1.csv", function(d) {
 		.attr("fill","#aaaaaa")
 		.attr("text-anchor","start");
 
-  g.append("path")
+  var path = g.append("path")
       .datum(data)
       .attr("class", "line")
       .attr("fill", "none")
@@ -123,10 +131,22 @@ d3.csv("data1.csv", function(d) {
       .attr("stroke-width", 1)
       .attr("d", line);
 
+  var totalLength = path.node().getTotalLength();
+
+  // Set Properties of Dash Array and Dash Offset and initiate Transition
+  path
+  	.attr("stroke-dasharray", totalLength + " " + totalLength)
+  	.attr("stroke-dashoffset", totalLength)
+    .transition() // Call Transition Method
+  	.duration(4000) // Set Duration timing (ms)
+  	.ease(d3.easeLinear) // Set Easing option
+  	.attr("stroke-dashoffset", 0); // Set final value of dash-offset for transition
+
   g.selectAll(".dot")
      .data(data)
    .enter().append("circle") // Uses the enter().append() method
      .attr("class", "dot") // Assign a class for styling
+     .attr("opacity", "0")
      .attr("cx", function(d, i) { return x(d.date)})
      .attr("cy", function(d) { return y(d.rank)})
      .attr("r", 2)
@@ -138,44 +158,11 @@ d3.csv("data1.csv", function(d) {
         } return disp;
       });
 
-    //BOOK RELEASED
-    /*
-    svg.append("line")
-        .data(data)
-        .attr("class","carter")
-        .attr("stroke-width", 1)
-        .attr("stroke", "#657bc6")
-        .attr("x1", function(d) { return x(parseTime("3-Jan-12")) + margin.left; })
-        .attr("x2", function(d) { return x(parseTime("3-Jan-12")) + margin.left; })
-        .attr("y1", margin.top/2)
-        .attr("y2", height + margin.top)
-        .style("stroke-dasharray", 2);
-
-    svg.append("text")
-  		.attr("class","carter-name")
-  		.attr("x", function(d) { return x(parseTime("3-Jan-12")) + 55; })
-  		.attr("y", (margin.top/2) + 10)
-  		.text("Book")
-      .attr("font-family","Poppins")
-  		.attr("font-size", "10px")
-  		.attr("fill","#657bc6")
-  		.attr("text-anchor","left");
-
-    svg.append("text")
-  		.attr("class","carter-name")
-  		.attr("x", function(d) { return x(parseTime("3-Jan-12")) + 55; })
-  		.attr("y", (margin.top/2) + 22)
-  		.text("released")
-      .attr("font-family","Poppins")
-  		.attr("font-size", "10px")
-  		.attr("fill","#657bc6")
-  		.attr("text-anchor","left");
-      */
-
     //FIRST TRAILER RELEASED
     g.append("line")
   			.data(data)
   			.attr("class","trailer")
+        .attr("opacity", "0")
   			.attr("stroke-width", 1)
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("2-Oct-14")); })
@@ -186,6 +173,7 @@ d3.csv("data1.csv", function(d) {
 
     g.append("text")
   		.attr("class","trailer-text")
+      .attr("opacity", "0")
   		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
   		.attr("y", -20)
   		.text("First trailer")
@@ -196,6 +184,7 @@ d3.csv("data1.csv", function(d) {
 
     g.append("text")
   		.attr("class","trailer-text")
+      .attr("opacity", "0")
   		.attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; })
   		.attr("y", -7)
   		.text("released")
@@ -208,20 +197,22 @@ d3.csv("data1.csv", function(d) {
   	g.append("line")
   			.data(data)
   			.attr("class","theaters-horiz")
+        .attr("opacity", "0")
   			.attr("stroke-width", 1)
   			.attr("stroke", "#657bc6")
-  			.attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
-  			.attr("x2", function(d) { return x(parseTime("25-Jun-15")); })
+  			.attr("x1", function(d) { return x(parseTime("02-Oct-15")); })
+  			.attr("x2", function(d) { return x(parseTime("17-Mar-16")); })
   	    .attr("y1", -30)
   			.attr("y2", -30);
 
     g.append("line")
         .data(data)
         .attr("class","theaters-vert1")
+        .attr("opacity", "0")
         .attr("stroke-width", 1)
         .attr("stroke", "#657bc6")
-        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
-        .attr("x2", function(d) { return x(parseTime("25-Dec-14")); })
+        .attr("x1", function(d) { return x(parseTime("02-Oct-15")); })
+        .attr("x2", function(d) { return x(parseTime("02-Oct-15")); })
         .attr("y1", -30)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
@@ -229,17 +220,19 @@ d3.csv("data1.csv", function(d) {
     g.append("line")
         .data(data)
         .attr("class","theaters-vert2")
+        .attr("opacity", "0")
         .attr("stroke-width", 1)
         .attr("stroke", "#657bc6")
-        .attr("x1", function(d) { return x(parseTime("25-Jun-15")); })
-        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); })
+        .attr("x1", function(d) { return x(parseTime("17-Mar-16")); })
+        .attr("x2", function(d) { return x(parseTime("17-Mar-16")); })
         .attr("y1", -30)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
   	g.append("text")
   		.attr("class","theaters-text")
-  		.attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")); })
+      .attr("opacity", "0")
+  		.attr("x", function(d) { return (x(parseTime("17-Mar-16")) - x(parseTime("02-Oct-15")))/2 + x(parseTime("02-Oct-15")); })
   		.attr("y", -15)
   		.text("Movie in theaters")
       .attr("font-family","Poppins")
@@ -247,51 +240,11 @@ d3.csv("data1.csv", function(d) {
   		.attr("fill","#657bc6")
   		.attr("text-anchor","middle");
 
-    defs = g.append("defs")
-
-    defs.append("marker")
-        .attr("id","arrow")
-         .attr("viewBox","0 -5 10 10")
-         .attr("refX",5)
-         .attr("refY",0)
-         .attr("markerWidth",4)
-         .attr("markerHeight",4)
-         .attr("orient","auto")
-         .attr("fill","#657bc6")
-        .append("path")
-            .attr("d", "M0,-5L10,0L0,5")
-            .attr("class","arrowHead");
-
-    // arrow pointing to first ranking
-    g.append("path")
-      .data(data)
-      .attr("class","curve")
-      .attr("d", arc)
-      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
-      .attr("fill","#657bc6")
-      .attr("marker-end","url(#arrow)");
-
-   g.append("text")
-       .data(data)
-       .style("text-anchor", "start")
-       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
-       .attr("class","first-text")
-       .attr("y", 65)
-       .text("Book first appeared")
-       .attr("font-size", "11px")
-       .attr("font-family","Poppins")
-       .attr("fill","#657bc6");
-
-    g.append("text")
-        .data(data)
-       .attr("class","first-text")
-       .style("text-anchor", "start")
-       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
-        .attr("y", 78)
-        .text("on best sellers list")
-        .attr("font-size", "11px")
-        .attr("font-family","Poppins")
-        .attr("fill","#657bc6");
+    // fade in annotations
+    d3.selectAll(".dot, .trailer, .trailer-text, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
+      .delay(750)
+      .attr("opacity", "100")
+      .duration(10000);
 
 });
 
@@ -327,34 +280,27 @@ function resize() {
 
    // first trailer released
    g.selectAll(".trailer")
-      .attr("x1", function(d) { return x(parseTime("2-Oct-14")); })
-      .attr("x2", function(d) { return x(parseTime("2-Oct-14")); });
+      .attr("x1", function(d) { return x(parseTime("8-Jun-15")); })
+      .attr("x2", function(d) { return x(parseTime("8-Jun-15")); });
 
     g.selectAll(".trailer-text")
-      .attr("x", function(d) { return x(parseTime("2-Oct-14"))- 10; });
+      .attr("x", function(d) { return x(parseTime("8-Jun-15"))- 10; });
 
     // movie in theaters
     g.selectAll(".theaters-horiz")
-        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
-        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); });
+        .attr("x1", function(d) { return x(parseTime("2-Oct-15")); })
+        .attr("x2", function(d) { return x(parseTime("17-Mar-16")); });
 
     g.selectAll(".theaters-vert1")
-        .attr("x1", function(d) { return x(parseTime("25-Dec-14")); })
-        .attr("x2", function(d) { return x(parseTime("25-Dec-14")); });
+        .attr("x1", function(d) { return x(parseTime("2-Oct-15")); })
+        .attr("x2", function(d) { return x(parseTime("02-Oct-15")); });
 
     g.selectAll(".theaters-vert2")
-        .attr("x1", function(d) { return x(parseTime("25-Jun-15")); })
-        .attr("x2", function(d) { return x(parseTime("25-Jun-15")); });
+        .attr("x1", function(d) { return x(parseTime("17-Mar-16")); })
+        .attr("x2", function(d) { return x(parseTime("17-Mar-16")); });
 
     g.selectAll(".theaters-text")
-      .attr("x", function(d) { return (x(parseTime("25-Jun-15")) - x(parseTime("25-Dec-14")))/2 + x(parseTime("25-Dec-14")); });
-
-    // book first appeared
-    g.selectAll(".curve")
-      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; });
-
-    g.selectAll(".first-text")
-       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ));
+      .attr("x", function(d) { return (x(parseTime("17-Mar-16")) - x(parseTime("2-Oct-15")))/2 + x(parseTime("2-Oct-15")); });
 
 }
 
