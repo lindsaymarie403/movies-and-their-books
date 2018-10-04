@@ -21,7 +21,7 @@
 
 #chart1 {
   max-width: 1000px;
-  min-width: 630px;
+  min-width: 600px;
 }
 
 .grid path {
@@ -51,9 +51,10 @@
 
 <body>
 
-<div id="title">When their movie adaptations are released, books often get a big boost on the best sellers list.</div>
+<div id="title">Now, let's overlay the graph with the dates of the trailer release and theatrical showings.</div>
 <div id="movie-title">American Sniper</div>
 <div id="chart1"></div>
+<div id="title">The movie gives the book a big boost.</div>
 <a href="../2-martian/graphic2.html"><div id="button">Next</div></a>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -159,7 +160,6 @@ d3.csv("data1.csv", function(d) {
     g.append("path")
       .data(data)
       .attr("class","first-curve")
-      .attr("opacity", "0")
       .attr("d", arc)
       .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
       .attr("fill","#657bc6")
@@ -170,7 +170,6 @@ d3.csv("data1.csv", function(d) {
        .style("text-anchor", "start")
        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
        .attr("class","first-text")
-       .attr("opacity", "0")
        .attr("y", 65)
        .text("Book first appeared")
        .attr("font-size", "11px")
@@ -180,7 +179,6 @@ d3.csv("data1.csv", function(d) {
     g.append("text")
         .data(data)
        .attr("class","first-text")
-       .attr("opacity", "0")
        .style("text-anchor", "start")
        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
         .attr("y", 78)
@@ -193,7 +191,6 @@ d3.csv("data1.csv", function(d) {
     g.append("path")
       .data(data)
       .attr("class","dropped-curve")
-      .attr("opacity", "0")
       .attr("d", arc2)
       .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13"))) + ",80)"; })
       .attr("fill","#657bc6")
@@ -204,7 +201,6 @@ d3.csv("data1.csv", function(d) {
        .style("text-anchor", "end")
        .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ))
        .attr("class","dropped-text")
-       .attr("opacity", "0")
        .attr("y", 115)
        .text("Book dropped")
        .attr("font-size", "11px")
@@ -214,7 +210,6 @@ d3.csv("data1.csv", function(d) {
     g.append("text")
         .data(data)
        .attr("class","dropped-text")
-       .attr("opacity", "0")
        .style("text-anchor", "end")
        .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ))
         .attr("y", 128)
@@ -325,22 +320,10 @@ d3.csv("data1.csv", function(d) {
         .attr("stroke-width", 1)
         .attr("d", line);
 
-    var totalLength = path.node().getTotalLength();
-
-    // Set Properties of Dash Array and Dash Offset and initiate Transition
-    path
-    	.attr("stroke-dasharray", totalLength + " " + totalLength)
-    	.attr("stroke-dashoffset", totalLength)
-      .transition() // Call Transition Method
-    	.duration(4000) // Set Duration timing (ms)
-    	.ease(d3.easeLinear) // Set Easing option
-    	.attr("stroke-dashoffset", 0); // Set final value of dash-offset for transition
-
     g.selectAll(".dot")
        .data(data)
      .enter().append("circle") // Uses the enter().append() method
        .attr("class", "dot") // Assign a class for styling
-       .attr("opacity", "0")
        .attr("cx", function(d, i) { return x(d.date)})
        .attr("cy", function(d) { return y(d.rank)})
        .attr("r", 2)
@@ -353,8 +336,8 @@ d3.csv("data1.csv", function(d) {
         });
 
     // fade in annotations
-    d3.selectAll(".dot, .first-curve, .first, .first-text, .dropped-curve, .dropped-text, .trailer, .trailer-text, .theaters-block, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
-      .delay(750)
+    d3.selectAll(".trailer, .trailer-text, .theaters-block, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
+      .delay(10)
       .attr("opacity", "100")
       .duration(10000);
 
