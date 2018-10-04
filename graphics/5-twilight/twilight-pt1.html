@@ -5,6 +5,14 @@
 
 <style>
 
+#title {
+  font-family: 'Droid Serif';
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
 #movie-title {
   margin: 20px 0px 20px 25px;
   font-family: 'Poppins';
@@ -28,14 +36,25 @@
   fill: #aaaaaa;
 }
 
+#button {
+  width: 100px;
+  margin: 40px auto 0px auto;
+  padding: 10px;
+  background-color: #d3d3d3;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
 </style>
 
 </head>
 
 <body>
 
+<div id="title">When it comes to book series, popularity spikes near the beginning.</div>
 <div id="movie-title">Twilight</div>
 <div id="chart1"></div>
+<a href="twilight-pt2.html"><div id="button">Next</div></a>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
@@ -127,10 +146,10 @@ d3.csv("pt1.csv", function(d) {
         .attr("class", "theaters-block")
         .attr("opacity", "0")
   			.attr("width", function(d) { return x(parseTime("2-Apr-09")) - x(parseTime("21-Nov-08")); })
-  			.attr("height", height + margin.bottom)
+  			.attr("height", height + margin.bottom - 15)
   			.attr("fill", "#e8f0fc")
   			.attr("x", function(d) { return x(parseTime("21-Nov-08")); })
-  	    .attr("y", -margin.bottom);
+  	    .attr("y", -margin.bottom + 15);
 
 
   	g.append("line")
@@ -141,8 +160,8 @@ d3.csv("pt1.csv", function(d) {
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("21-Nov-08")); })
   			.attr("x2", function(d) { return x(parseTime("2-Apr-09")); })
-  	    .attr("y1", -30)
-  			.attr("y2", -30);
+  	    .attr("y1", -15)
+  			.attr("y2", -15);
 
     g.append("line")
         .data(data)
@@ -152,7 +171,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("21-Nov-08")); })
         .attr("x2", function(d) { return x(parseTime("21-Nov-08")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -164,7 +183,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("2-Apr-09")); })
         .attr("x2", function(d) { return x(parseTime("2-Apr-09")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -172,7 +191,7 @@ d3.csv("pt1.csv", function(d) {
   		.attr("class","theaters-text")
       .attr("opacity", "0")
   		.attr("x", function(d) { return (x(parseTime("2-Apr-09")) - x(parseTime("21-Nov-08")))/2 + x(parseTime("21-Nov-08")); })
-  		.attr("y", -15)
+  		.attr("y", -20)
   		.text("First movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
@@ -185,10 +204,10 @@ d3.csv("pt1.csv", function(d) {
         .attr("class", "theaters2-block")
         .attr("opacity", "0")
         .attr("width", function(d) { return x(parseTime("1-Apr-10")) - x(parseTime("20-Nov-09")); })
-        .attr("height", height + margin.bottom)
+        .attr("height", height + margin.bottom - 15)
         .attr("fill", "#e8f0fc")
         .attr("x", function(d) { return x(parseTime("20-Nov-09")); })
-        .attr("y", -margin.bottom);
+        .attr("y", -margin.bottom + 15);
 
   	g.append("line")
   			.data(data)
@@ -198,8 +217,8 @@ d3.csv("pt1.csv", function(d) {
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("20-Nov-09")); })
   			.attr("x2", function(d) { return x(parseTime("1-Apr-10")); })
-  	    .attr("y1", -30)
-  			.attr("y2", -30);
+  	    .attr("y1", -15)
+  			.attr("y2", -15);
 
     g.append("line")
         .data(data)
@@ -209,7 +228,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("20-Nov-09")); })
         .attr("x2", function(d) { return x(parseTime("20-Nov-09")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -221,7 +240,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("1-Apr-10")); })
         .attr("x2", function(d) { return x(parseTime("1-Apr-10")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -229,7 +248,7 @@ d3.csv("pt1.csv", function(d) {
   		.attr("class","theaters2-text")
       .attr("opacity", "0")
   		.attr("x", function(d) { return (x(parseTime("1-Apr-10")) - x(parseTime("20-Nov-09")))/2 + x(parseTime("20-Nov-09")); })
-  		.attr("y", -15)
+  		.attr("y", -20)
   		.text("Second movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
@@ -242,10 +261,10 @@ d3.csv("pt1.csv", function(d) {
         .attr("class", "theaters3-block")
         .attr("opacity", "0")
         .attr("width", function(d) { return x(parseTime("21-Oct-10")) - x(parseTime("30-Jun-10")); })
-        .attr("height", height + margin.bottom)
+        .attr("height", height + margin.bottom - 15)
         .attr("fill", "#e8f0fc")
         .attr("x", function(d) { return x(parseTime("30-Jun-10")); })
-        .attr("y", -margin.bottom);
+        .attr("y", -margin.bottom + 15);
 
   	g.append("line")
   			.data(data)
@@ -255,8 +274,8 @@ d3.csv("pt1.csv", function(d) {
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("30-Jun-10")); })
   			.attr("x2", function(d) { return x(parseTime("21-Oct-10")); })
-  	    .attr("y1", -30)
-  			.attr("y2", -30);
+  	    .attr("y1", -15)
+  			.attr("y2", -15);
 
     g.append("line")
         .data(data)
@@ -266,7 +285,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("30-Jun-10")); })
         .attr("x2", function(d) { return x(parseTime("30-Jun-10")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -278,7 +297,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("21-Oct-10")); })
         .attr("x2", function(d) { return x(parseTime("21-Oct-10")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -286,7 +305,7 @@ d3.csv("pt1.csv", function(d) {
   		.attr("class","theaters3-text")
       .attr("opacity", "0")
   		.attr("x", function(d) { return (x(parseTime("21-Oct-10")) - x(parseTime("30-Jun-10")))/2 + x(parseTime("30-Jun-10")); })
-  		.attr("y", -15)
+  		.attr("y", -20)
   		.text("Third movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
@@ -346,14 +365,9 @@ function resize() {
 
   width = parseInt(d3.select('#chart1').style("width"), 10);
   width = width - margin.left - margin.right;
-
-  height = parseInt(d3.select('#chart1').style("height"));
-  height = height - margin.top - margin.bottom;
 	console.log('----resize width----'+width);
-	console.log('----resize height----'+height);
 
   x.rangeRound([0, width]);
-  y.rangeRound([0, height]);
 
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
@@ -370,8 +384,8 @@ function resize() {
 
     // movie in theaters - first
     g.selectAll(".theaters-block")
-    .attr("width", function(d) { return x(parseTime("2-Apr-09")) - x(parseTime("21-Nov-08")); })
-    .attr("x", function(d) { return x(parseTime("21-Nov-08")); });
+        .attr("width", function(d) { return x(parseTime("2-Apr-09")) - x(parseTime("21-Nov-08")); })
+        .attr("x", function(d) { return x(parseTime("21-Nov-08")); });
 
     g.selectAll(".theaters-horiz")
         .attr("x1", function(d) { return x(parseTime("21-Nov-08")); })

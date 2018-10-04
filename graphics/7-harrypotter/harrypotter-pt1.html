@@ -5,6 +5,14 @@
 
 <style>
 
+#title {
+  font-family: 'Droid Serif';
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
 #movie-title {
   margin: 20px 0px 20px 25px;
   font-family: 'Poppins';
@@ -28,14 +36,25 @@
   fill: #aaaaaa;
 }
 
+#button {
+  width: 100px;
+  margin: 40px auto 0px auto;
+  padding: 10px;
+  background-color: #d3d3d3;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
 </style>
 
 </head>
 
 <body>
 
+<div id="title">Harry Potter's popularity varies over its last three movie releases.</div>
 <div id="movie-title">Harry Potter</div>
 <div id="chart1"></div>
+<a href="harrypotter-pt2.html"><div id="button">Next</div></a>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
@@ -121,44 +140,17 @@ d3.csv("pt1.csv", function(d) {
 		.attr("fill","#aaaaaa")
 		.attr("text-anchor","start");
 
-  var path = g.append("path")
-      .datum(data)
-      .attr("class", "line")
-      .attr("fill", "none")
-      .attr("stroke", "#ff8368")
-      .attr("stroke-linejoin", "round")
-      .attr("stroke-linecap", "round")
-      .attr("stroke-width", 1)
-      .attr("d", line);
-
-  var totalLength = path.node().getTotalLength();
-
-  // Set Properties of Dash Array and Dash Offset and initiate Transition
-  path
-  	.attr("stroke-dasharray", totalLength + " " + totalLength)
-  	.attr("stroke-dashoffset", totalLength)
-    .transition() // Call Transition Method
-  	.duration(1500) // Set Duration timing (ms)
-  	.ease(d3.easeLinear) // Set Easing option
-  	.attr("stroke-dashoffset", 0); // Set final value of dash-offset for transition
-
-  g.selectAll(".dot")
-     .data(data)
-   .enter().append("circle") // Uses the enter().append() method
-     .attr("class", "dot") // Assign a class for styling
-     .attr("opacity", "0")
-     .attr("cx", function(d, i) { return x(d.date)})
-     .attr("cy", function(d) { return y(d.rank)})
-     .attr("r", 2)
-     .attr("fill", "#ff8368")
-     .style("display", function(d) {
-        var disp;
-        if (d.rank === 0) { disp = "none";
-      } else { disp = "inline";
-        } return disp;
-      });
-
     //MOVIE IN THEATERS - FIRST
+    g.append("rect")
+        .data(data)
+        .attr("class", "theaters-block")
+        .attr("opacity", "0")
+        .attr("width", function(d) { return x(parseTime("17-Dec-09")) - x(parseTime("15-Jul-09")); })
+        .attr("height", height + margin.bottom - 15)
+        .attr("fill", "#e8f0fc")
+        .attr("x", function(d) { return x(parseTime("15-Jul-09")); })
+        .attr("y", -margin.bottom + 15);
+
   	g.append("line")
   			.data(data)
   			.attr("class","theaters-horiz")
@@ -167,8 +159,8 @@ d3.csv("pt1.csv", function(d) {
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("15-Jul-09")); })
   			.attr("x2", function(d) { return x(parseTime("17-Dec-09")); })
-  	    .attr("y1", -30)
-  			.attr("y2", -30);
+  	    .attr("y1", -15)
+  			.attr("y2", -15);
 
     g.append("line")
         .data(data)
@@ -178,7 +170,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("15-Jul-09")); })
         .attr("x2", function(d) { return x(parseTime("15-Jul-09")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -190,7 +182,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("17-Dec-09")); })
         .attr("x2", function(d) { return x(parseTime("17-Dec-09")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -198,7 +190,7 @@ d3.csv("pt1.csv", function(d) {
   		.attr("class","theaters-text")
       .attr("opacity", "0")
   		.attr("x", function(d) { return (x(parseTime("17-Dec-09")) - x(parseTime("15-Jul-09")))/2 + x(parseTime("15-Jul-09")); })
-  		.attr("y", -15)
+  		.attr("y", -20)
   		.text("Sixth movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
@@ -206,6 +198,16 @@ d3.csv("pt1.csv", function(d) {
   		.attr("text-anchor","middle");
 
     //MOVIE IN THEATERS - SECOND
+    g.append("rect")
+        .data(data)
+        .attr("class", "theaters2-block")
+        .attr("opacity", "0")
+        .attr("width", function(d) { return x(parseTime("7-Apr-11")) - x(parseTime("19-Nov-10")); })
+        .attr("height", height + margin.bottom - 15)
+        .attr("fill", "#e8f0fc")
+        .attr("x", function(d) { return x(parseTime("19-Nov-10")); })
+        .attr("y", -margin.bottom + 15);
+
   	g.append("line")
   			.data(data)
   			.attr("class","theaters2-horiz")
@@ -214,8 +216,8 @@ d3.csv("pt1.csv", function(d) {
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("19-Nov-10")); })
   			.attr("x2", function(d) { return x(parseTime("7-Apr-11")); })
-  	    .attr("y1", -30)
-  			.attr("y2", -30);
+  	    .attr("y1", -15)
+  			.attr("y2", -15);
 
     g.append("line")
         .data(data)
@@ -225,7 +227,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("19-Nov-10")); })
         .attr("x2", function(d) { return x(parseTime("19-Nov-10")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -237,7 +239,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("7-Apr-11")); })
         .attr("x2", function(d) { return x(parseTime("7-Apr-11")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -245,7 +247,7 @@ d3.csv("pt1.csv", function(d) {
   		.attr("class","theaters2-text")
       .attr("opacity", "0")
   		.attr("x", function(d) { return (x(parseTime("7-Apr-11")) - x(parseTime("19-Nov-10")))/2 + x(parseTime("19-Nov-10")); })
-  		.attr("y", -15)
+  		.attr("y", -20)
   		.text("Seventh movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
@@ -253,6 +255,16 @@ d3.csv("pt1.csv", function(d) {
   		.attr("text-anchor","middle");
 
     //MOVIE IN THEATERS - THIRD
+    g.append("rect")
+        .data(data)
+        .attr("class", "theaters3-block")
+        .attr("opacity", "0")
+        .attr("width", function(d) { return x(parseTime("24-Nov-11")) - x(parseTime("15-Jul-11")); })
+        .attr("height", height + margin.bottom - 15)
+        .attr("fill", "#e8f0fc")
+        .attr("x", function(d) { return x(parseTime("15-Jul-11")); })
+        .attr("y", -margin.bottom + 15);
+
   	g.append("line")
   			.data(data)
   			.attr("class","theaters3-horiz")
@@ -261,8 +273,8 @@ d3.csv("pt1.csv", function(d) {
   			.attr("stroke", "#657bc6")
   			.attr("x1", function(d) { return x(parseTime("15-Jul-11")); })
   			.attr("x2", function(d) { return x(parseTime("24-Nov-11")); })
-  	    .attr("y1", -30)
-  			.attr("y2", -30);
+  	    .attr("y1", -15)
+  			.attr("y2", -15);
 
     g.append("line")
         .data(data)
@@ -272,7 +284,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("15-Jul-11")); })
         .attr("x2", function(d) { return x(parseTime("15-Jul-11")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -284,7 +296,7 @@ d3.csv("pt1.csv", function(d) {
         .attr("stroke", "#657bc6")
         .attr("x1", function(d) { return x(parseTime("24-Nov-11")); })
         .attr("x2", function(d) { return x(parseTime("24-Nov-11")); })
-        .attr("y1", -30)
+        .attr("y1", -15)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -292,15 +304,52 @@ d3.csv("pt1.csv", function(d) {
   		.attr("class","theaters3-text")
       .attr("opacity", "0")
   		.attr("x", function(d) { return (x(parseTime("24-Nov-11")) - x(parseTime("15-Jul-11")))/2 + x(parseTime("15-Jul-11")); })
-  		.attr("y", -15)
+  		.attr("y", -20)
   		.text("Eighth movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
   		.attr("fill","#657bc6")
   		.attr("text-anchor","middle");
 
+    var path = g.append("path")
+        .datum(data)
+        .attr("class", "line")
+        .attr("fill", "none")
+        .attr("stroke", "#ff8368")
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .attr("stroke-width", 1)
+        .attr("d", line);
+
+    var totalLength = path.node().getTotalLength();
+
+    // Set Properties of Dash Array and Dash Offset and initiate Transition
+    path
+    	.attr("stroke-dasharray", totalLength + " " + totalLength)
+    	.attr("stroke-dashoffset", totalLength)
+      .transition() // Call Transition Method
+    	.duration(1500) // Set Duration timing (ms)
+    	.ease(d3.easeLinear) // Set Easing option
+    	.attr("stroke-dashoffset", 0); // Set final value of dash-offset for transition
+
+    g.selectAll(".dot")
+       .data(data)
+     .enter().append("circle") // Uses the enter().append() method
+       .attr("class", "dot") // Assign a class for styling
+       .attr("opacity", "0")
+       .attr("cx", function(d, i) { return x(d.date)})
+       .attr("cy", function(d) { return y(d.rank)})
+       .attr("r", 2)
+       .attr("fill", "#ff8368")
+       .style("display", function(d) {
+          var disp;
+          if (d.rank === 0) { disp = "none";
+        } else { disp = "inline";
+          } return disp;
+        });
+
     // fade in annotations
-    d3.selectAll(".dot, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text, .theaters2-horiz, .theaters2-vert1, .theaters2-vert2, .theaters2-text, .theaters3-horiz, .theaters3-vert1, .theaters3-vert2, .theaters3-text").transition()
+    d3.selectAll(".dot, .theaters-block, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text, .theaters2-block, .theaters2-horiz, .theaters2-vert1, .theaters2-vert2, .theaters2-text, .theaters3-block, .theaters3-horiz, .theaters3-vert1, .theaters3-vert2, .theaters3-text").transition()
       .delay(750)
       .attr("opacity", "100")
       .duration(10000);
@@ -315,14 +364,9 @@ function resize() {
 
   width = parseInt(d3.select('#chart1').style("width"), 10);
   width = width - margin.left - margin.right;
-
-  height = parseInt(d3.select('#chart1').style("height"));
-  height = height - margin.top - margin.bottom;
 	console.log('----resize width----'+width);
-	console.log('----resize height----'+height);
 
   x.rangeRound([0, width]);
-  y.rangeRound([0, height]);
 
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
@@ -338,6 +382,10 @@ function resize() {
        .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
     // movie in theaters - first
+    g.selectAll(".theaters-block")
+        .attr("width", function(d) { return x(parseTime("17-Dec-09")) - x(parseTime("15-Jul-09")); })
+        .attr("x", function(d) { return x(parseTime("15-Jul-09")); });
+
     g.selectAll(".theaters-horiz")
         .attr("x1", function(d) { return x(parseTime("15-Jul-09")); })
         .attr("x2", function(d) { return x(parseTime("17-Dec-09")); });
@@ -354,6 +402,10 @@ function resize() {
       .attr("x", function(d) { return (x(parseTime("17-Dec-09")) - x(parseTime("15-Jul-09")))/2 + x(parseTime("15-Jul-09")); });
 
     // movie in theaters - second
+    g.selectAll(".theaters2-block")
+        .attr("width", function(d) { return x(parseTime("7-Apr-11")) - x(parseTime("19-Nov-10")); })
+        .attr("x", function(d) { return x(parseTime("19-Nov-10")); });
+
     g.selectAll(".theaters2-horiz")
         .attr("x1", function(d) { return x(parseTime("19-Nov-10")); })
         .attr("x2", function(d) { return x(parseTime("7-Apr-11")); });
@@ -370,6 +422,10 @@ function resize() {
       .attr("x", function(d) { return (x(parseTime("7-Apr-11")) - x(parseTime("19-Nov-10")))/2 + x(parseTime("19-Nov-10")); });
 
     // movie in theaters - third
+    g.selectAll(".theaters3-block")
+        .attr("width", function(d) { return x(parseTime("24-Nov-11")) - x(parseTime("15-Jul-11")); })
+        .attr("x", function(d) { return x(parseTime("15-Jul-11")); });
+
     g.selectAll(".theaters3-horiz")
         .attr("x1", function(d) { return x(parseTime("15-Jul-11")); })
         .attr("x2", function(d) { return x(parseTime("24-Nov-11")); });

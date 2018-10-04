@@ -5,6 +5,14 @@
 
 <style>
 
+#title {
+  font-family: 'Droid Serif';
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
 #movie-title {
   margin: 20px 0px 20px 25px;
   font-family: 'Poppins';
@@ -28,14 +36,25 @@
   fill: #aaaaaa;
 }
 
+#button {
+  width: 100px;
+  margin: 40px auto 0px auto;
+  padding: 10px;
+  background-color: #d3d3d3;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
 </style>
 
 </head>
 
 <body>
 
+<div id="title">But in the years since the movies concluded, it has experienced a resurgence unmatched by other series.</div>
 <div id="movie-title">Harry Potter</div>
 <div id="chart1"></div>
+<a href="../1-opener.html"><div id="button">Start</div></a>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
@@ -315,14 +334,9 @@ function resize() {
 
   width = parseInt(d3.select('#chart1').style("width"), 10);
   width = width - margin.left - margin.right;
-
-  height = parseInt(d3.select('#chart1').style("height"));
-  height = height - margin.top - margin.bottom;
 	console.log('----resize width----'+width);
-	console.log('----resize height----'+height);
 
   x.rangeRound([0, width]);
-  y.rangeRound([0, height]);
 
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
