@@ -10,9 +10,32 @@ html, body {
 }
 
 body {
-   background-image: url("sniper.jpg");
+  margin: 0px;
+   background-image: url("sniper2.jpg");
    background-size: auto 100%;
    background-repeat: no-repeat;
+   background-position: center;
+}
+
+#project {
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#project-line {
+  width: 100%
+  height: 20px;
+  background-color: #93989b;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.5;
 }
 
 #title {
@@ -20,33 +43,17 @@ body {
   font-size: 24px;
   font-weight: 700;
   margin-top: 25px auto 25px auto;
-  padding: 50px 10% 50px 10%;
-  color: white;
+  padding: 50px 15% 50px 15%;
+  color: #212121;
   text-align: center;
 }
 
-#left {
-  margin-left: 5%
-  width: 20%;
-  float: left;
-}
-
-#thumbnail {
-  max-width: 150px;
-}
-
-#right {
-  margin-right: 5%;
-  width: 70%;
-  float: left;
-}
-
 #movie-title {
-  margin: 0px 0px 0px 5%;
   font-family: 'Poppins';
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 20px;
   color: white;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #movie-details {
@@ -59,18 +66,20 @@ body {
 #chart1 {
   max-width: 1000px;
   min-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.grid path {
-  stroke: #aaaaaa;
+.x-axis path, .y-axis path {
+  stroke: #212121;
 }
 
-.grid line {
-  stroke: #aaaaaa;
+.x-axis line, .y-axis line {
+  stroke: #212121;
 }
 
-.grid text {
-  fill: #aaaaaa;
+.x-axis text, .y-axis text {
+  fill: #212121;
 }
 
 #button {
@@ -89,16 +98,12 @@ body {
 
 <body>
 
-<div id="title">To understand this trend, look at lifetime rankings of the American Sniper book on the New York Times Best Sellers List.</div>
-<div id="left">
-  <img id="thumbnail" src="sniper-book.png">
-  <div id="movie-title">American Sniper</div>
-  <div id="movie-details">Book: 2014</div>
-  <div id="movie-details">Movie: 2015</div>
+<div id="project-line">
+  <div id="project">Books + Their Movies</div>
 </div>
-<div id="right">
-  <div id="chart1"></div>
-</div>
+<div id="title">To understand this trend, look at lifetime rankings of American Sniper on the New York Times Best Sellers List.</div>
+<div id="movie-title">American Sniper</div>
+<div id="chart1"></div>
 <a href="sniper-pt2.html"><div id="button">Next</div></a>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -107,7 +112,7 @@ body {
 
 var margin = {top: 70, right: 20, bottom: 30, left: 50},
     width = 1000 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+    height = 400 - margin.top - margin.bottom;
 
 var svg = d3.select('#chart1')
   .append('svg')
@@ -128,13 +133,13 @@ var line = d3.line()
     .y(function(d) { return y(d.rank); });
 
 var arc = d3.arc()
-    .innerRadius(32)
+    .innerRadius(31)
     .outerRadius(33)
     .startAngle(-Math.PI / 4)
     .endAngle(-Math.PI / 1.5);
 
 var arc2 = d3.arc()
-    .innerRadius(32)
+    .innerRadius(31)
     .outerRadius(33)
     .startAngle(Math.PI / 2)
     .endAngle(Math.PI);
@@ -155,7 +160,6 @@ d3.csv("data1.csv", function(d) {
   g.append("g")
       .attr("class", "x-axis")
       .style("font-family","Poppins")
-      .attr("color", "white")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
@@ -172,8 +176,8 @@ d3.csv("data1.csv", function(d) {
 		.text("Ranking on")
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
-    .attr("font-weight", "500")
-		.attr("fill","#aaaaaa")
+    .attr("font-weight", "600")
+		.attr("fill","#212121")
 		.attr("text-anchor","start");
 
   g.append("text")
@@ -182,8 +186,8 @@ d3.csv("data1.csv", function(d) {
 		.text("Best Sellers List")
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
-    .attr("font-weight", "500")
-		.attr("fill","#aaaaaa")
+    .attr("font-weight", "600")
+		.attr("fill","#212121")
 		.attr("text-anchor","start");
 
     // BOOK FIRST APPEARED
@@ -197,7 +201,7 @@ d3.csv("data1.csv", function(d) {
          .attr("markerWidth",4)
          .attr("markerHeight",4)
          .attr("orient","auto")
-         .attr("fill","#657bc6")
+         .attr("fill","#008ffc")
         .append("path")
             .attr("d", "M0,-5L10,0L0,5")
             .attr("class","arrowHead");
@@ -208,7 +212,7 @@ d3.csv("data1.csv", function(d) {
       .attr("opacity", "0")
       .attr("d", arc)
       .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
-      .attr("fill","#657bc6")
+      .attr("fill","#008ffc")
       .attr("marker-end","url(#arrow)");
 
    g.append("text")
@@ -217,11 +221,12 @@ d3.csv("data1.csv", function(d) {
        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
        .attr("class","first-text")
        .attr("opacity", "0")
-       .attr("y", 65)
-       .text("Book first appeared")
+       .attr("y", 70)
+       .text("Book first")
        .attr("font-size", "11px")
        .attr("font-family","Poppins")
-       .attr("fill","#657bc6");
+       .attr("font-weight", "600")
+       .attr("fill","#008ffc");
 
     g.append("text")
         .data(data)
@@ -229,11 +234,12 @@ d3.csv("data1.csv", function(d) {
        .attr("opacity", "0")
        .style("text-anchor", "start")
        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
-        .attr("y", 78)
-        .text("on best sellers list")
+        .attr("y", 83)
+        .text("appeared on list")
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
-        .attr("fill","#657bc6");
+        .attr("font-weight", "600")
+        .attr("fill","#008ffc");
 
     //BOOK DROPPED OFF LIST
     g.append("path")
@@ -241,42 +247,44 @@ d3.csv("data1.csv", function(d) {
       .attr("class","dropped-curve")
       .attr("opacity", "0")
       .attr("d", arc2)
-      .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13"))) + ",80)"; })
-      .attr("fill","#657bc6")
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13")) - 5) + ",100)"; })
+      .attr("fill","#008ffc")
       .attr("marker-end","url(#arrow)");
 
    g.append("text")
        .data(data)
        .style("text-anchor", "end")
-       .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ))
+       .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 10); }  ))
        .attr("class","dropped-text")
        .attr("opacity", "0")
-       .attr("y", 115)
+       .attr("y", 130)
        .text("Book dropped")
        .attr("font-size", "11px")
        .attr("font-family","Poppins")
-       .attr("fill","#657bc6");
+       .attr("font-weight", "600")
+       .attr("fill","#008ffc");
 
     g.append("text")
         .data(data)
        .attr("class","dropped-text")
        .attr("opacity", "0")
        .style("text-anchor", "end")
-       .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ))
-        .attr("y", 128)
+       .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 10); }  ))
+        .attr("y", 145)
         .text("off list")
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
-        .attr("fill","#657bc6");
+        .attr("font-weight", "600")
+        .attr("fill","#008ffc");
 
     var path = g.append("path")
         .datum(data)
         .attr("class", "line")
         .attr("fill", "none")
-        .attr("stroke", "#ff8368")
+        .attr("stroke", "#ff143f")
         .attr("stroke-linejoin", "round")
         .attr("stroke-linecap", "round")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("d", line);
 
     var totalLength = path.node().getTotalLength();
@@ -298,7 +306,7 @@ d3.csv("data1.csv", function(d) {
        .attr("cx", function(d, i) { return x(d.date)})
        .attr("cy", function(d) { return y(d.rank)})
        .attr("r", 2)
-       .attr("fill", "#ff8368")
+       .attr("fill", "#ff143f")
        .style("display", function(d) {
           var disp;
           if (d.rank === 0) { disp = "none";
@@ -348,10 +356,10 @@ function resize() {
 
    // book dropped off list
    g.selectAll(".dropped-curve")
-     .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13"))) + ",80)"; });
+     .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13")) - 5) + ",100)"; });
 
   g.selectAll(".dropped-text")
-      .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 5); }  ));
+      .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 10); }  ));
 }
 
 </script>
