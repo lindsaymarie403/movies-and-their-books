@@ -32,7 +32,7 @@ body {
 #project-line {
   width: 100%
   height: 20px;
-  background-color: #111426;
+  background-color: #212121;
   margin: 0px;
   padding: 0px;
 }
@@ -152,7 +152,7 @@ d3.csv("data3.csv", function(d) {
 }, function(error, data) {
   if (error) throw error;
 
-  x.domain(d3.extent(data, function(d) { return d.date; }));
+  x.domain([parseTime("15-Apr-02"),parseTime("25-Jul-10")]);
   y.domain([1,10]);
 
   g.append("g")
@@ -206,7 +206,7 @@ d3.csv("data3.csv", function(d) {
       .attr("opacity", "0")
       .attr("x", function(d) { return x(parseTime("1-Feb-03")) + 10; })
       .attr("y", -20)
-      .text("Book first")
+      .text("Book first published")
       .attr("font-family","Poppins")
       .attr("font-size", "11px")
       .attr("font-weight", "600")
@@ -217,11 +217,11 @@ d3.csv("data3.csv", function(d) {
       .attr("class","book-text")
       .attr("opacity", "0")
       .attr("x", function(d) { return x(parseTime("1-Feb-03")) + 10; })
-      .attr("y", -7)
-      .text("published")
+      .attr("y", -5)
+      .text("2003")
       .attr("font-family","Poppins")
       .attr("font-size", "11px")
-      .attr("font-weight", "600")
+      .attr("font-weight", "500")
       .attr("fill","#5d8c8b")
       .attr("text-anchor","start");
 
@@ -274,14 +274,14 @@ d3.csv("data3.csv", function(d) {
   	g.append("text")
   		.attr("class","theaters-text")
       .attr("opacity", "0")
-  		.attr("x", function(d) { return (x(parseTime("22-Jul-10")) - x(parseTime("26-Mar-10")))/2 + x(parseTime("26-Mar-10")); })
+  		.attr("x", function(d) { return x(parseTime("22-Jul-10")); })
   		.attr("y", -20)
   		.text("Movie in theaters")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
       .attr("font-weight", "600")
   		.attr("fill","#5d8c8b")
-  		.attr("text-anchor","middle");
+  		.attr("text-anchor","end");
 
     var path = g.append("path")
         .datum(data)
@@ -384,7 +384,7 @@ function resize() {
         .attr("x2", function(d) { return x(parseTime("22-Jul-10")); });
 
     g.selectAll(".theaters-text")
-      .attr("x", function(d) { return (x(parseTime("22-Jul-10")) - x(parseTime("26-Mar-10")))/2 + x(parseTime("26-Mar-10")); });
+      .attr("x", function(d) { return x(parseTime("22-Jul-10")); })
 
 }
 

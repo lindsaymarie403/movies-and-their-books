@@ -5,35 +5,80 @@
 
 <style>
 
+html, body {
+    height:100%;
+}
+
+body {
+  margin: 0px;
+   background-image: url("twilight2.jpg");
+   background-size: auto 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#project {
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6985b2;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#project-line {
+  width: 100%
+  height: 20px;
+  background-color: #212121;
+  margin: 0px;
+  padding: 0px;
+}
+
 #title {
   font-family: 'Droid Serif';
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
-  margin-top: 25px;
-  margin-left: 25px;
+  margin-top: 25px auto 25px auto;
+  padding: 50px 15% 50px 15%;
+  color: white;
+  text-align: center;
 }
 
 #movie-title {
-  margin: 20px 0px 20px 25px;
   font-family: 'Poppins';
   font-size: 20px;
+  font-weight: 600;
+  color: #6985b2;
+  text-align: center;
+}
+
+#movie-details {
+  margin: 0px 0px 0px 5%;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: white;
 }
 
 #chart1 {
   max-width: 1000px;
   min-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.grid path {
-  stroke: #aaaaaa;
+.x-axis path, .y-axis path {
+  stroke: #6985b2;
 }
 
-.grid line {
-  stroke: #aaaaaa;
+.x-axis line, .y-axis line {
+  stroke: #6985b2;
 }
 
-.grid text {
-  fill: #aaaaaa;
+.x-axis text, .y-axis text {
+  fill: #6985b2;
 }
 
 #button {
@@ -43,6 +88,7 @@
   background-color: #d3d3d3;
   font-family: 'Poppins';
   text-align: center;
+  float: left;
 }
 
 </style>
@@ -51,6 +97,9 @@
 
 <body>
 
+<div id="project-line">
+  <div id="project">Books + Their Movies</div>
+</div>
 <div id="title">Book rankings decline as the years progress, but later movies still provide a jolt.</div>
 <div id="movie-title">Twilight</div>
 <div id="chart1"></div>
@@ -62,7 +111,7 @@
 
 var margin = {top: 70, right: 20, bottom: 30, left: 50},
     width = 1200 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+    height = 400 - margin.top - margin.bottom;
 
 var svg = d3.select('#chart1')
   .append('svg')
@@ -126,8 +175,8 @@ d3.csv("pt2.csv", function(d) {
 		.text("Ranking on")
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
-    .attr("font-weight", "500")
-		.attr("fill","#aaaaaa")
+    .attr("font-weight", "600")
+		.attr("fill","#6985b2")
 		.attr("text-anchor","start");
 
   g.append("text")
@@ -136,8 +185,8 @@ d3.csv("pt2.csv", function(d) {
 		.text("Best Sellers List")
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
-    .attr("font-weight", "500")
-		.attr("fill","#aaaaaa")
+    .attr("font-weight", "600")
+		.attr("fill","#6985b2")
 		.attr("text-anchor","start");
 
     //MOVIE IN THEATERS - FOURTH
@@ -147,7 +196,7 @@ d3.csv("pt2.csv", function(d) {
         .attr("opacity", "0")
         .attr("width", function(d) { return x(parseTime("23-Feb-12")) - x(parseTime("18-Nov-11")); })
         .attr("height", height + margin.bottom - 15)
-        .attr("fill", "#e8f0fc")
+        .attr("fill", "#6985b2")
         .attr("x", function(d) { return x(parseTime("18-Nov-11")); })
         .attr("y", -margin.bottom + 15);
 
@@ -156,7 +205,7 @@ d3.csv("pt2.csv", function(d) {
   			.attr("class","theaters4-horiz")
         .attr("opacity", "0")
   			.attr("stroke-width", 1)
-  			.attr("stroke", "#657bc6")
+  			.attr("stroke", "#6985b2")
   			.attr("x1", function(d) { return x(parseTime("18-Nov-11")); })
   			.attr("x2", function(d) { return x(parseTime("23-Feb-12")); })
   	    .attr("y1", -15)
@@ -167,7 +216,7 @@ d3.csv("pt2.csv", function(d) {
         .attr("class","theaters4-vert1")
         .attr("opacity", "0")
         .attr("stroke-width", 1)
-        .attr("stroke", "#657bc6")
+        .attr("stroke", "#6985b2")
         .attr("x1", function(d) { return x(parseTime("18-Nov-11")); })
         .attr("x2", function(d) { return x(parseTime("18-Nov-11")); })
         .attr("y1", -15)
@@ -179,7 +228,7 @@ d3.csv("pt2.csv", function(d) {
         .attr("class","theaters4-vert2")
         .attr("opacity", "0")
         .attr("stroke-width", 1)
-        .attr("stroke", "#657bc6")
+        .attr("stroke", "#6985b2")
         .attr("x1", function(d) { return x(parseTime("23-Feb-12")); })
         .attr("x2", function(d) { return x(parseTime("23-Feb-12")); })
         .attr("y1", -15)
@@ -194,7 +243,8 @@ d3.csv("pt2.csv", function(d) {
   		.text("Fourth movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
-  		.attr("fill","#657bc6")
+      .attr("font-weight", "600")
+  		.attr("fill","#6985b2")
   		.attr("text-anchor","middle");
 
     //MOVIE IN THEATERS - FIFTH
@@ -204,7 +254,7 @@ d3.csv("pt2.csv", function(d) {
         .attr("opacity", "0")
         .attr("width", function(d) { return x(parseTime("7-Mar-13")) - x(parseTime("16-Nov-12")); })
         .attr("height", height + margin.bottom - 15)
-        .attr("fill", "#e8f0fc")
+        .attr("fill", "#6985b2")
         .attr("x", function(d) { return x(parseTime("16-Nov-12")); })
         .attr("y", -margin.bottom + 15);
 
@@ -213,7 +263,7 @@ d3.csv("pt2.csv", function(d) {
   			.attr("class","theaters5-horiz")
         .attr("opacity", "0")
   			.attr("stroke-width", 1)
-  			.attr("stroke", "#657bc6")
+  			.attr("stroke", "#6985b2")
   			.attr("x1", function(d) { return x(parseTime("16-Nov-12")); })
   			.attr("x2", function(d) { return x(parseTime("7-Mar-13")); })
   	    .attr("y1", -15)
@@ -224,7 +274,7 @@ d3.csv("pt2.csv", function(d) {
         .attr("class","theaters5-vert1")
         .attr("opacity", "0")
         .attr("stroke-width", 1)
-        .attr("stroke", "#657bc6")
+        .attr("stroke", "#6985b2")
         .attr("x1", function(d) { return x(parseTime("16-Nov-12")); })
         .attr("x2", function(d) { return x(parseTime("16-Nov-12")); })
         .attr("y1", -15)
@@ -236,7 +286,7 @@ d3.csv("pt2.csv", function(d) {
         .attr("class","theaters5-vert2")
         .attr("opacity", "0")
         .attr("stroke-width", 1)
-        .attr("stroke", "#657bc6")
+        .attr("stroke", "#6985b2")
         .attr("x1", function(d) { return x(parseTime("7-Mar-13")); })
         .attr("x2", function(d) { return x(parseTime("7-Mar-13")); })
         .attr("y1", -15)
@@ -251,17 +301,18 @@ d3.csv("pt2.csv", function(d) {
   		.text("Fifth movie")
       .attr("font-family","Poppins")
   		.attr("font-size", "11px")
-  		.attr("fill","#657bc6")
+      .attr("font-weight", "600")
+  		.attr("fill","#6985b2")
   		.attr("text-anchor","middle");
 
     var path = g.append("path")
         .datum(data)
         .attr("class", "line")
         .attr("fill", "none")
-        .attr("stroke", "#ff8368")
+        .attr("stroke", "#dd9906")
         .attr("stroke-linejoin", "round")
         .attr("stroke-linecap", "round")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("d", line);
 
     var totalLength = path.node().getTotalLength();
@@ -283,7 +334,7 @@ d3.csv("pt2.csv", function(d) {
        .attr("cx", function(d, i) { return x(d.date)})
        .attr("cy", function(d) { return y(d.rank)})
        .attr("r", 2)
-       .attr("fill", "#ff8368")
+       .attr("fill", "#dd9906")
        .style("display", function(d) {
           var disp;
           if (d.rank === 0) { disp = "none";
@@ -292,10 +343,15 @@ d3.csv("pt2.csv", function(d) {
         });
 
     // fade in annotations
-    d3.selectAll(".dot, .theaters4-block, .theaters4-horiz, .theaters4-vert1, .theaters4-vert2, .theaters4-text, .theaters5-block, .theaters5-horiz, .theaters5-vert1, .theaters5-vert2, .theaters5-text").transition()
+    d3.selectAll(".dot, .theaters4-horiz, .theaters4-vert1, .theaters4-vert2, .theaters4-text, .theaters5-horiz, .theaters5-vert1, .theaters5-vert2, .theaters5-text").transition()
       .delay(750)
-      .attr("opacity", "100")
-      .duration(10000);
+      .attr("opacity", "1")
+      .duration(1000);
+
+    d3.selectAll(".theaters4-block, .theaters5-block").transition()
+      .delay(750)
+      .attr("opacity", "0.5")
+      .duration(1000);
 
 });
 
