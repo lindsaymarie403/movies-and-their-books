@@ -103,6 +103,7 @@ body {
 <div id="title">But in the years since the movies concluded, it has experienced a resurgence unmatched by other series.</div>
 <div id="movie-title">Harry Potter</div>
 <div id="chart1"></div>
+<div id="title">The series has lived on through theme parks, plays and new book editions, too.</div>
 <a href="../8-noclassics.html"><div id="button">Next</div></a>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -189,6 +190,129 @@ d3.csv("pt2.csv", function(d) {
 		.attr("fill","#7d8199")
 		.attr("text-anchor","start");
 
+  //HP WORLD
+  g.append("line")
+      .data(data)
+      .attr("class","world")
+      //.attr("opacity", "0")
+      .attr("stroke-width", 1)
+      .attr("stroke", "#7d8199")
+      .attr("x1", function(d) { return x(parseTime("8-Jul-14")); })
+      .attr("x2", function(d) { return x(parseTime("8-Jul-14")); })
+      .attr("y1", -30)
+      .attr("y2", height)
+      .style("stroke-dasharray", 2);
+
+  g.append("text")
+    .attr("class","world-text")
+    //.attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jul-14")) - 10; })
+    .attr("y", -25)
+    .text("Harry Potter World")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","world-text")
+    //.attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jul-14")) - 10; })
+    .attr("y", -10)
+    .text("opens in Orlando")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","world-text")
+    //.attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jul-14")) - 10; })
+    .attr("y", 5)
+    .text("July 8, 2014")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "400")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  //CURSED CHILD
+  g.append("line")
+      .data(data)
+      .attr("class","child")
+      //.attr("opacity", "0")
+      .attr("stroke-width", 1)
+      .attr("stroke", "#7d8199")
+      .attr("x1", function(d) { return x(parseTime("30-Jul-16")); })
+      .attr("x2", function(d) { return x(parseTime("30-Jul-16")); })
+      .attr("y1", -30)
+      .attr("y2", height)
+      .style("stroke-dasharray", 2);
+
+  g.append("text")
+    .attr("class","child-text")
+    //.attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("30-Jul-16")) - 10; })
+    .attr("y", -25)
+    .text("Cursed Child play opens")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","child-text")
+    //.attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("30-Jul-16")) - 10; })
+    .attr("y", -10)
+    .text("July 30, 2016")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "400")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  //ANNIV EDITION
+  g.append("line")
+      .data(data)
+      .attr("class","anniv")
+      //.attr("opacity", "0")
+      .attr("stroke-width", 1)
+      .attr("stroke", "#7d8199")
+      .attr("x1", function(d) { return x(parseTime("26-Jun-18")); })
+      .attr("x2", function(d) { return x(parseTime("26-Jun-18")); })
+      .attr("y1", -30)
+      .attr("y2", height)
+      .style("stroke-dasharray", 2);
+
+  g.append("text")
+    .attr("class","anniv-text")
+    //.attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("26-Jun-18")) - 10; })
+    .attr("y", -25)
+    .text("20th anniv. books released")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","anniv-text")
+    //.attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("26-Jun-18")) - 10; })
+    .attr("y", -10)
+    .text("June 26, 2018")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "400")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
   var path = g.append("path")
       .datum(data)
       .attr("class", "line")
@@ -258,6 +382,27 @@ function resize() {
 
    g.selectAll(".x-axis")
        .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
+
+   g.selectAll(".world")
+       .attr("x1", function(d) { return x(parseTime("8-Jul-14")); })
+       .attr("x2", function(d) { return x(parseTime("8-Jul-14")); })
+
+   g.selectAll(".world-text")
+       .attr("x", function(d) { return x(parseTime("8-Jul-14")) - 10; });
+
+   g.selectAll(".child")
+       .attr("x1", function(d) { return x(parseTime("30-Jul-16")); })
+       .attr("x2", function(d) { return x(parseTime("30-Jul-16")); })
+
+   g.selectAll(".child-text")
+       .attr("x", function(d) { return x(parseTime("30-Jul-16")) - 10; });
+
+  g.selectAll(".anniv")
+      .attr("x1", function(d) { return x(parseTime("26-Jun-18")); })
+      .attr("x2", function(d) { return x(parseTime("26-Jun-18")); })
+
+  g.selectAll(".anniv-text")
+      .attr("x", function(d) { return x(parseTime("26-Jun-18")) - 10; });
 
 }
 
