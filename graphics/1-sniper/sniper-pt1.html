@@ -11,7 +11,7 @@ html, body {
 
 body {
   margin: 0px;
-   background-image: url("sniper2.jpg");
+   background-image: url("sniper3.jpg");
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
@@ -23,7 +23,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #f4f4f4;
+  color: #3e4777;
   margin: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -32,10 +32,9 @@ body {
 #project-line {
   width: 100%
   height: 20px;
-  background-color: #93989b;
+  background-color: #111426;
   margin: 0px;
   padding: 0px;
-  opacity: 0.5;
 }
 
 #title {
@@ -44,16 +43,16 @@ body {
   font-weight: 700;
   margin-top: 25px auto 25px auto;
   padding: 50px 15% 50px 15%;
-  color: #212121;
+  color: white;
   text-align: center;
 }
 
 #movie-title {
   font-family: 'Poppins';
   font-size: 20px;
-  color: white;
+  font-weight: 600;
+  color: #7d8199;
   text-align: center;
-  text-transform: uppercase;
 }
 
 #movie-details {
@@ -71,15 +70,15 @@ body {
 }
 
 .x-axis path, .y-axis path {
-  stroke: #212121;
+  stroke: #7d8199;
 }
 
 .x-axis line, .y-axis line {
-  stroke: #212121;
+  stroke: #7d8199;
 }
 
 .x-axis text, .y-axis text {
-  fill: #212121;
+  fill: #7d8199;
 }
 
 #button {
@@ -158,17 +157,17 @@ d3.csv("data1.csv", function(d) {
   y.domain([1,35]);
 
   g.append("g")
-      .attr("class", "x-axis")
-      .style("font-family","Poppins")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
-
-  g.append("g")
     .attr("class", "y-axis")
     .style("font-family","Poppins")
       .call(d3.axisLeft(y).tickValues([1,5,10,15,20,25,30,35]).tickSize(5).tickPadding(8))
       .select(".domain")
         .remove();
+
+  g.append("g")
+      .attr("class", "x-axis")
+      .style("font-family","Poppins")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
   g.append("text")
 		.attr("x", -15)
@@ -177,7 +176,7 @@ d3.csv("data1.csv", function(d) {
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
     .attr("font-weight", "600")
-		.attr("fill","#212121")
+		.attr("fill","#7d8199")
 		.attr("text-anchor","start");
 
   g.append("text")
@@ -187,7 +186,7 @@ d3.csv("data1.csv", function(d) {
     .attr("font-family","Poppins")
 		.attr("font-size", "10px")
     .attr("font-weight", "600")
-		.attr("fill","#212121")
+		.attr("fill","#7d8199")
 		.attr("text-anchor","start");
 
     // BOOK FIRST APPEARED
@@ -201,7 +200,7 @@ d3.csv("data1.csv", function(d) {
          .attr("markerWidth",4)
          .attr("markerHeight",4)
          .attr("orient","auto")
-         .attr("fill","#008ffc")
+         .attr("fill","#7d8199")
         .append("path")
             .attr("d", "M0,-5L10,0L0,5")
             .attr("class","arrowHead");
@@ -212,7 +211,7 @@ d3.csv("data1.csv", function(d) {
       .attr("opacity", "0")
       .attr("d", arc)
       .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
-      .attr("fill","#008ffc")
+      .attr("fill","#7d8199")
       .attr("marker-end","url(#arrow)");
 
    g.append("text")
@@ -226,7 +225,7 @@ d3.csv("data1.csv", function(d) {
        .attr("font-size", "11px")
        .attr("font-family","Poppins")
        .attr("font-weight", "600")
-       .attr("fill","#008ffc");
+       .attr("fill","#7d8199");
 
     g.append("text")
         .data(data)
@@ -239,7 +238,7 @@ d3.csv("data1.csv", function(d) {
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
         .attr("font-weight", "600")
-        .attr("fill","#008ffc");
+        .attr("fill","#7d8199");
 
     //BOOK DROPPED OFF LIST
     g.append("path")
@@ -248,7 +247,7 @@ d3.csv("data1.csv", function(d) {
       .attr("opacity", "0")
       .attr("d", arc2)
       .attr("transform",function(d) { return "translate(" + (x(parseTime("10-Aug-13")) - 5) + ",100)"; })
-      .attr("fill","#008ffc")
+      .attr("fill","#7d8199")
       .attr("marker-end","url(#arrow)");
 
    g.append("text")
@@ -262,7 +261,7 @@ d3.csv("data1.csv", function(d) {
        .attr("font-size", "11px")
        .attr("font-family","Poppins")
        .attr("font-weight", "600")
-       .attr("fill","#008ffc");
+       .attr("fill","#7d8199");
 
     g.append("text")
         .data(data)
@@ -275,13 +274,13 @@ d3.csv("data1.csv", function(d) {
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
         .attr("font-weight", "600")
-        .attr("fill","#008ffc");
+        .attr("fill","#7d8199");
 
     var path = g.append("path")
         .datum(data)
         .attr("class", "line")
         .attr("fill", "none")
-        .attr("stroke", "#ff143f")
+        .attr("stroke", "#dd9906")
         .attr("stroke-linejoin", "round")
         .attr("stroke-linecap", "round")
         .attr("stroke-width", 2)
@@ -306,7 +305,7 @@ d3.csv("data1.csv", function(d) {
        .attr("cx", function(d, i) { return x(d.date)})
        .attr("cy", function(d) { return y(d.rank)})
        .attr("r", 2)
-       .attr("fill", "#ff143f")
+       .attr("fill", "#dd9906")
        .style("display", function(d) {
           var disp;
           if (d.rank === 0) { disp = "none";
