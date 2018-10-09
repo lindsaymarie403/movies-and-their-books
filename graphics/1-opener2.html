@@ -97,106 +97,127 @@ body {
   #alice {
     top: 25px;
     left: 3%;
+    opacity: 0;
   }
 
-  #hallows1 {
+  #martian {
     left: 12%;
+    opacity: 0;
   }
 
   #breaking1 {
     top: 15px;
     left: 30%;
+    opacity: 0;
   }
 
-  #hobbit1 {
+  #it {
     top: 5px;
     left: 42%;
+    opacity: 0;
   }
 
   #httyd {
     top: 50px;
     left: 60%;
+    opacity: 0;
   }
 
   #hungergames {
     top: 15px;
     left: 73%;
+    opacity: 0;
   }
 
   #hallows2 {
     right: 1%;
+    opacity: 0;
   }
 
   /*row 2*/
   #jumanji {
     top: 160px;
     left: 0%;
+    opacity: 0;
   }
 
   #hobbit2 {
     top: 185px;
     left: 14%;
+    opacity: 0;
   }
 
-  #it {
+  #eclipse {
     top: 150px;
     left: 28%;
+    opacity: 0;
   }
 
   #junglebook {
     top: 185px;
     left: 45%;
+    opacity: 0;
   }
 
   #hungergames4 {
     top: 165px;
     left: 58%;
+    opacity: 0;
   }
 
-  #martian {
+  #hallows1 {
     top: 190px;
     left: 76%;
+    opacity: 0;
   }
 
   #hobbit3 {
     top: 160px;
     right: 0%;
+    opacity: 0;
   }
 
   /*row 3*/
   #oz {
     top: 325px;
     left: 7%;
+    opacity: 0;
   }
 
   #sherlock {
     top: 380px;
     left: 18%;
+    opacity: 0;
   }
 
   #hungergames3 {
     top: 335px;
     left: 35%;
+    opacity: 0;
   }
 
   #sniper {
     top: 375px;
     left: 45%;
+    opacity: 0;
   }
 
-  #eclipse {
+  #hobbit1 {
     top: 345px;
     left: 55%;
+    opacity: 0;
   }
 
   #hungergames2 {
     top: 355px;
     left: 69%;
+    opacity: 0;
   }
 
   #breaking2 {
     top: 345px;
     right: 2%;
+    opacity: 0;
   }
 
 </style>
@@ -207,7 +228,7 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
-  <div id="title">Hollywood turns plenty of books into movies, and moviegovers love them.</div>
+  <div id="title">Hollywood turns plenty of books into films, and moviegovers flock to them.</div>
 
   <a href="1-opener.html"><div class="button" id="left"><</div></a>
   <a href="1-opener3.html"><div class="button" id="right">></div></a>
@@ -234,8 +255,6 @@ body {
     <img src="movie-images/junglebook.jpg" class="movies" id="junglebook">
     <img src="movie-images/jumanji.png" class="movies" id="jumanji">
     <img src="movie-images/it.jpg" class="movies" id="it">
-
-
   </div>
 
   <div id="title">Since 2010, 21 movies that hit the box office top ten the year they were released were based on novels or nonfiction books.</div>
@@ -258,5 +277,27 @@ $(document).keydown(function(e) {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
+
+$("#alice").delay(100).fadeTo("fast", 1);
+$("#eclipse").delay(200).fadeTo("slow", 1);
+$("#hallows1").delay(300).fadeTo("slow", 1);
+$("#httyd").delay(400).fadeTo("slow", 1);
+$("#hallows2").delay(500).fadeTo("slow", 1);
+$("#breaking1").delay(600).fadeTo("slow", 1);
+$("#sherlock").delay(700).fadeTo("slow", 1);
+$("#hungergames").delay(800).fadeTo("slow", 1);
+$("#hobbit1").delay(900).fadeTo("slow", 1);
+$("#breaking2").delay(1000).fadeTo("slow", 1);
+$("#hungergames2").delay(1100).fadeTo("slow", 1);
+$("#hobbit2").delay(1200).fadeTo("slow", 1);
+$("#oz").delay(1300).fadeTo("slow", 1);
+$("#sniper").delay(1400).fadeTo("slow", 1);
+$("#hungergames3").delay(1500).fadeTo("slow", 1);
+$("#hobbit3").delay(1600).fadeTo("slow", 1);
+$("#hungergames4").delay(1700).fadeTo("slow", 1);
+$("#martian").delay(1800).fadeTo("slow", 1);
+$("#junglebook").delay(1900).fadeTo("slow", 1);
+$("#jumanji").delay(2000).fadeTo("slow", 1);
+$("#it").delay(2100).fadeTo("slow", 1);
 
 </script>

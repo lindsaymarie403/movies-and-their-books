@@ -12,7 +12,7 @@ html, body {
 
 body {
   margin: 0px;
-   background-image: url("sniper3.jpg");
+   background-image: url("1-opener3-2.jpg");
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
@@ -94,9 +94,10 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
-  <div id="title">The exception to this trend? Classics.</div>
-  <div id="title">They don't receive boosts from movie adaptations.</div>
+  <div id="title">It's hard to tell how big of a boost classic books like Alice in Wonderland or The Jungle Book get from their film adaptations.</div>
+  <div id="title">The New York Times Best Sellers List doesn't include books it deems "perennial sellers."</div>
   <a href="7-harrypotter/harrypotter-pt2.html"><div class="button" id="left"><</div></a>
+  <a href="9-quote.html"><div class="button" id="right">></div></a>
 
 </body>
 
@@ -106,6 +107,10 @@ $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
            window.location = "7-harrypotter/harrypotter-pt2.html"
+        break;
+
+        case 39: // right
+            window.location = "9-quote.html"
         break;
 
         default: return; // exit this handler for other keys
