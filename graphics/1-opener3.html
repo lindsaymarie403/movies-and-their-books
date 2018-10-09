@@ -2,33 +2,121 @@
 <head>
 <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 <style>
 
-#title {
-  font-family: 'Droid Serif';
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 25px;
-  margin-left: 25px;
+html, body {
+    height:100%;
 }
 
-#button {
-  width: 100px;
-  margin: 40px auto 0px auto;
-  padding: 10px;
-  background-color: #d3d3d3;
+body {
+  margin: 0px;
+   background-image: url("sniper3.jpg");
+   background-size: auto 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#project {
   font-family: 'Poppins';
   text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #cccccc;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+#project-line {
+  width: 100%
+  height: 20px;
+  background-color: #212121;
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  font-family: 'Droid Serif';
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 25px auto 25px auto;
+  padding: 50px 15% 50px 15%;
+  color: white;
+  text-align: center;
+}
+
+#movie-title {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  color: #7d8199;
+  text-align: center;
+}
+
+#movie-details {
+  margin: 0px 0px 0px 5%;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: white;
+}
+
+#chart1 {
+  max-width: 1000px;
+  min-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  width: 30px;
+  margin: 100px auto 0px auto;
+  padding: 10px;
+  color: #d3d3d3;
+  font-family: 'Poppins';
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+  #right {
+    right: 0px;
+  }
+
 
 </style>
 
 </head>
 
 <body>
+  <div id="project-line">
+    <div id="project">Books + Their Movies</div>
+  </div>
   <div id="title">Adapting books for the screen can benefit producers eager to cash in on pre-established fan bases.</div>
   <div id="title">But it can also further drive book sales.</div>
-  <a href="1-sniper/sniper-pt1.html"><div id="button">Next</div></a>
+  <a href="1-opener2.html"><div class="button" id="left"><</div></a>
+  <a href="1-sniper/sniper-pt1.html"><div class="button" id="right">></div></a>
 
 </body>
+
+<script>
+
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+           window.location = "1-opener2.html"
+        break;
+
+        case 39: // right
+            window.location = "1-sniper/sniper-pt1.html"
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
+</script>

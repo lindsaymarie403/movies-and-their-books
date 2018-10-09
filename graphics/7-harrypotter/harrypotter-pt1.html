@@ -24,7 +24,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #3e4777;
+  color: #7d8199;
   margin: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -409,12 +409,12 @@ d3.csv("pt1.csv", function(d) {
 
     // fade in annotations
     d3.selectAll(".dot, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text, .theaters2-horiz, .theaters2-vert1, .theaters2-vert2, .theaters2-text, .theaters3-horiz, .theaters3-vert1, .theaters3-vert2, .theaters3-text").transition()
-      .delay(750)
+      .delay(250)
       .attr("opacity", "1")
       .duration(1000);
 
     d3.selectAll(".theaters-block, .theaters2-block, .theaters3-block").transition()
-      .delay(750)
+      .delay(250)
       .attr("opacity", "0.5")
       .duration(1000);
 

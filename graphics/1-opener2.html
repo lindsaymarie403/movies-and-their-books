@@ -2,33 +2,261 @@
 <head>
 <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 <style>
 
-#title {
-  font-family: 'Droid Serif';
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 25px;
-  margin-left: 25px;
+html, body {
+    height:100%;
 }
 
-#button {
-  width: 100px;
-  margin: 40px auto 0px auto;
-  padding: 10px;
-  background-color: #d3d3d3;
+body {
+  margin: 0px;
+   background-image: url("1-opener2.jpg");
+   background-size: auto 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#project {
   font-family: 'Poppins';
   text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #cccccc;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+#project-line {
+  width: 100%
+  height: 20px;
+  background-color: #212121;
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  font-family: 'Droid Serif';
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 25px auto 25px auto;
+  padding: 50px 15% 50px 15%;
+  color: white;
+  text-align: center;
+}
+
+#movie-title {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 600;
+  color: #7d8199;
+  text-align: center;
+}
+
+#movie-details {
+  margin: 0px 0px 0px 5%;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: white;
+}
+
+#body {
+  max-width: 750px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.button {
+  width: 30px;
+  margin: 100px auto 0px auto;
+  padding: 10px;
+  color: #d3d3d3;
+  font-family: 'Poppins';
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+  #right {
+    right: 0px;
+  }
+
+  .movies {
+    width: 115px;
+    position: absolute;
+  }
+
+  /*individual movie positions*/
+  /*row 1*/
+  #alice {
+    top: 25px;
+    left: 3%;
+  }
+
+  #hallows1 {
+    left: 12%;
+  }
+
+  #breaking1 {
+    top: 15px;
+    left: 30%;
+  }
+
+  #hobbit1 {
+    top: 5px;
+    left: 42%;
+  }
+
+  #httyd {
+    top: 50px;
+    left: 60%;
+  }
+
+  #hungergames {
+    top: 15px;
+    left: 73%;
+  }
+
+  #hallows2 {
+    right: 1%;
+  }
+
+  /*row 2*/
+  #jumanji {
+    top: 160px;
+    left: 0%;
+  }
+
+  #hobbit2 {
+    top: 185px;
+    left: 14%;
+  }
+
+  #it {
+    top: 150px;
+    left: 28%;
+  }
+
+  #junglebook {
+    top: 185px;
+    left: 45%;
+  }
+
+  #hungergames4 {
+    top: 165px;
+    left: 58%;
+  }
+
+  #martian {
+    top: 190px;
+    left: 76%;
+  }
+
+  #hobbit3 {
+    top: 160px;
+    right: 0%;
+  }
+
+  /*row 3*/
+  #oz {
+    top: 325px;
+    left: 7%;
+  }
+
+  #sherlock {
+    top: 380px;
+    left: 18%;
+  }
+
+  #hungergames3 {
+    top: 335px;
+    left: 35%;
+  }
+
+  #sniper {
+    top: 375px;
+    left: 45%;
+  }
+
+  #eclipse {
+    top: 345px;
+    left: 55%;
+  }
+
+  #hungergames2 {
+    top: 355px;
+    left: 69%;
+  }
+
+  #breaking2 {
+    top: 345px;
+    right: 2%;
+  }
 
 </style>
 
 </head>
 
 <body>
-  <div id="title">Hollywood keeps making movies based on books, and we love them.</div>
+  <div id="project-line">
+    <div id="project">Books + Their Movies</div>
+  </div>
+  <div id="title">Hollywood turns plenty of books into movies, and moviegovers love them.</div>
+
+  <a href="1-opener.html"><div class="button" id="left"><</div></a>
+  <a href="1-opener3.html"><div class="button" id="right">></div></a>
+
+  <div id="body">
+    <img src="movie-images/alice.jpg" class="movies" id="alice">
+    <img src="movie-images/twilight-eclipse.jpg" class="movies" id="eclipse">
+    <img src="movie-images/harrypotter-hallows1.jpg" class="movies" id="hallows1">
+    <img src="movie-images/httyd.jpg" class="movies" id="httyd">
+    <img src="movie-images/harrypotter-hallows2.jpg" class="movies" id="hallows2">
+    <img src="movie-images/twilight-breaking1.jpg" class="movies" id="breaking1">
+    <img src="movie-images/sherlock.jpg" class="movies" id="sherlock">
+    <img src="movie-images/hungergames.jpg" class="movies" id="hungergames">
+    <img src="movie-images/hobbit1.jpg" class="movies" id="hobbit1">
+    <img src="movie-images/twilight-breaking2.jpg" class="movies" id="breaking2">
+    <img src="movie-images/hungergames2.jpg" class="movies" id="hungergames2">
+    <img src="movie-images/hobbit2.jpg" class="movies" id="hobbit2">
+    <img src="movie-images/oz.jpg" class="movies" id="oz">
+    <img src="movie-images/sniper.jpg" class="movies" id="sniper">
+    <img src="movie-images/hungergames3.jpg" class="movies" id="hungergames3">
+    <img src="movie-images/hobbit3.jpg" class="movies" id="hobbit3">
+    <img src="movie-images/hungergames4.jpg" class="movies" id="hungergames4">
+    <img src="movie-images/martian.jpg" class="movies" id="martian">
+    <img src="movie-images/junglebook.jpg" class="movies" id="junglebook">
+    <img src="movie-images/jumanji.png" class="movies" id="jumanji">
+    <img src="movie-images/it.jpg" class="movies" id="it">
+
+
+  </div>
+
   <div id="title">Since 2010, 21 movies that hit the box office top ten the year they were released were based on novels or nonfiction books.</div>
-  <a href="1-opener3.html"><div id="button">Next</div></a>
 
 </body>
+
+<script>
+
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+           window.location = "1-opener.html"
+        break;
+
+        case 39: // right
+            window.location = "1-opener3.html"
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
+</script>
