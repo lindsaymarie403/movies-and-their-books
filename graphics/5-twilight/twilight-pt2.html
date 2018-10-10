@@ -31,18 +31,25 @@ body {
 }
 
 #project-line {
-  width: 100%
-  height: 20px;
+  width: 100%;
   background-color: #212121;
   margin: 0px;
   padding: 0px;
+}
+
+#body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 25px 0px 25px;
+  position: relative;
 }
 
 #title {
   font-family: 'Droid Serif';
   font-size: 24px;
   font-weight: 700;
-  margin-top: 25px auto 25px auto;
+  margin: 0px auto 0px auto;
   padding: 50px 15% 50px 15%;
   color: white;
   text-align: center;
@@ -84,7 +91,7 @@ body {
 
 .button {
   width: 30px;
-  margin: 100px auto 0px auto;
+  margin: 300px auto 0px auto;
   padding: 10px;
   color: #d3d3d3;
   font-family: 'Poppins';
@@ -108,11 +115,15 @@ body {
 <div id="project-line">
   <div id="project">Books + Their Movies</div>
 </div>
-<div id="title">Book rankings decline as the years progress, but later movies still provide a jolt.</div>
-<div id="movie-title">Twilight</div>
+
 <a href="twilight-pt1.html"><div class="button" id="left"><</div></a>
 <a href="../6-hungergames/hungergames-pt1.html"><div class="button" id="right">></div></a>
-<div id="chart1"></div>
+
+<div id="body">
+  <div id="title">Book rankings decline as the years progress, but later movies &mdash; and an anniversary edition &mdash; still provide a jolt.</div>
+  <div id="movie-title">Twilight</div>
+  <div id="chart1"></div>
+</div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
@@ -314,6 +325,43 @@ d3.csv("pt2.csv", function(d) {
   		.attr("fill","#6985b2")
   		.attr("text-anchor","middle");
 
+    //ANNIV EDITION
+    g.append("line")
+        .data(data)
+        .attr("class","anniv")
+        .attr("opacity", "0")
+        .attr("stroke-width", 1)
+        .attr("stroke", "#6985b2")
+        .attr("x1", function(d) { return x(parseTime("6-Oct-15")); })
+        .attr("x2", function(d) { return x(parseTime("6-Oct-15")); })
+        .attr("y1", -30)
+        .attr("y2", height)
+        .style("stroke-dasharray", 2);
+
+    g.append("text")
+      .attr("class","anniv-text")
+      .attr("opacity", "0")
+      .attr("x", function(d) { return x(parseTime("6-Oct-15")) - 10; })
+      .attr("y", -25)
+      .text("10th anniv. book released")
+      .attr("font-family","Poppins")
+      .attr("font-size", "11px")
+      .attr("font-weight", "600")
+      .attr("fill","#6985b2")
+      .attr("text-anchor","end");
+
+    g.append("text")
+      .attr("class","anniv-text")
+      .attr("opacity", "0")
+      .attr("x", function(d) { return x(parseTime("6-Oct-15")) - 10; })
+      .attr("y", -10)
+      .text("Oct. 6, 2015")
+      .attr("font-family","Poppins")
+      .attr("font-size", "11px")
+      .attr("font-weight", "400")
+      .attr("fill","#6985b2")
+      .attr("text-anchor","end");
+
     var path = g.append("path")
         .datum(data)
         .attr("class", "line")
@@ -352,7 +400,7 @@ d3.csv("pt2.csv", function(d) {
         });
 
     // fade in annotations
-    d3.selectAll(".dot, .theaters4-horiz, .theaters4-vert1, .theaters4-vert2, .theaters4-text, .theaters5-horiz, .theaters5-vert1, .theaters5-vert2, .theaters5-text").transition()
+    d3.selectAll(".dot, .theaters4-horiz, .theaters4-vert1, .theaters4-vert2, .theaters4-text, .theaters5-horiz, .theaters5-vert1, .theaters5-vert2, .theaters5-text, .anniv, .anniv-text").transition()
       .delay(750)
       .attr("opacity", "1")
       .duration(1000);
@@ -428,6 +476,13 @@ function resize() {
 
     g.selectAll(".theaters5-text")
       .attr("x", function(d) { return (x(parseTime("7-Mar-13")) - x(parseTime("16-Nov-12")))/2 + x(parseTime("16-Nov-12")); });
+
+    g.selectAll(".anniv")
+        .attr("x1", function(d) { return x(parseTime("6-Oct-15")); })
+        .attr("x2", function(d) { return x(parseTime("6-Oct-15")); })
+
+    g.selectAll(".anniv-text")
+        .attr("x", function(d) { return x(parseTime("6-Oct-15")) - 10; });
 
 }
 

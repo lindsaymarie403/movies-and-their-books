@@ -13,7 +13,6 @@ html, body {
 body {
   margin: 0px;
   background-color: #212121;
-
 }
 
 #project {
@@ -29,8 +28,7 @@ body {
 }
 
 #project-line {
-  width: 100%
-  height: 20px;
+  width: 100%;
   background-color: #212121;
   margin: 0px;
   padding: 0px;
@@ -40,37 +38,48 @@ body {
   font-family: 'Droid Serif';
   font-size: 24px;
   font-weight: 700;
-  margin-top: 25px auto 25px auto;
+  margin: 0px auto 0px auto;
   padding: 50px 15% 50px 15%;
   color: white;
   text-align: center;
 }
 
-#movie-title {
-  font-family: 'Poppins';
-  font-size: 20px;
-  font-weight: 600;
-  color: #7d8199;
-  text-align: center;
+#body {
+  max-width: 550px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 25px 0px 25px;
+  position: relative;
 }
 
-#movie-details {
-  margin: 0px 0px 0px 5%;
-  font-family: 'Poppins';
-  font-size: 14px;
+#quote {
+  font-family: 'Droid Serif';
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-top: 15%;
   color: white;
 }
 
-#chart1 {
-  max-width: 1000px;
-  min-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+#name {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  color: white;
+}
+
+#comp {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
 }
 
 .button {
   width: 30px;
-  margin: 100px auto 0px auto;
+  margin: 300px auto 0px auto;
   padding: 10px;
   color: #d3d3d3;
   font-family: 'Poppins';
@@ -92,9 +101,13 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
-  <div id="title">But for other novels and nonfiction books, publishers generally try to cash in on film adaptations.</div>
-  <div id="title">“Basically, we get that book out there in as many places as we can and hope movie catches on.” - Peter Hubbard, Vice President and Executive Editor, HarperCollins</div>
   <a href="8-noclassics.html"><div class="button" id="left"><</div></a>
+  <div id="title">But for other novels and nonfiction books, publishers generally try to cash in on film adaptations.</div>
+  <div id="body">
+    <div id="quote">“Basically, we get that book out there in as many places as we can and hope the movie catches on.”</div>
+    <div id="name">Peter Hubbard</div>
+    <div id="comp">Vice President and Executive Editor, HarperCollins</div>
+  </div>
 
 </body>
 

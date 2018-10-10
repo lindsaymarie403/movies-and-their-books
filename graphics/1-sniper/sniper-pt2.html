@@ -32,18 +32,25 @@ body {
 }
 
 #project-line {
-  width: 100%
-  height: 20px;
+  width: 100%;
   background-color: #212121;
   margin: 0px;
   padding: 0px;
+}
+
+#body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 25px 0px 25px;
+  position: relative;
 }
 
 #title {
   font-family: 'Droid Serif';
   font-size: 24px;
   font-weight: 700;
-  margin-top: 25px auto 25px auto;
+  margin: 0px auto 0px auto;
   padding: 50px 15% 50px 15%;
   color: white;
   text-align: center;
@@ -85,7 +92,7 @@ body {
 
 .button {
   width: 30px;
-  margin: 100px auto 0px auto;
+  margin: 300px auto 0px auto;
   padding: 10px;
   color: #d3d3d3;
   font-family: 'Poppins';
@@ -108,12 +115,16 @@ body {
 <div id="project-line">
   <div id="project">Books + Their Movies</div>
 </div>
-<div id="title">Now, let's overlay the graph with the dates of the trailer release and theatrical showings.</div>
-<div id="movie-title">American Sniper</div>
+
 <a href="sniper-pt2.html"><div class="button" id="left"><</div></a>
 <a href="../2-martian/graphic2.html"><div class="button" id="right">></div></a>
-<div id="chart1"></div>
-<div id="title">The movie gives the book a big boost.</div>
+
+<div id="body">
+  <div id="title">Now, let's overlay the graph with the dates of the trailer release and theatrical showings.</div>
+  <div id="movie-title">American Sniper</div>
+  <div id="chart1"></div>
+  <div id="title">The movie gives the book a big boost.</div>
+</div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
