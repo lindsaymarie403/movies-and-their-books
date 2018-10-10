@@ -12,7 +12,10 @@ html, body {
 
 body {
   margin: 0px;
-  background-color: #212121;
+   background-image: url("homepage.jpg");
+   background-size: auto 100%;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 #project {
@@ -35,7 +38,8 @@ body {
 }
 
 #body {
-  max-width: 1000px;
+  max-width: 800px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 25px 0px 25px;
@@ -44,39 +48,35 @@ body {
 
 #title {
   font-family: 'Droid Serif';
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
-  margin: 0px auto 0px auto;
+  margin-top: 30%;
   padding: 50px 15% 50px 15%;
   color: white;
   text-align: center;
 }
 
-#movie-title {
+#subtitle {
   font-family: 'Poppins';
   font-size: 20px;
   font-weight: 600;
-  color: #7d8199;
-  text-align: center;
-}
-
-#movie-details {
-  margin: 0px 0px 0px 5%;
-  font-family: 'Poppins';
-  font-size: 14px;
   color: white;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-#chart1 {
-  max-width: 1000px;
-  min-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+#byline {
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .button {
   width: 30px;
-  margin: 100px auto 0px auto;
+  margin: 300px auto 0px auto;
   padding: 10px;
   color: #d3d3d3;
   font-family: 'Poppins';
@@ -98,10 +98,14 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
-  <div id="title">How do movie releases affect book sales?</div>
-  <div id="subtitle">An analysis of the New York Times Best Sellers List</div>
-  <div id="byline">By Lindsay Huth</div>
+
   <a href="1-opener2.html"><div class="button" id="right">></div></a>
+
+  <div id="body">
+    <div id="title">When a book becomes a movie, how are book sales affected?</div>
+    <div id="subtitle">An analysis of the New York Times Best Sellers List</div>
+    <div id="byline">By Lindsay Huth <br/> Capital News Service</div>
+  </div>
 
 </body>
 
