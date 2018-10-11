@@ -213,10 +213,10 @@ d3.csv("pt1.csv", function(d) {
         .data(data)
         .attr("class", "theaters-block")
         .attr("opacity", "0")
-        .attr("width", function(d) { return x(parseTime("7-Mar-13")) - x(parseTime("16-Nov-12")); })
+        .attr("width", function(d) { return x(parseTime("6-Sep-12")) - x(parseTime("23-Mar-12")); })
         .attr("height", height + margin.bottom - 15)
         .attr("fill", "#5d8c8b")
-        .attr("x", function(d) { return x(parseTime("16-Nov-12")); })
+        .attr("x", function(d) { return x(parseTime("23-Mar-12")); })
         .attr("y", -margin.bottom + 15);
 
   	g.append("line")
