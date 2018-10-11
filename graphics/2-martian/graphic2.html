@@ -16,6 +16,7 @@ body {
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #2E4066;
 }
 
 #project {
@@ -115,11 +116,11 @@ body {
   <div id="project">Books + Their Movies</div>
 </div>
 
-<a href="../1-sniper/sniper-pt2.html"><div class="button" id="left"><</div></a>
-<a href="../2.2-quote.html"><div class="button" id="right">></div></a>
+<a href="../2.2-quote.html"><div class="button" id="left"><</div></a>
+<a href="../3-httyd/graphic3.html"><div class="button" id="right">></div></a>
 
 <div id="body">
-  <div id="title">That's also true for The Martian, released as a book in 2014 and a movie in 2015.</div>
+  <div id="title">That trend is also true for The Martian, released as a book in 2014 and a movie in 2015.</div>
   <div id="movie-title">The Martian</div>
   <div id="chart1"></div>
 </div>
@@ -367,6 +368,9 @@ function resize() {
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
 
+  d3.select('svg')
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
   g.selectAll(".line")
       .attr("d", line);
 
@@ -414,11 +418,11 @@ function resize() {
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
-           window.location = "../1-sniper/sniper-pt2.html"
+           window.location = "../2.2-quote.html"
         break;
 
         case 39: // right
-            window.location = "../2.2-quote.html"
+            window.location = "../3-httyd/graphic3.html"
         break;
 
         default: return; // exit this handler for other keys

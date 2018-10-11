@@ -16,6 +16,7 @@ body {
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #282E51;
 }
 
 #project {
@@ -75,6 +76,7 @@ body {
   min-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0;
 }
 
 .x-axis path, .y-axis path {
@@ -116,13 +118,13 @@ body {
 </div>
 
 <a href="harrypotter-pt1.html"><div class="button" id="left"><</div></a>
-<a href="../8-noclassics.html"><div class="button" id="right">></div></a>
+<a href="../7.2-quote.html"><div class="button" id="right">></div></a>
 
 <div id="body">
   <div id="title">But in the years since the movies concluded, it has experienced a resurgence unmatched by other series.</div>
   <div id="movie-title">Harry Potter</div>
   <div id="chart1"></div>
-  <div id="title">The series has lived on through theme parks, plays and new book editions, too.</div>
+  <div id="title">Scholastic, Harry Potter's publisher, credits its continued popularity to the plays, new book editions and more.</div>
 </div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -213,7 +215,7 @@ d3.csv("pt2.csv", function(d) {
   g.append("line")
       .data(data)
       .attr("class","world")
-      .attr("opacity", "0")
+      //.attr("opacity", "0")
       .attr("stroke-width", 1)
       .attr("stroke", "#7d8199")
       .attr("x1", function(d) { return x(parseTime("8-Jul-14")); })
@@ -224,7 +226,7 @@ d3.csv("pt2.csv", function(d) {
 
   g.append("text")
     .attr("class","world-text")
-    .attr("opacity", "0")
+    //.attr("opacity", "0")
     .attr("x", function(d) { return x(parseTime("8-Jul-14")) - 10; })
     .attr("y", -25)
     .text("Harry Potter World")
@@ -236,7 +238,7 @@ d3.csv("pt2.csv", function(d) {
 
   g.append("text")
     .attr("class","world-text")
-    .attr("opacity", "0")
+    //.attr("opacity", "0")
     .attr("x", function(d) { return x(parseTime("8-Jul-14")) - 10; })
     .attr("y", -10)
     .text("opens in Orlando")
@@ -248,7 +250,7 @@ d3.csv("pt2.csv", function(d) {
 
   g.append("text")
     .attr("class","world-text")
-    .attr("opacity", "0")
+    //.attr("opacity", "0")
     .attr("x", function(d) { return x(parseTime("8-Jul-14")) - 10; })
     .attr("y", 5)
     .text("July 8, 2014")
@@ -262,7 +264,7 @@ d3.csv("pt2.csv", function(d) {
   g.append("line")
       .data(data)
       .attr("class","child")
-      .attr("opacity", "0")
+      //.attr("opacity", "0")
       .attr("stroke-width", 1)
       .attr("stroke", "#7d8199")
       .attr("x1", function(d) { return x(parseTime("30-Jul-16")); })
@@ -273,7 +275,7 @@ d3.csv("pt2.csv", function(d) {
 
   g.append("text")
     .attr("class","child-text")
-    .attr("opacity", "0")
+    //.attr("opacity", "0")
     .attr("x", function(d) { return x(parseTime("30-Jul-16")) - 10; })
     .attr("y", -25)
     .text("Cursed Child play opens")
@@ -285,7 +287,7 @@ d3.csv("pt2.csv", function(d) {
 
   g.append("text")
     .attr("class","child-text")
-    .attr("opacity", "0")
+    //.attr("opacity", "0")
     .attr("x", function(d) { return x(parseTime("30-Jul-16")) - 10; })
     .attr("y", -10)
     .text("July 30, 2016")
@@ -299,7 +301,7 @@ d3.csv("pt2.csv", function(d) {
   g.append("line")
       .data(data)
       .attr("class","anniv")
-      .attr("opacity", "0")
+      //.attr("opacity", "0")
       .attr("stroke-width", 1)
       .attr("stroke", "#7d8199")
       .attr("x1", function(d) { return x(parseTime("26-Jun-18")); })
@@ -310,7 +312,7 @@ d3.csv("pt2.csv", function(d) {
 
   g.append("text")
     .attr("class","anniv-text")
-    .attr("opacity", "0")
+    //.attr("opacity", "0")
     .attr("x", function(d) { return x(parseTime("26-Jun-18")) - 10; })
     .attr("y", -25)
     .text("20th anniv. books released")
@@ -322,7 +324,7 @@ d3.csv("pt2.csv", function(d) {
 
   g.append("text")
     .attr("class","anniv-text")
-    .attr("opacity", "0")
+    //.attr("opacity", "0")
     .attr("x", function(d) { return x(parseTime("26-Jun-18")) - 10; })
     .attr("y", -10)
     .text("June 26, 2018")
@@ -342,6 +344,7 @@ d3.csv("pt2.csv", function(d) {
       .attr("stroke-width", 2)
       .attr("d", line);
 
+/*
   var totalLength = path.node().getTotalLength();
 
   // Set Properties of Dash Array and Dash Offset and initiate Transition
@@ -352,12 +355,13 @@ d3.csv("pt2.csv", function(d) {
   	.duration(1500) // Set Duration timing (ms)
   	.ease(d3.easeLinear) // Set Easing option
   	.attr("stroke-dashoffset", 0); // Set final value of dash-offset for transition
+*/
 
   g.selectAll(".dot")
      .data(data)
    .enter().append("circle") // Uses the enter().append() method
      .attr("class", "dot") // Assign a class for styling
-     .attr("opacity", "0")
+     //.attr("opacity", "0")
      .attr("cx", function(d, i) { return x(d.date)})
      .attr("cy", function(d) { return y(d.rank)})
      .attr("r", 2)
@@ -368,14 +372,15 @@ d3.csv("pt2.csv", function(d) {
       } else { disp = "inline";
         } return disp;
       });
-
+/*
     // fade in annotations
     d3.selectAll(".dot, .world, .world-text, .child, .child-text, .anniv, .anniv-text").transition()
       .delay(750)
       .attr("opacity", "100")
       .duration(10000);
-
+*/
 });
+
 
 document.addEventListener("DOMContentLoaded", resize);
 d3.select(window).on('resize', resize);
@@ -390,6 +395,9 @@ function resize() {
   x.rangeRound([0, width]);
 
   d3.select(svg.node().parentNode)
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
+  d3.select('svg')
       .attr('width', (width + margin.left + margin.right) + 'px');
 
   g.selectAll(".line")
@@ -429,19 +437,28 @@ function resize() {
 
 <script>
 
+$(document).ready(function() {
+  //$('#chart1').css('display','block')
+  $('#chart1').fadeTo(1000, 1);
+});
+
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
-           window.location = "harrypotter-pt1.html"
+           $('#chart1').fadeOut(1000, newpage);
         break;
 
         case 39: // right
-            window.location = "../8-noclassics.html"
+            window.location = "../7.2-quote.html"
         break;
 
         default: return; // exit this handler for other keys
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
+
+    function newpage() {
+      window.location = "harrypotter-pt1.html"
+    }
 });
 
 </script>

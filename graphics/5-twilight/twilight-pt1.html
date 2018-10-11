@@ -16,6 +16,7 @@ body {
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #2E4066;
 }
 
 #project {
@@ -449,6 +450,9 @@ function resize() {
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
 
+  d3.select('svg')
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
   g.selectAll(".line")
       .attr("d", line);
 
@@ -532,12 +536,16 @@ $(document).keydown(function(e) {
         break;
 
         case 39: // right
-            window.location = "twilight-pt2.html"
+            $('#chart1').fadeOut(1000, newpage);
         break;
 
         default: return; // exit this handler for other keys
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
+
+    function newpage() {
+      window.location = "twilight-pt2.html"
+    }
 });
 
 </script>

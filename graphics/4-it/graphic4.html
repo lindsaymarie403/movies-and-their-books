@@ -16,6 +16,7 @@ body {
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #02092B;
 }
 
 #project {
@@ -175,6 +176,53 @@ d3.csv("data4.csv", function(d) {
   x.domain([parseTime("15-Apr-83"),parseTime("1-Jan-18")]);
   y.domain([1,10]);
 
+  //NO DATA
+  g.append("rect")
+      .data(data)
+      .attr("class", "data-block")
+      .attr("opacity", "0")
+      .attr("width", function(d) { return x(parseTime("8-Jun-08")) - x(parseTime("15-Apr-83")); })
+      .attr("height", height + margin.bottom - 15)
+      .attr("fill", "#191F43")
+      .attr("x", function(d) { return x(parseTime("15-Apr-83")); })
+      .attr("y", -margin.bottom + 15);
+
+  g.append("text")
+    .attr("class","data-text")
+    .attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; })
+    .attr("y", 8)
+    .text("Best Sellers List")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","data-text")
+    .attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; })
+    .attr("y", 22)
+    .text("data unavailable")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","data-text")
+    .attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; })
+    .attr("y", 36)
+    .text("before mid-2008")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#7d8199")
+    .attr("text-anchor","end");
+
   g.append("g")
       .attr("class", "x-axis")
       .style("font-family","Poppins")
@@ -217,7 +265,7 @@ d3.csv("data4.csv", function(d) {
         .attr("stroke", "#7d8199")
         .attr("x1", function(d) { return x(parseTime("1-Sep-86")); })
         .attr("x2", function(d) { return x(parseTime("1-Sep-86")); })
-        .attr("y1", -30)
+        .attr("y1", 0)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -225,7 +273,7 @@ d3.csv("data4.csv", function(d) {
       .attr("class","book-text")
       .attr("opacity", "0")
       .attr("x", function(d) { return x(parseTime("1-Sep-86")) + 10; })
-      .attr("y", -25)
+      .attr("y", 8)
       .text("Book first published")
       .attr("font-family","Poppins")
       .attr("font-size", "11px")
@@ -237,7 +285,7 @@ d3.csv("data4.csv", function(d) {
       .attr("class","book-text")
       .attr("opacity", "0")
       .attr("x", function(d) { return x(parseTime("1-Sep-86")) + 10; })
-      .attr("y", -10)
+      .attr("y", 20)
       .text("1986")
       .attr("font-family","Poppins")
       .attr("font-size", "11px")
@@ -341,12 +389,12 @@ d3.csv("data4.csv", function(d) {
         });
 
     // fade in annotations
-    d3.selectAll(".dot, .book, .book-text, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
+    d3.selectAll(".dot, .book, .book-text, .data-text, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
       .delay(350)
       .attr("opacity", "1")
       .duration(1000);
 
-    d3.selectAll(".theaters-block").transition()
+    d3.selectAll(".data-block, .theaters-block").transition()
       .delay(350)
       .attr("opacity", "0.5")
       .duration(1000);
@@ -368,6 +416,9 @@ function resize() {
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
 
+  d3.select('svg')
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
   g.selectAll(".line")
       .attr("d", line);
 
@@ -377,6 +428,14 @@ function resize() {
 
    g.selectAll(".x-axis")
        .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
+
+   // no data
+   g.selectAll(".data-block")
+       .attr("width", function(d) { return x(parseTime("8-Jun-08")) - x(parseTime("15-Apr-83")); })
+       .attr("x", function(d) { return x(parseTime("15-Apr-83")); });
+
+   g.selectAll(".data-text")
+     .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; });
 
    // book first published
    g.selectAll(".book")

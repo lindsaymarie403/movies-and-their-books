@@ -36,7 +36,6 @@ body {
 
 #body {
   max-width: 600px;
-  height: 550px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 25px 0px 25px;
@@ -87,8 +86,10 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
-  <a href="7-harrypotter/harrypotter-pt2.html"><div class="button" id="left"><</div></a>
+
+  <a href="7.2-quote.html"><div class="button" id="left"><</div></a>
   <a href="9-quote.html"><div class="button" id="right">></div></a>
+
   <div id="body">
     <div id="title">It's hard to tell how big of a boost classic books like Alice in Wonderland or The Jungle Book get from their film adaptations.</div>
     <div id="title2">The New York Times Best Sellers List doesn't rank books it deems "perennial sellers."</div>
@@ -101,7 +102,7 @@ body {
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
-           window.location = "7-harrypotter/harrypotter-pt2.html"
+           window.location = "7.2-quote.html"
         break;
 
         case 39: // right

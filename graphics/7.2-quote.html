@@ -34,6 +34,16 @@ body {
   padding: 0px;
 }
 
+#title {
+  font-family: 'Droid Serif';
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px auto 0px auto;
+  padding: 50px 15% 50px 15%;
+  color: white;
+  text-align: center;
+}
+
 #body {
   max-width: 550px;
   margin-left: auto;
@@ -82,7 +92,6 @@ body {
     right: 0px;
   }
 
-
 </style>
 
 </head>
@@ -91,13 +100,17 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
-  <a href="1-sniper/sniper-pt2.html"><div class="button" id="left"><</div></a>
-  <a href="2-martian/graphic2.html"><div class="button" id="right">></div></a>
+
+  <a href="7-harrypotter/harrypotter-pt2.html"><div class="button" id="left"><</div></a>
+  <a href="8-noclassics.html"><div class="button" id="right">></div></a>
+
   <div id="body">
-    <div id="quote">“We see a signficiant multiplier in book sales. There are a lot of factors in play &mdash; how big the movie is, how much marketing muscle the studio is putting out.”</div>
-    <div id="name">Peter Hubbard</div>
-    <div id="comp">Vice President and Executive Editor, HarperCollins</div>
+    <div id="quote">“We’ve had dedicated retail promotions each July and a number of consistent publishing events in succession that have kept the profile of the Harry Potter franchise very much in the public eye.”</div>
+    <div id="name">Alan Smagler</div>
+    <div id="comp">Vice President of Sales, Scholastic Trade</div>
   </div>
+
+
 </body>
 
 <script>
@@ -105,11 +118,11 @@ body {
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
-           window.location = "1-sniper/sniper-pt2.html"
+           window.location = "7-harrypotter/harrypotter-pt2.html"
         break;
 
         case 39: // right
-            window.location = "2-martian/graphic2.html"
+            window.location = "8-noclassics.html"
         break;
 
         default: return; // exit this handler for other keys

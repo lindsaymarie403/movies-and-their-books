@@ -17,6 +17,7 @@ body {
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #282E51;
 }
 
 #project {
@@ -116,8 +117,8 @@ body {
   <div id="project">Books + Their Movies</div>
 </div>
 
-<a href="sniper-pt2.html"><div class="button" id="left"><</div></a>
-<a href="../2-martian/graphic2.html"><div class="button" id="right">></div></a>
+<a href="sniper-pt1.html"><div class="button" id="left"><</div></a>
+<a href="../2.2-quote.html"><div class="button" id="right">></div></a>
 
 <div id="body">
   <div id="title">Now, let's overlay the graph with the dates of the trailer release and theatrical showings.</div>
@@ -230,17 +231,17 @@ d3.csv("data1.csv", function(d) {
       .data(data)
       .attr("class","first-curve")
       .attr("d", arc)
-      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",52)"; })
       .attr("fill","#7d8199")
       .attr("marker-end","url(#arrow)");
 
     g.append("text")
         .data(data)
         .style("text-anchor", "start")
-        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
+        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ))
         .attr("class","first-text")
-        .attr("y", 70)
-        .text("Book first")
+        .attr("y", 85)
+        .text("Book first appeared")
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
         .attr("font-weight", "600")
@@ -250,9 +251,21 @@ d3.csv("data1.csv", function(d) {
          .data(data)
         .attr("class","first-text")
         .style("text-anchor", "start")
-        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
-         .attr("y", 83)
-         .text("appeared on list")
+        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ))
+         .attr("y", 98)
+         .text("at No. 3 on the")
+         .attr("font-size", "11px")
+         .attr("font-family","Poppins")
+         .attr("font-weight", "600")
+         .attr("fill","#7d8199");
+
+     g.append("text")
+         .data(data)
+        .attr("class","first-text")
+        .style("text-anchor", "start")
+        .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ))
+         .attr("y", 111)
+         .text("NYT Best Sellers List")
          .attr("font-size", "11px")
          .attr("font-family","Poppins")
          .attr("font-weight", "600")
@@ -272,8 +285,8 @@ d3.csv("data1.csv", function(d) {
         .style("text-anchor", "end")
         .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 10); }  ))
         .attr("class","dropped-text")
-        .attr("y", 130)
-        .text("Book dropped")
+        .attr("y", 135)
+        .text("Book dropped off")
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
         .attr("font-weight", "600")
@@ -284,8 +297,8 @@ d3.csv("data1.csv", function(d) {
         .attr("class","dropped-text")
         .style("text-anchor", "end")
         .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 10); }  ))
-         .attr("y", 145)
-         .text("off list")
+         .attr("y", 148)
+         .text("Best Sellers List")
          .attr("font-size", "11px")
          .attr("font-family","Poppins")
          .attr("font-weight", "600")
@@ -439,6 +452,9 @@ function resize() {
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
 
+  d3.select('svg')
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
   g.selectAll(".line")
       .attr("d", line);
 
@@ -451,10 +467,10 @@ function resize() {
 
    // book first appeared
    g.selectAll(".first-curve")
-     .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; });
+     .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",52)"; });
 
    g.selectAll(".first-text")
-      .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ));
+      .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ));
 
    // book dropped off list
    g.selectAll(".dropped-curve")
@@ -504,7 +520,7 @@ $(document).keydown(function(e) {
         break;
 
         case 39: // right
-            window.location = "../2-martian/graphic2.html"
+            window.location = "../2.2-quote.html"
         break;
 
         default: return; // exit this handler for other keys

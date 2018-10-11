@@ -16,6 +16,7 @@ body {
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #2C4C57;
 }
 
 #project {
@@ -114,7 +115,7 @@ body {
   <div id="project">Books + Their Movies</div>
 </div>
 
-<a href="../2.2-quote.html"><div class="button" id="left"><</div></a>
+<a href="../2-martian/graphic2.html"><div class="button" id="left"><</div></a>
 <a href="../4-it/graphic4.html"><div class="button" id="right">></div></a>
 
 <div id="body">
@@ -174,6 +175,53 @@ d3.csv("data3.csv", function(d) {
   x.domain([parseTime("15-Apr-02"),parseTime("25-Jul-10")]);
   y.domain([1,10]);
 
+  //NO DATA
+  g.append("rect")
+      .data(data)
+      .attr("class", "data-block")
+      .attr("opacity", "0")
+      .attr("width", function(d) { return x(parseTime("8-Jun-08")) - x(parseTime("30-Apr-02")); })
+      .attr("height", height + margin.bottom - 15)
+      .attr("fill", "#1B3A45")
+      .attr("x", function(d) { return x(parseTime("30-Apr-02")); })
+      .attr("y", -margin.bottom + 15);
+
+  g.append("text")
+    .attr("class","data-text")
+    .attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; })
+    .attr("y", 8)
+    .text("Best Sellers List")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#5d8c8b")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","data-text")
+    .attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; })
+    .attr("y", 22)
+    .text("data unavailable")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#5d8c8b")
+    .attr("text-anchor","end");
+
+  g.append("text")
+    .attr("class","data-text")
+    .attr("opacity", "0")
+    .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; })
+    .attr("y", 36)
+    .text("before mid-2008")
+    .attr("font-family","Poppins")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill","#5d8c8b")
+    .attr("text-anchor","end");
+
   g.append("g")
       .attr("class", "x-axis")
       .style("font-family","Poppins")
@@ -216,7 +264,7 @@ d3.csv("data3.csv", function(d) {
         .attr("stroke", "#5d8c8b")
         .attr("x1", function(d) { return x(parseTime("1-Feb-03")); })
         .attr("x2", function(d) { return x(parseTime("1-Feb-03")); })
-        .attr("y1", -30)
+        .attr("y1", 0)
         .attr("y2", height)
         .style("stroke-dasharray", 2);
 
@@ -224,7 +272,7 @@ d3.csv("data3.csv", function(d) {
       .attr("class","book-text")
       .attr("opacity", "0")
       .attr("x", function(d) { return x(parseTime("1-Feb-03")) + 10; })
-      .attr("y", -25)
+      .attr("y", 8)
       .text("Book first published")
       .attr("font-family","Poppins")
       .attr("font-size", "11px")
@@ -236,7 +284,7 @@ d3.csv("data3.csv", function(d) {
       .attr("class","book-text")
       .attr("opacity", "0")
       .attr("x", function(d) { return x(parseTime("1-Feb-03")) + 10; })
-      .attr("y", -10)
+      .attr("y", 20)
       .text("2003")
       .attr("font-family","Poppins")
       .attr("font-size", "11px")
@@ -340,12 +388,12 @@ d3.csv("data3.csv", function(d) {
         });
 
     // fade in annotations
-    d3.selectAll(".dot, .book, .book-text, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
+    d3.selectAll(".dot, .book, .book-text, .data-text, .theaters-horiz, .theaters-vert1, .theaters-vert2, .theaters-text").transition()
       .delay(350)
       .attr("opacity", "1")
       .duration(1000);
 
-    d3.selectAll(".theaters-block").transition()
+    d3.selectAll(".data-block, .theaters-block").transition()
       .delay(350)
       .attr("opacity", "0.5")
       .duration(1000);
@@ -367,6 +415,9 @@ function resize() {
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
 
+  d3.select('svg')
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
   g.selectAll(".line")
       .attr("d", line);
 
@@ -384,6 +435,14 @@ function resize() {
 
     g.selectAll(".book-text")
       .attr("x", function(d) { return x(parseTime("1-Feb-03")) + 10; });
+
+    // no data
+    g.selectAll(".data-block")
+        .attr("width", function(d) { return x(parseTime("8-Jun-08")) - x(parseTime("30-Apr-02")); })
+        .attr("x", function(d) { return x(parseTime("30-Apr-02")); });
+
+    g.selectAll(".data-text")
+      .attr("x", function(d) { return x(parseTime("8-Jun-08")) - 15; });
 
     // movie in theaters
     g.selectAll(".theaters-block")
@@ -414,7 +473,7 @@ function resize() {
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
-           window.location = "../2.2-quote.html"
+           window.location = "../2-martian/graphic2.html"
         break;
 
         case 39: // right

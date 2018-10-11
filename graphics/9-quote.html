@@ -46,7 +46,6 @@ body {
 
 #body {
   max-width: 550px;
-  height: 550px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 25px 0px 25px;
@@ -55,7 +54,7 @@ body {
 
 #quote {
   font-family: 'Droid Serif';
-  font-size: 27px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 1.4em;
   margin-top: 15%;
@@ -101,7 +100,10 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
+
   <a href="8-noclassics.html"><div class="button" id="left"><</div></a>
+  <a href="10-credits.html"><div class="button" id="right">></div></a>
+
   <div id="title">But for other novels and nonfiction books, publishers generally try to cash in on film adaptations.</div>
   <div id="body">
     <div id="quote">“Basically, we get that book out there in as many places as we can and hope the movie catches on.”</div>
@@ -117,6 +119,10 @@ $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
            window.location = "8-noclassics.html"
+        break;
+
+        case 39: // right
+            window.location = "10-credits.html"
         break;
 
         default: return; // exit this handler for other keys

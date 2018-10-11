@@ -35,35 +35,31 @@ body {
 }
 
 #body {
-  max-width: 550px;
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 25px 0px 25px;
   position: relative;
 }
 
-#quote {
-  font-family: 'Droid Serif';
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 1.4em;
-  margin-top: 40%;
-  color: white;
-}
-
-#name {
+.title {
   font-family: 'Poppins';
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 500;
   margin-top: 40px;
-  color: white;
+  color: #cccccc;
+  text-transform: uppercase;
 }
 
-#comp {
+#first {
+  margin-top: 60%;
+}
+
+.text {
   font-family: 'Poppins';
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
-  color: white;
+  color: #cccccc;
 }
 
 .button {
@@ -82,7 +78,6 @@ body {
     right: 0px;
   }
 
-
 </style>
 
 </head>
@@ -91,13 +86,21 @@ body {
   <div id="project-line">
     <div id="project">Books + Their Movies</div>
   </div>
-  <a href="1-sniper/sniper-pt2.html"><div class="button" id="left"><</div></a>
-  <a href="2-martian/graphic2.html"><div class="button" id="right">></div></a>
+
+  <a href="9-quote.html"><div class="button" id="left"><</div></a>
+
   <div id="body">
-    <div id="quote">“We see a signficiant multiplier in book sales. There are a lot of factors in play &mdash; how big the movie is, how much marketing muscle the studio is putting out.”</div>
-    <div id="name">Peter Hubbard</div>
-    <div id="comp">Vice President and Executive Editor, HarperCollins</div>
+    <div class="title" id="first">Story Credits</div>
+    <div class="text">Site, graphics, data, story and photo illustration by Lindsay Huth</div>
+
+    <div class="title">Data Source</div>
+    <div class="text">New York Times Best Sellers List via NYT Books API, Box Office Mojo</div>
+
+    <div class="title">Photo Credits</div>
+    <div class="text">Warner Bros. (American Sniper), Twentieth Century Fox (The Martian), DreamWorks Animation (How to Train Your Dragon), New Line Cinema (It), Summit Entertainment (Twilight), Lionsgate (The Hunger Games), Warner Bros. (Harry Potter)</div>
   </div>
+
+
 </body>
 
 <script>
@@ -105,11 +108,7 @@ body {
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
-           window.location = "1-sniper/sniper-pt2.html"
-        break;
-
-        case 39: // right
-            window.location = "2-martian/graphic2.html"
+           window.location = "9-quote.html"
         break;
 
         default: return; // exit this handler for other keys

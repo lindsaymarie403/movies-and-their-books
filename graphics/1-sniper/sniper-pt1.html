@@ -16,6 +16,7 @@ body {
    background-size: auto 100%;
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #282E51;
 }
 
 #project {
@@ -229,18 +230,18 @@ d3.csv("data1.csv", function(d) {
       .attr("class","first-curve")
       .attr("opacity", "0")
       .attr("d", arc)
-      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; })
+      .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",52)"; })
       .attr("fill","#7d8199")
       .attr("marker-end","url(#arrow)");
 
    g.append("text")
        .data(data)
        .style("text-anchor", "start")
-       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ))
        .attr("class","first-text")
        .attr("opacity", "0")
-       .attr("y", 70)
-       .text("Book first")
+       .attr("y", 85)
+       .text("Book first appeared")
        .attr("font-size", "11px")
        .attr("font-family","Poppins")
        .attr("font-weight", "600")
@@ -251,13 +252,27 @@ d3.csv("data1.csv", function(d) {
        .attr("class","first-text")
        .attr("opacity", "0")
        .style("text-anchor", "start")
-       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ))
-        .attr("y", 83)
-        .text("appeared on list")
+       .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ))
+        .attr("y", 98)
+        .text("at No. 3 on the")
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
         .attr("font-weight", "600")
         .attr("fill","#7d8199");
+
+      g.append("text")
+          .data(data)
+         .attr("class","first-text")
+         .attr("opacity", "0")
+         .style("text-anchor", "start")
+         .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ))
+          .attr("y", 111)
+          .text("NYT Best Sellers List")
+          .attr("font-size", "11px")
+          .attr("font-family","Poppins")
+          .attr("font-weight", "600")
+          .attr("fill","#7d8199");
+
 
     //BOOK DROPPED OFF LIST
     g.append("path")
@@ -275,8 +290,8 @@ d3.csv("data1.csv", function(d) {
        .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 10); }  ))
        .attr("class","dropped-text")
        .attr("opacity", "0")
-       .attr("y", 130)
-       .text("Book dropped")
+       .attr("y", 135)
+       .text("Book dropped off")
        .attr("font-size", "11px")
        .attr("font-family","Poppins")
        .attr("font-weight", "600")
@@ -288,8 +303,8 @@ d3.csv("data1.csv", function(d) {
        .attr("opacity", "0")
        .style("text-anchor", "end")
        .attr("x", (function(d) { return (x(parseTime("10-Aug-13")) - 10); }  ))
-        .attr("y", 145)
-        .text("off list")
+        .attr("y", 148)
+        .text("Best Sellers List")
         .attr("font-size", "11px")
         .attr("font-family","Poppins")
         .attr("font-weight", "600")
@@ -355,6 +370,9 @@ function resize() {
   d3.select(svg.node().parentNode)
       .attr('width', (width + margin.left + margin.right) + 'px');
 
+  d3.select('svg')
+      .attr('width', (width + margin.left + margin.right) + 'px');
+
   g.selectAll(".line")
       .attr("d", line);
 
@@ -367,10 +385,10 @@ function resize() {
 
    // book first appeared
    g.selectAll(".first-curve")
-     .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",45)"; });
+     .attr("transform",function(d) { return "translate(" + (x(parseTime("2-Feb-13"))+ 15) + ",52)"; });
 
    g.selectAll(".first-text")
-      .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 8); }  ));
+      .attr("x", (function(d) { return (x(parseTime("2-Feb-13"))- 30); }  ));
 
    // book dropped off list
    g.selectAll(".dropped-curve")
