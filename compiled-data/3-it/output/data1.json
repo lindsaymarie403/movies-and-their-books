@@ -1,0 +1,2872 @@
+{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-08-25T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rupi Kaur",
+                    "contributor": "by Rupi Kaur",
+                    "contributor_note": "",
+                    "description": "A collection of poetry about love, loss, trauma and healing.",
+                    "price": 0,
+                    "primary_isbn10": "144947425X",
+                    "primary_isbn13": "9781449474256",
+                    "publisher": "Andrews McMeel",
+                    "title": "MILK AND HONEY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "144947425X",
+                    "isbn13": "9781449474256"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 1,
+            "rank_last_week": 2,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 71
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Woman-Cabin-10-Ruth-Ware-ebook/dp/B019DKO5BM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ruth Ware",
+                    "contributor": "by Ruth Ware",
+                    "contributor_note": "",
+                    "description": "A travel writer on a cruise is certain she has heard a body thrown overboard, but no one believes her.",
+                    "price": 0,
+                    "primary_isbn10": "1501132954",
+                    "primary_isbn13": "9781501132957",
+                    "publisher": "Scout",
+                    "title": "THE WOMAN IN CABIN 10"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501132938",
+                    "isbn13": "9781501132933"
+                },
+                {
+                    "isbn10": "1501132946",
+                    "isbn13": "9781501132940"
+                },
+                {
+                    "isbn10": "1501132954",
+                    "isbn13": "9781501132957"
+                },
+                {
+                    "isbn10": "1501151797",
+                    "isbn13": "9781501151798"
+                },
+                {
+                    "isbn10": "1432839934",
+                    "isbn13": "9781432839932"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 2,
+            "rank_last_week": 1,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 19
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Margaret Atwood",
+                    "contributor": "by Margaret Atwood",
+                    "contributor_note": "",
+                    "description": "In the Republic of Gilead's dystopian future, men and women perform the services assigned to them.",
+                    "price": 0,
+                    "primary_isbn10": "038549081X",
+                    "primary_isbn13": "9780385490818",
+                    "publisher": "Anchor",
+                    "title": "THE HANDMAID'S TALE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "038549081X",
+                    "isbn13": "9780385490818"
+                },
+                {
+                    "isbn10": "0547345666",
+                    "isbn13": "9780547345666"
+                },
+                {
+                    "isbn10": "0307264602",
+                    "isbn13": "9780307264602"
+                },
+                {
+                    "isbn10": "1432838482",
+                    "isbn13": "9781432838485"
+                },
+                {
+                    "isbn10": "1603932313",
+                    "isbn13": "9781603932318"
+                },
+                {
+                    "isbn10": "1480560103",
+                    "isbn13": "9781480560109"
+                },
+                {
+                    "isbn10": "1491519118",
+                    "isbn13": "9781491519110"
+                },
+                {
+                    "isbn10": "1543661904",
+                    "isbn13": "9781543661903"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 3,
+            "rank_last_week": 5,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/1986/02/09/books/no-headline-423986.html"
+                }
+            ],
+            "weeks_on_list": 28
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Lilac-Girls-Martha-Hall-Kelly/dp/1101883073?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Martha Hall Kelly",
+                    "contributor": "by Martha Hall Kelly",
+                    "contributor_note": "",
+                    "description": "The lives of a New York socialite and a young German doctor intersect with a Polish teenager who is sent to Ravensbr\u00fcck, a Nazi concentration camp for women.",
+                    "price": 0,
+                    "primary_isbn10": "1101883081",
+                    "primary_isbn13": "9781101883082",
+                    "publisher": "Ballantine",
+                    "title": "LILAC GIRLS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101883073",
+                    "isbn13": "9781101883075"
+                },
+                {
+                    "isbn10": "1101883065",
+                    "isbn13": "9781101883068"
+                },
+                {
+                    "isbn10": "1101883081",
+                    "isbn13": "9781101883082"
+                },
+                {
+                    "isbn10": "1432839918",
+                    "isbn13": "9781432839918"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 4,
+            "rank_last_week": 3,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 25
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 5,
+            "rank_last_week": 4,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 27
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Stephen-King-ebook/dp/B018ER7K5I?tag=NYTBS-20",
+            "asterisk": 1,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Stephen King",
+                    "contributor": "by Stephen King",
+                    "contributor_note": "",
+                    "description": "The fears of seven teenagers are rekindled in their adult lives by the terrifying title character. Originally published in 1986.",
+                    "price": 0,
+                    "primary_isbn10": "1501142976",
+                    "primary_isbn13": "9781501142970",
+                    "publisher": "Scribner",
+                    "title": "IT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501141236",
+                    "isbn13": "9781501141232"
+                },
+                {
+                    "isbn10": "1501142976",
+                    "isbn13": "9781501142970"
+                },
+                {
+                    "isbn10": "1501156683",
+                    "isbn13": "9781501156687"
+                },
+                {
+                    "isbn10": "1501182099",
+                    "isbn13": "9781501182099"
+                },
+                {
+                    "isbn10": "1501175467",
+                    "isbn13": "9781501175466"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Couple-Next-Door-Novel/dp/0735221081?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Shari Lapena",
+                    "contributor": "by Shari Lapena",
+                    "contributor_note": "",
+                    "description": "A couple\u2019s secrets emerge after their baby disappears.",
+                    "price": 0,
+                    "primary_isbn10": "0735221103",
+                    "primary_isbn13": "9780735221109",
+                    "publisher": "Penguin",
+                    "title": "THE COUPLE NEXT DOOR"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0735221081",
+                    "isbn13": "9780735221086"
+                },
+                {
+                    "isbn10": "1410491587",
+                    "isbn13": "9781410491589"
+                },
+                {
+                    "isbn10": "0735221103",
+                    "isbn13": "9780735221109"
+                },
+                {
+                    "isbn10": "0525505318",
+                    "isbn13": "9780525505310"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 7,
+            "rank_last_week": 7,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 12
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Two-Nicholas-Sparks-ebook/dp/B01ER6Z7RI?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "A man who became a single father after both his marriage and his business collapsed learns to take a chance on a new love.",
+                    "price": 0,
+                    "primary_isbn10": "1455520683",
+                    "primary_isbn13": "9781455520688",
+                    "publisher": "Grand Central",
+                    "title": "TWO BY TWO"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455520691",
+                    "isbn13": "9781455520695"
+                },
+                {
+                    "isbn10": "1455520705",
+                    "isbn13": "9781455520701"
+                },
+                {
+                    "isbn10": "1455541583",
+                    "isbn13": "9781455541584"
+                },
+                {
+                    "isbn10": "1455520683",
+                    "isbn13": "9781455520688"
+                },
+                {
+                    "isbn10": "1455520675",
+                    "isbn13": "9781455520671"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 8,
+            "rank_last_week": 6,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 3
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/All-Light-We-Cannot-See/dp/1476746583?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Anthony Doerr",
+                    "contributor": "by Anthony Doerr",
+                    "contributor_note": "",
+                    "description": "The lives of a blind French girl and a gadget-obsessed German boy before and during World War II.",
+                    "price": 0,
+                    "primary_isbn10": "1501173219",
+                    "primary_isbn13": "9781501173219",
+                    "publisher": "Scribner",
+                    "title": "ALL THE LIGHT WE CANNOT SEE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476746583",
+                    "isbn13": "9781476746586"
+                },
+                {
+                    "isbn10": "1410470229",
+                    "isbn13": "9781410470225"
+                },
+                {
+                    "isbn10": "1476746591",
+                    "isbn13": "9781476746593"
+                },
+                {
+                    "isbn10": "1501122835",
+                    "isbn13": "9781501122835"
+                },
+                {
+                    "isbn10": "0007548699",
+                    "isbn13": "9780007548699"
+                },
+                {
+                    "isbn10": "1501173219",
+                    "isbn13": "9781501173219"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 9,
+            "rank_last_week": 9,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html"
+                }
+            ],
+            "weeks_on_list": 20
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Truly-Madly-Guilty-Liane-Moriarty-ebook/dp/B015MR0UJG?tag=NYTBS-20",
+            "asterisk": 1,
+            "bestsellers_date": "2017-08-19",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Liane Moriarty",
+                    "contributor": "by Liane Moriarty",
+                    "contributor_note": "",
+                    "description": "Tense turning points for three couples at a backyard barbecue gone wrong.",
+                    "price": 0,
+                    "primary_isbn10": "1250069807",
+                    "primary_isbn13": "9781250069801",
+                    "publisher": "Flatiron",
+                    "title": "TRULY MADLY GUILTY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1250069793",
+                    "isbn13": "9781250069795"
+                },
+                {
+                    "isbn10": "1250069815",
+                    "isbn13": "9781250069818"
+                },
+                {
+                    "isbn10": "1250069807",
+                    "isbn13": "9781250069801"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-03",
+            "rank": 10,
+            "rank_last_week": 8,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 4
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-09-01T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Woman-Cabin-10-Ruth-Ware-ebook/dp/B019DKO5BM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ruth Ware",
+                    "contributor": "by Ruth Ware",
+                    "contributor_note": "",
+                    "description": "A travel writer on a cruise is certain she has heard a body thrown overboard, but no one believes her.",
+                    "price": 0,
+                    "primary_isbn10": "1501132954",
+                    "primary_isbn13": "9781501132957",
+                    "publisher": "Scout",
+                    "title": "THE WOMAN IN CABIN 10"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501132938",
+                    "isbn13": "9781501132933"
+                },
+                {
+                    "isbn10": "1501132946",
+                    "isbn13": "9781501132940"
+                },
+                {
+                    "isbn10": "1501132954",
+                    "isbn13": "9781501132957"
+                },
+                {
+                    "isbn10": "1501151797",
+                    "isbn13": "9781501151798"
+                },
+                {
+                    "isbn10": "1432839934",
+                    "isbn13": "9781432839932"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 1,
+            "rank_last_week": 2,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 20
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rupi Kaur",
+                    "contributor": "by Rupi Kaur",
+                    "contributor_note": "",
+                    "description": "A collection of poetry about love, loss, trauma and healing.",
+                    "price": 0,
+                    "primary_isbn10": "144947425X",
+                    "primary_isbn13": "9781449474256",
+                    "publisher": "Andrews McMeel",
+                    "title": "MILK AND HONEY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "144947425X",
+                    "isbn13": "9781449474256"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 2,
+            "rank_last_week": 1,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 72
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Margaret Atwood",
+                    "contributor": "by Margaret Atwood",
+                    "contributor_note": "",
+                    "description": "In the Republic of Gilead's dystopian future, men and women perform the services assigned to them.",
+                    "price": 0,
+                    "primary_isbn10": "038549081X",
+                    "primary_isbn13": "9780385490818",
+                    "publisher": "Anchor",
+                    "title": "THE HANDMAID'S TALE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "038549081X",
+                    "isbn13": "9780385490818"
+                },
+                {
+                    "isbn10": "0547345666",
+                    "isbn13": "9780547345666"
+                },
+                {
+                    "isbn10": "0307264602",
+                    "isbn13": "9780307264602"
+                },
+                {
+                    "isbn10": "1432838482",
+                    "isbn13": "9781432838485"
+                },
+                {
+                    "isbn10": "1603932313",
+                    "isbn13": "9781603932318"
+                },
+                {
+                    "isbn10": "1480560103",
+                    "isbn13": "9781480560109"
+                },
+                {
+                    "isbn10": "1491519118",
+                    "isbn13": "9781491519110"
+                },
+                {
+                    "isbn10": "1543661904",
+                    "isbn13": "9781543661903"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 3,
+            "rank_last_week": 3,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/1986/02/09/books/no-headline-423986.html"
+                }
+            ],
+            "weeks_on_list": 29
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Lilac-Girls-Martha-Hall-Kelly/dp/1101883073?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Martha Hall Kelly",
+                    "contributor": "by Martha Hall Kelly",
+                    "contributor_note": "",
+                    "description": "The lives of a New York socialite and a young German doctor intersect with a Polish teenager who is sent to Ravensbr\u00fcck, a Nazi concentration camp for women.",
+                    "price": 0,
+                    "primary_isbn10": "1101883081",
+                    "primary_isbn13": "9781101883082",
+                    "publisher": "Ballantine",
+                    "title": "LILAC GIRLS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101883073",
+                    "isbn13": "9781101883075"
+                },
+                {
+                    "isbn10": "1101883065",
+                    "isbn13": "9781101883068"
+                },
+                {
+                    "isbn10": "1101883081",
+                    "isbn13": "9781101883082"
+                },
+                {
+                    "isbn10": "1432839918",
+                    "isbn13": "9781432839918"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 4,
+            "rank_last_week": 4,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 26
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Stephen-King-ebook/dp/B018ER7K5I?tag=NYTBS-20",
+            "asterisk": 1,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Stephen King",
+                    "contributor": "by Stephen King",
+                    "contributor_note": "",
+                    "description": "The fears of seven teenagers are rekindled in their adult lives by the terrifying title character. Originally published in 1986.",
+                    "price": 0,
+                    "primary_isbn10": "1501142976",
+                    "primary_isbn13": "9781501142970",
+                    "publisher": "Scribner",
+                    "title": "IT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501141236",
+                    "isbn13": "9781501141232"
+                },
+                {
+                    "isbn10": "1501142976",
+                    "isbn13": "9781501142970"
+                },
+                {
+                    "isbn10": "1501156683",
+                    "isbn13": "9781501156687"
+                },
+                {
+                    "isbn10": "1501182099",
+                    "isbn13": "9781501182099"
+                },
+                {
+                    "isbn10": "1501175467",
+                    "isbn13": "9781501175466"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 5,
+            "rank_last_week": 6,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 2
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Couple-Next-Door-Novel/dp/0735221081?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Shari Lapena",
+                    "contributor": "by Shari Lapena",
+                    "contributor_note": "",
+                    "description": "A couple\u2019s secrets emerge after their baby disappears.",
+                    "price": 0,
+                    "primary_isbn10": "0735221103",
+                    "primary_isbn13": "9780735221109",
+                    "publisher": "Penguin",
+                    "title": "THE COUPLE NEXT DOOR"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0735221081",
+                    "isbn13": "9780735221086"
+                },
+                {
+                    "isbn10": "1410491587",
+                    "isbn13": "9781410491589"
+                },
+                {
+                    "isbn10": "0735221103",
+                    "isbn13": "9780735221109"
+                },
+                {
+                    "isbn10": "0525505318",
+                    "isbn13": "9780525505310"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 6,
+            "rank_last_week": 7,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 13
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 7,
+            "rank_last_week": 5,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 28
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Paulo Coelho",
+                    "contributor": "by Paulo Coelho",
+                    "contributor_note": "",
+                    "description": "A Spanish shepherd boy ventures to Egypt in search of treasure and his destiny.",
+                    "price": 0,
+                    "primary_isbn10": "0062315005",
+                    "primary_isbn13": "9780062315007",
+                    "publisher": "HarperOne/HarperCollins",
+                    "title": "THE ALCHEMIST"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061122416",
+                    "isbn13": "9780061122415"
+                },
+                {
+                    "isbn10": "0062502182",
+                    "isbn13": "9780062502186"
+                },
+                {
+                    "isbn10": "0062502174",
+                    "isbn13": "9780062502179"
+                },
+                {
+                    "isbn10": "0060887966",
+                    "isbn13": "9780060887964"
+                },
+                {
+                    "isbn10": "0060834838",
+                    "isbn13": "9780060834838"
+                },
+                {
+                    "isbn10": "0061741248",
+                    "isbn13": "9780061741241"
+                },
+                {
+                    "isbn10": "0062315005",
+                    "isbn13": "9780062315007"
+                },
+                {
+                    "isbn10": "0062326775",
+                    "isbn13": "9780062326775"
+                },
+                {
+                    "isbn10": "0062416219",
+                    "isbn13": "9780062416216"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 8,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 426
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/All-Light-We-Cannot-See/dp/1476746583?tag=NYTBS-20",
+            "asterisk": 1,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Anthony Doerr",
+                    "contributor": "by Anthony Doerr",
+                    "contributor_note": "",
+                    "description": "The lives of a blind French girl and a gadget-obsessed German boy before and during World War II.",
+                    "price": 0,
+                    "primary_isbn10": "1501173219",
+                    "primary_isbn13": "9781501173219",
+                    "publisher": "Scribner",
+                    "title": "ALL THE LIGHT WE CANNOT SEE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476746583",
+                    "isbn13": "9781476746586"
+                },
+                {
+                    "isbn10": "1410470229",
+                    "isbn13": "9781410470225"
+                },
+                {
+                    "isbn10": "1476746591",
+                    "isbn13": "9781476746593"
+                },
+                {
+                    "isbn10": "1501122835",
+                    "isbn13": "9781501122835"
+                },
+                {
+                    "isbn10": "0007548699",
+                    "isbn13": "9780007548699"
+                },
+                {
+                    "isbn10": "1501173219",
+                    "isbn13": "9781501173219"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 9,
+            "rank_last_week": 9,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html"
+                }
+            ],
+            "weeks_on_list": 21
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Two-Nicholas-Sparks-ebook/dp/B01ER6Z7RI?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-08-26",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "A man who became a single father after both his marriage and his business collapsed learns to take a chance on a new love.",
+                    "price": 0,
+                    "primary_isbn10": "1455520683",
+                    "primary_isbn13": "9781455520688",
+                    "publisher": "Grand Central",
+                    "title": "TWO BY TWO"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455520691",
+                    "isbn13": "9781455520695"
+                },
+                {
+                    "isbn10": "1455520705",
+                    "isbn13": "9781455520701"
+                },
+                {
+                    "isbn10": "1455541583",
+                    "isbn13": "9781455541584"
+                },
+                {
+                    "isbn10": "1455520683",
+                    "isbn13": "9781455520688"
+                },
+                {
+                    "isbn10": "1455520675",
+                    "isbn13": "9781455520671"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-10",
+            "rank": 10,
+            "rank_last_week": 8,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 4
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-09-08T13:38:01-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "http://www.amazon.com/Woman-Cabin-10-Ruth-Ware-ebook/dp/B019DKO5BM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ruth Ware",
+                    "contributor": "by Ruth Ware",
+                    "contributor_note": "",
+                    "description": "A travel writer on a cruise is certain she has heard a body thrown overboard, but no one believes her.",
+                    "price": 0,
+                    "primary_isbn10": "1501132954",
+                    "primary_isbn13": "9781501132957",
+                    "publisher": "Scout",
+                    "title": "THE WOMAN IN CABIN 10"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501132938",
+                    "isbn13": "9781501132933"
+                },
+                {
+                    "isbn10": "1501132946",
+                    "isbn13": "9781501132940"
+                },
+                {
+                    "isbn10": "1501132954",
+                    "isbn13": "9781501132957"
+                },
+                {
+                    "isbn10": "1501151797",
+                    "isbn13": "9781501151798"
+                },
+                {
+                    "isbn10": "1432839934",
+                    "isbn13": "9781432839932"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 1,
+            "rank_last_week": 1,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 21
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rupi Kaur",
+                    "contributor": "by Rupi Kaur",
+                    "contributor_note": "",
+                    "description": "A collection of poetry about love, loss, trauma and healing.",
+                    "price": 0,
+                    "primary_isbn10": "144947425X",
+                    "primary_isbn13": "9781449474256",
+                    "publisher": "Andrews McMeel",
+                    "title": "MILK AND HONEY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "144947425X",
+                    "isbn13": "9781449474256"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 2,
+            "rank_last_week": 2,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 73
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Lilac-Girls-Martha-Hall-Kelly/dp/1101883073?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Martha Hall Kelly",
+                    "contributor": "by Martha Hall Kelly",
+                    "contributor_note": "",
+                    "description": "The lives of a New York socialite and a young German doctor intersect with a Polish teenager who is sent to Ravensbr\u00fcck, a Nazi concentration camp for women.",
+                    "price": 0,
+                    "primary_isbn10": "1101883081",
+                    "primary_isbn13": "9781101883082",
+                    "publisher": "Ballantine",
+                    "title": "LILAC GIRLS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101883073",
+                    "isbn13": "9781101883075"
+                },
+                {
+                    "isbn10": "1101883065",
+                    "isbn13": "9781101883068"
+                },
+                {
+                    "isbn10": "1101883081",
+                    "isbn13": "9781101883082"
+                },
+                {
+                    "isbn10": "1432839918",
+                    "isbn13": "9781432839918"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 3,
+            "rank_last_week": 4,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 27
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Stephen-King-ebook/dp/B018ER7K5I?tag=NYTBS-20",
+            "asterisk": 1,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Stephen King",
+                    "contributor": "by Stephen King",
+                    "contributor_note": "",
+                    "description": "The fears of seven teenagers are rekindled in their adult lives by the terrifying title character. Originally published in 1986.",
+                    "price": 0,
+                    "primary_isbn10": "1501142976",
+                    "primary_isbn13": "9781501142970",
+                    "publisher": "Scribner",
+                    "title": "IT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501141236",
+                    "isbn13": "9781501141232"
+                },
+                {
+                    "isbn10": "1501142976",
+                    "isbn13": "9781501142970"
+                },
+                {
+                    "isbn10": "1501156683",
+                    "isbn13": "9781501156687"
+                },
+                {
+                    "isbn10": "1501182099",
+                    "isbn13": "9781501182099"
+                },
+                {
+                    "isbn10": "1501175467",
+                    "isbn13": "9781501175466"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 4,
+            "rank_last_week": 5,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 3
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Margaret Atwood",
+                    "contributor": "by Margaret Atwood",
+                    "contributor_note": "",
+                    "description": "In the Republic of Gilead's dystopian future, men and women perform the services assigned to them.",
+                    "price": 0,
+                    "primary_isbn10": "038549081X",
+                    "primary_isbn13": "9780385490818",
+                    "publisher": "Anchor",
+                    "title": "THE HANDMAID'S TALE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "038549081X",
+                    "isbn13": "9780385490818"
+                },
+                {
+                    "isbn10": "0547345666",
+                    "isbn13": "9780547345666"
+                },
+                {
+                    "isbn10": "0307264602",
+                    "isbn13": "9780307264602"
+                },
+                {
+                    "isbn10": "1432838482",
+                    "isbn13": "9781432838485"
+                },
+                {
+                    "isbn10": "1603932313",
+                    "isbn13": "9781603932318"
+                },
+                {
+                    "isbn10": "1480560103",
+                    "isbn13": "9781480560109"
+                },
+                {
+                    "isbn10": "1491519118",
+                    "isbn13": "9781491519110"
+                },
+                {
+                    "isbn10": "1543661904",
+                    "isbn13": "9781543661903"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 5,
+            "rank_last_week": 3,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/1986/02/09/books/no-headline-423986.html"
+                }
+            ],
+            "weeks_on_list": 30
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Couple-Next-Door-Novel/dp/0735221081?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Shari Lapena",
+                    "contributor": "by Shari Lapena",
+                    "contributor_note": "",
+                    "description": "A couple\u2019s secrets emerge after their baby disappears.",
+                    "price": 0,
+                    "primary_isbn10": "0735221103",
+                    "primary_isbn13": "9780735221109",
+                    "publisher": "Penguin",
+                    "title": "THE COUPLE NEXT DOOR"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0735221081",
+                    "isbn13": "9780735221086"
+                },
+                {
+                    "isbn10": "1410491587",
+                    "isbn13": "9781410491589"
+                },
+                {
+                    "isbn10": "0735221103",
+                    "isbn13": "9780735221109"
+                },
+                {
+                    "isbn10": "0525505318",
+                    "isbn13": "9780525505310"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 6,
+            "rank_last_week": 6,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 14
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Paulo Coelho",
+                    "contributor": "by Paulo Coelho",
+                    "contributor_note": "",
+                    "description": "A Spanish shepherd boy ventures to Egypt in search of treasure and his destiny.",
+                    "price": 0,
+                    "primary_isbn10": "0062315005",
+                    "primary_isbn13": "9780062315007",
+                    "publisher": "HarperOne/HarperCollins",
+                    "title": "THE ALCHEMIST"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0061122416",
+                    "isbn13": "9780061122415"
+                },
+                {
+                    "isbn10": "0062502182",
+                    "isbn13": "9780062502186"
+                },
+                {
+                    "isbn10": "0062502174",
+                    "isbn13": "9780062502179"
+                },
+                {
+                    "isbn10": "0060887966",
+                    "isbn13": "9780060887964"
+                },
+                {
+                    "isbn10": "0060834838",
+                    "isbn13": "9780060834838"
+                },
+                {
+                    "isbn10": "0061741248",
+                    "isbn13": "9780061741241"
+                },
+                {
+                    "isbn10": "0062315005",
+                    "isbn13": "9780062315007"
+                },
+                {
+                    "isbn10": "0062326775",
+                    "isbn13": "9780062326775"
+                },
+                {
+                    "isbn10": "0062416219",
+                    "isbn13": "9780062416216"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 7,
+            "rank_last_week": 8,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 427
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 1,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 8,
+            "rank_last_week": 7,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 29
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/All-Light-We-Cannot-See/dp/1476746583?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Anthony Doerr",
+                    "contributor": "by Anthony Doerr",
+                    "contributor_note": "",
+                    "description": "The lives of a blind French girl and a gadget-obsessed German boy before and during World War II.",
+                    "price": 0,
+                    "primary_isbn10": "1501173219",
+                    "primary_isbn13": "9781501173219",
+                    "publisher": "Scribner",
+                    "title": "ALL THE LIGHT WE CANNOT SEE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476746583",
+                    "isbn13": "9781476746586"
+                },
+                {
+                    "isbn10": "1410470229",
+                    "isbn13": "9781410470225"
+                },
+                {
+                    "isbn10": "1476746591",
+                    "isbn13": "9781476746593"
+                },
+                {
+                    "isbn10": "1501122835",
+                    "isbn13": "9781501122835"
+                },
+                {
+                    "isbn10": "0007548699",
+                    "isbn13": "9780007548699"
+                },
+                {
+                    "isbn10": "1501173219",
+                    "isbn13": "9781501173219"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 9,
+            "rank_last_week": 9,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html"
+                }
+            ],
+            "weeks_on_list": 22
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/In-Dark-Wood-Ruth-Ware/dp/1501112317?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-02",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ruth Ware",
+                    "contributor": "by Ruth Ware",
+                    "contributor_note": "",
+                    "description": "A crime writer attends a party in a cabin in the woods and is pulled back into the past, with frightening results.",
+                    "price": 0,
+                    "primary_isbn10": "1501112333",
+                    "primary_isbn13": "9781501112331",
+                    "publisher": "Scout Press",
+                    "title": "IN A DARK, DARK WOOD"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501112317",
+                    "isbn13": "9781501112317"
+                },
+                {
+                    "isbn10": "1501112333",
+                    "isbn13": "9781501112331"
+                },
+                {
+                    "isbn10": "1594139911",
+                    "isbn13": "9781594139918"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-17",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 32
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-09-16T22:00:05-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "https://www.amazon.com/Stephen-King-ebook/dp/B018ER7K5I?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Stephen King",
+                    "contributor": "by Stephen King",
+                    "contributor_note": "",
+                    "description": "The fears of seven teenagers are rekindled in their adult lives by the terrifying title character. Originally published in 1986.",
+                    "price": 0,
+                    "primary_isbn10": "1501175467",
+                    "primary_isbn13": "9781501175466",
+                    "publisher": "Scribner",
+                    "title": "IT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501141236",
+                    "isbn13": "9781501141232"
+                },
+                {
+                    "isbn10": "1501142976",
+                    "isbn13": "9781501142970"
+                },
+                {
+                    "isbn10": "1501156683",
+                    "isbn13": "9781501156687"
+                },
+                {
+                    "isbn10": "1501182099",
+                    "isbn13": "9781501182099"
+                },
+                {
+                    "isbn10": "1501175467",
+                    "isbn13": "9781501175466"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 1,
+            "rank_last_week": 4,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 4
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Woman-Cabin-10-Ruth-Ware-ebook/dp/B019DKO5BM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ruth Ware",
+                    "contributor": "by Ruth Ware",
+                    "contributor_note": "",
+                    "description": "A travel writer on a cruise is certain she has heard a body thrown overboard, but no one believes her.",
+                    "price": 0,
+                    "primary_isbn10": "1501132954",
+                    "primary_isbn13": "9781501132957",
+                    "publisher": "Scout",
+                    "title": "THE WOMAN IN CABIN 10"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501132938",
+                    "isbn13": "9781501132933"
+                },
+                {
+                    "isbn10": "1501132946",
+                    "isbn13": "9781501132940"
+                },
+                {
+                    "isbn10": "1501132954",
+                    "isbn13": "9781501132957"
+                },
+                {
+                    "isbn10": "1501151797",
+                    "isbn13": "9781501151798"
+                },
+                {
+                    "isbn10": "1432839934",
+                    "isbn13": "9781432839932"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 2,
+            "rank_last_week": 1,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 22
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rupi Kaur",
+                    "contributor": "by Rupi Kaur",
+                    "contributor_note": "",
+                    "description": "A collection of poetry about love, loss, trauma and healing.",
+                    "price": 0,
+                    "primary_isbn10": "144947425X",
+                    "primary_isbn13": "9781449474256",
+                    "publisher": "Andrews McMeel",
+                    "title": "MILK AND HONEY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "144947425X",
+                    "isbn13": "9781449474256"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 3,
+            "rank_last_week": 2,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 74
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Lilac-Girls-Martha-Hall-Kelly/dp/1101883073?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Martha Hall Kelly",
+                    "contributor": "by Martha Hall Kelly",
+                    "contributor_note": "",
+                    "description": "The lives of a New York socialite and a young German doctor intersect with a Polish teenager who is sent to Ravensbr\u00fcck, a Nazi concentration camp for women.",
+                    "price": 0,
+                    "primary_isbn10": "1101883081",
+                    "primary_isbn13": "9781101883082",
+                    "publisher": "Ballantine",
+                    "title": "LILAC GIRLS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101883073",
+                    "isbn13": "9781101883075"
+                },
+                {
+                    "isbn10": "1101883065",
+                    "isbn13": "9781101883068"
+                },
+                {
+                    "isbn10": "1101883081",
+                    "isbn13": "9781101883082"
+                },
+                {
+                    "isbn10": "1432839918",
+                    "isbn13": "9781432839918"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 4,
+            "rank_last_week": 3,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 28
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Couple-Next-Door-Novel/dp/0735221081?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Shari Lapena",
+                    "contributor": "by Shari Lapena",
+                    "contributor_note": "",
+                    "description": "A couple\u2019s secrets emerge after their baby disappears.",
+                    "price": 0,
+                    "primary_isbn10": "0735221103",
+                    "primary_isbn13": "9780735221109",
+                    "publisher": "Penguin",
+                    "title": "THE COUPLE NEXT DOOR"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0735221081",
+                    "isbn13": "9780735221086"
+                },
+                {
+                    "isbn10": "1410491587",
+                    "isbn13": "9781410491589"
+                },
+                {
+                    "isbn10": "0735221103",
+                    "isbn13": "9780735221109"
+                },
+                {
+                    "isbn10": "0525505318",
+                    "isbn13": "9780525505310"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 5,
+            "rank_last_week": 6,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 15
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Two-Nicholas-Sparks-ebook/dp/B01ER6Z7RI?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "A man who became a single father after both his marriage and his business collapsed learns to take a chance on a new love.",
+                    "price": 0,
+                    "primary_isbn10": "1455520683",
+                    "primary_isbn13": "9781455520688",
+                    "publisher": "Grand Central",
+                    "title": "TWO BY TWO"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455520691",
+                    "isbn13": "9781455520695"
+                },
+                {
+                    "isbn10": "1455520705",
+                    "isbn13": "9781455520701"
+                },
+                {
+                    "isbn10": "1455541583",
+                    "isbn13": "9781455541584"
+                },
+                {
+                    "isbn10": "1455520683",
+                    "isbn13": "9781455520688"
+                },
+                {
+                    "isbn10": "1455520675",
+                    "isbn13": "9781455520671"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 6,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 5
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Margaret Atwood",
+                    "contributor": "by Margaret Atwood",
+                    "contributor_note": "",
+                    "description": "In the Republic of Gilead's dystopian future, men and women perform the services assigned to them.",
+                    "price": 0,
+                    "primary_isbn10": "038549081X",
+                    "primary_isbn13": "9780385490818",
+                    "publisher": "Anchor",
+                    "title": "THE HANDMAID'S TALE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "038549081X",
+                    "isbn13": "9780385490818"
+                },
+                {
+                    "isbn10": "0547345666",
+                    "isbn13": "9780547345666"
+                },
+                {
+                    "isbn10": "0307264602",
+                    "isbn13": "9780307264602"
+                },
+                {
+                    "isbn10": "1432838482",
+                    "isbn13": "9781432838485"
+                },
+                {
+                    "isbn10": "1603932313",
+                    "isbn13": "9781603932318"
+                },
+                {
+                    "isbn10": "1480560103",
+                    "isbn13": "9781480560109"
+                },
+                {
+                    "isbn10": "1491519118",
+                    "isbn13": "9781491519110"
+                },
+                {
+                    "isbn10": "1543661904",
+                    "isbn13": "9781543661903"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 7,
+            "rank_last_week": 5,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/1986/02/09/books/no-headline-423986.html"
+                }
+            ],
+            "weeks_on_list": 31
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/All-Light-We-Cannot-See/dp/1476746583?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Anthony Doerr",
+                    "contributor": "by Anthony Doerr",
+                    "contributor_note": "",
+                    "description": "The lives of a blind French girl and a gadget-obsessed German boy before and during World War II.",
+                    "price": 0,
+                    "primary_isbn10": "1501173219",
+                    "primary_isbn13": "9781501173219",
+                    "publisher": "Scribner",
+                    "title": "ALL THE LIGHT WE CANNOT SEE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476746583",
+                    "isbn13": "9781476746586"
+                },
+                {
+                    "isbn10": "1410470229",
+                    "isbn13": "9781410470225"
+                },
+                {
+                    "isbn10": "1476746591",
+                    "isbn13": "9781476746593"
+                },
+                {
+                    "isbn10": "1501122835",
+                    "isbn13": "9781501122835"
+                },
+                {
+                    "isbn10": "0007548699",
+                    "isbn13": "9780007548699"
+                },
+                {
+                    "isbn10": "1501173219",
+                    "isbn13": "9781501173219"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 8,
+            "rank_last_week": 9,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html"
+                }
+            ],
+            "weeks_on_list": 23
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 9,
+            "rank_last_week": 8,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 30
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Family-Lawyer-James-Patterson/dp/1538711338?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-09",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "James Patterson",
+                    "contributor": "by James Patterson",
+                    "contributor_note": "",
+                    "description": "",
+                    "price": 0,
+                    "primary_isbn10": "1538711338",
+                    "primary_isbn13": "9781538711330",
+                    "publisher": "Grand Central",
+                    "title": "THE FAMILY LAWYER"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1538711338",
+                    "isbn13": "9781538711330"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-09-24",
+            "rank": 10,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        }
+    ],
+    "status": "OK"
+}{
+    "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+    "last_modified": "2017-09-22T21:46:34-04:00",
+    "num_results": 10,
+    "results": [
+        {
+            "amazon_product_url": "https://www.amazon.com/Stephen-King-ebook/dp/B018ER7K5I?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Stephen King",
+                    "contributor": "by Stephen King",
+                    "contributor_note": "",
+                    "description": "The fears of seven teenagers are rekindled in their adult lives by the terrifying title character. Originally published in 1986.",
+                    "price": 0,
+                    "primary_isbn10": "1501175467",
+                    "primary_isbn13": "9781501175466",
+                    "publisher": "Scribner",
+                    "title": "IT"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501141236",
+                    "isbn13": "9781501141232"
+                },
+                {
+                    "isbn10": "1501142976",
+                    "isbn13": "9781501142970"
+                },
+                {
+                    "isbn10": "1501156683",
+                    "isbn13": "9781501156687"
+                },
+                {
+                    "isbn10": "1501182099",
+                    "isbn13": "9781501182099"
+                },
+                {
+                    "isbn10": "1501175467",
+                    "isbn13": "9781501175466"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 1,
+            "rank_last_week": 1,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 5
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Rupi Kaur",
+                    "contributor": "by Rupi Kaur",
+                    "contributor_note": "",
+                    "description": "A collection of poetry about love, loss, trauma and healing.",
+                    "price": 0,
+                    "primary_isbn10": "144947425X",
+                    "primary_isbn13": "9781449474256",
+                    "publisher": "Andrews McMeel",
+                    "title": "MILK AND HONEY"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "144947425X",
+                    "isbn13": "9781449474256"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 2,
+            "rank_last_week": 3,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 75
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Woman-Cabin-10-Ruth-Ware-ebook/dp/B019DKO5BM?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ruth Ware",
+                    "contributor": "by Ruth Ware",
+                    "contributor_note": "",
+                    "description": "A travel writer on a cruise is certain she has heard a body thrown overboard, but no one believes her.",
+                    "price": 0,
+                    "primary_isbn10": "1501132954",
+                    "primary_isbn13": "9781501132957",
+                    "publisher": "Scout",
+                    "title": "THE WOMAN IN CABIN 10"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1501132938",
+                    "isbn13": "9781501132933"
+                },
+                {
+                    "isbn10": "1501132946",
+                    "isbn13": "9781501132940"
+                },
+                {
+                    "isbn10": "1501132954",
+                    "isbn13": "9781501132957"
+                },
+                {
+                    "isbn10": "1501151797",
+                    "isbn13": "9781501151798"
+                },
+                {
+                    "isbn10": "1432839934",
+                    "isbn13": "9781432839932"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 3,
+            "rank_last_week": 2,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 23
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Fix-Amos-Decker-David-Baldacci/dp/1455586560?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "David Baldacci",
+                    "contributor": "by David Baldacci",
+                    "contributor_note": "",
+                    "description": "The detective Amos Decker (\u201cMemory Man\u201d) witnesses a murder-suicide that turns out to be a matter of national security.",
+                    "price": 0,
+                    "primary_isbn10": "1455586544",
+                    "primary_isbn13": "9781455586547",
+                    "publisher": "Grand Central",
+                    "title": "THE FIX"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455586560",
+                    "isbn13": "9781455586561"
+                },
+                {
+                    "isbn10": "1455586552",
+                    "isbn13": "9781455586554"
+                },
+                {
+                    "isbn10": "1455586544",
+                    "isbn13": "9781455586547"
+                },
+                {
+                    "isbn10": "1455586587",
+                    "isbn13": "9781455586585"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 4,
+            "rank_last_week": 0,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 1
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Lilac-Girls-Martha-Hall-Kelly/dp/1101883073?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Martha Hall Kelly",
+                    "contributor": "by Martha Hall Kelly",
+                    "contributor_note": "",
+                    "description": "The lives of a New York socialite and a young German doctor intersect with a Polish teenager who is sent to Ravensbr\u00fcck, a Nazi concentration camp for women.",
+                    "price": 0,
+                    "primary_isbn10": "1101883081",
+                    "primary_isbn13": "9781101883082",
+                    "publisher": "Ballantine",
+                    "title": "LILAC GIRLS"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1101883073",
+                    "isbn13": "9781101883075"
+                },
+                {
+                    "isbn10": "1101883065",
+                    "isbn13": "9781101883068"
+                },
+                {
+                    "isbn10": "1101883081",
+                    "isbn13": "9781101883082"
+                },
+                {
+                    "isbn10": "1432839918",
+                    "isbn13": "9781432839918"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 5,
+            "rank_last_week": 4,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 29
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Couple-Next-Door-Novel/dp/0735221081?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Shari Lapena",
+                    "contributor": "by Shari Lapena",
+                    "contributor_note": "",
+                    "description": "A couple\u2019s secrets emerge after their baby disappears.",
+                    "price": 0,
+                    "primary_isbn10": "0735221103",
+                    "primary_isbn13": "9780735221109",
+                    "publisher": "Penguin",
+                    "title": "THE COUPLE NEXT DOOR"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "0735221081",
+                    "isbn13": "9780735221086"
+                },
+                {
+                    "isbn10": "1410491587",
+                    "isbn13": "9781410491589"
+                },
+                {
+                    "isbn10": "0735221103",
+                    "isbn13": "9780735221109"
+                },
+                {
+                    "isbn10": "0525505318",
+                    "isbn13": "9780525505310"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 6,
+            "rank_last_week": 5,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 16
+        },
+        {
+            "amazon_product_url": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Margaret Atwood",
+                    "contributor": "by Margaret Atwood",
+                    "contributor_note": "",
+                    "description": "In the Republic of Gilead's dystopian future, men and women perform the services assigned to them.",
+                    "price": 0,
+                    "primary_isbn10": "038549081X",
+                    "primary_isbn13": "9780385490818",
+                    "publisher": "Anchor",
+                    "title": "THE HANDMAID'S TALE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "038549081X",
+                    "isbn13": "9780385490818"
+                },
+                {
+                    "isbn10": "0547345666",
+                    "isbn13": "9780547345666"
+                },
+                {
+                    "isbn10": "0307264602",
+                    "isbn13": "9780307264602"
+                },
+                {
+                    "isbn10": "1432838482",
+                    "isbn13": "9781432838485"
+                },
+                {
+                    "isbn10": "1603932313",
+                    "isbn13": "9781603932318"
+                },
+                {
+                    "isbn10": "1480560103",
+                    "isbn13": "9781480560109"
+                },
+                {
+                    "isbn10": "1491519118",
+                    "isbn13": "9781491519110"
+                },
+                {
+                    "isbn10": "1543661904",
+                    "isbn13": "9781543661903"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 7,
+            "rank_last_week": 7,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/1986/02/09/books/no-headline-423986.html"
+                }
+            ],
+            "weeks_on_list": 32
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Ernest Cline",
+                    "contributor": "by Ernest Cline",
+                    "contributor_note": "",
+                    "description": "In 2044, the key to a vast fortune is hidden in a virtual-reality world. 15 hours, 46 minutes unabridged. Read by Wil Wheaton.",
+                    "price": 0,
+                    "primary_isbn10": "0307887448",
+                    "primary_isbn13": "9780307887443",
+                    "publisher": "Broadway",
+                    "title": "READY PLAYER ONE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "030788743X",
+                    "isbn13": "9780307887436"
+                },
+                {
+                    "isbn10": "0307887448",
+                    "isbn13": "9780307887443"
+                },
+                {
+                    "isbn10": "0307887456",
+                    "isbn13": "9780307887450"
+                },
+                {
+                    "isbn10": "1524755613",
+                    "isbn13": "9781524755614"
+                },
+                {
+                    "isbn10": "1524763284",
+                    "isbn13": "9781524763282"
+                },
+                {
+                    "isbn10": "0606264124",
+                    "isbn13": "9780606264129"
+                },
+                {
+                    "isbn10": "0804190135",
+                    "isbn13": "9780804190138"
+                },
+                {
+                    "isbn10": "0804190143",
+                    "isbn13": "9780804190145"
+                },
+                {
+                    "isbn10": "0307913147",
+                    "isbn13": "9780307913142"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 8,
+            "rank_last_week": 9,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 31
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/Two-Nicholas-Sparks-ebook/dp/B01ER6Z7RI?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Nicholas Sparks",
+                    "contributor": "by Nicholas Sparks",
+                    "contributor_note": "",
+                    "description": "A man who became a single father after both his marriage and his business collapsed learns to take a chance on a new love.",
+                    "price": 0,
+                    "primary_isbn10": "1455520683",
+                    "primary_isbn13": "9781455520688",
+                    "publisher": "Grand Central",
+                    "title": "TWO BY TWO"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1455520691",
+                    "isbn13": "9781455520695"
+                },
+                {
+                    "isbn10": "1455520705",
+                    "isbn13": "9781455520701"
+                },
+                {
+                    "isbn10": "1455541583",
+                    "isbn13": "9781455541584"
+                },
+                {
+                    "isbn10": "1455520683",
+                    "isbn13": "9781455520688"
+                },
+                {
+                    "isbn10": "1455520675",
+                    "isbn13": "9781455520671"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 9,
+            "rank_last_week": 6,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "weeks_on_list": 6
+        },
+        {
+            "amazon_product_url": "http://www.amazon.com/All-Light-We-Cannot-See/dp/1476746583?tag=NYTBS-20",
+            "asterisk": 0,
+            "bestsellers_date": "2017-09-16",
+            "book_details": [
+                {
+                    "age_group": "",
+                    "author": "Anthony Doerr",
+                    "contributor": "by Anthony Doerr",
+                    "contributor_note": "",
+                    "description": "The lives of a blind French girl and a gadget-obsessed German boy before and during World War II.",
+                    "price": 0,
+                    "primary_isbn10": "1501173219",
+                    "primary_isbn13": "9781501173219",
+                    "publisher": "Scribner",
+                    "title": "ALL THE LIGHT WE CANNOT SEE"
+                }
+            ],
+            "dagger": 0,
+            "display_name": "Paperback Trade Fiction",
+            "isbns": [
+                {
+                    "isbn10": "1476746583",
+                    "isbn13": "9781476746586"
+                },
+                {
+                    "isbn10": "1410470229",
+                    "isbn13": "9781410470225"
+                },
+                {
+                    "isbn10": "1476746591",
+                    "isbn13": "9781476746593"
+                },
+                {
+                    "isbn10": "1501122835",
+                    "isbn13": "9781501122835"
+                },
+                {
+                    "isbn10": "0007548699",
+                    "isbn13": "9780007548699"
+                },
+                {
+                    "isbn10": "1501173219",
+                    "isbn13": "9781501173219"
+                }
+            ],
+            "list_name": "Trade Fiction Paperback",
+            "published_date": "2017-10-01",
+            "rank": 10,
+            "rank_last_week": 8,
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html"
+                }
+            ],
+            "weeks_on_list": 24
+        }
+    ],
+    "status": "OK"
+}
