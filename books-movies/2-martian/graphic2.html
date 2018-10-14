@@ -73,22 +73,25 @@ body {
 }
 
 #chart1 {
-  max-width: 1000px;
-  min-width: 600px;
+  max-width: 800px;
+  /*min-width: 600px;*/
   margin-left: auto;
   margin-right: auto;
 }
 
 .x-axis path, .y-axis path {
   stroke: #6985b2;
+  stroke-width: 2.0;
 }
 
 .x-axis line, .y-axis line {
   stroke: #6985b2;
+  stroke-width: 2.0;
 }
 
 .x-axis text, .y-axis text {
   fill: #6985b2;
+
 }
 
 .button {
@@ -108,10 +111,18 @@ body {
   }
 
   @media screen and (max-width: 600px) {
+      #body {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
       #title {
         font-size: 16px;
-        padding: 25px 5% 25px 5%;
+        padding: 25px 2% 25px 2%;
       }
+      #movie-title {
+        font-size: 16px;
+      }
+
   }
 
 </style>
@@ -138,7 +149,7 @@ body {
 <script>
 
 var margin = {top: 70, right: 45, bottom: 30, left: 75},
-    width = 1200 - margin.left - margin.right,
+    width = 800 - margin.left - margin.right, //width was originally 1200
     height = 400 - margin.top - margin.bottom;
 
 var svg = d3.select('#chart1')
@@ -187,12 +198,14 @@ d3.csv("data2.csv", function(d) {
   g.append("g")
       .attr("class", "x-axis")
       .style("font-family","Poppins")
+      .style("font-size", "12px")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
   g.append("g")
     .attr("class", "y-axis")
     .style("font-family","Poppins")
+    .style("font-size", "12px")
       .call(d3.axisLeft(y).tickValues([1,5,10,15,20]).tickSize(5).tickPadding(8))
       .select(".domain")
         .remove();
@@ -202,7 +215,7 @@ d3.csv("data2.csv", function(d) {
 		.attr("y", -55)
 		.text("Ranking on")
     .attr("font-family","Poppins")
-		.attr("font-size", "10px")
+		.attr("font-size", "11px")
     .attr("font-weight", "600")
 		.attr("fill","#6985b2")
 		.attr("text-anchor","start");
@@ -212,23 +225,23 @@ d3.csv("data2.csv", function(d) {
 		.attr("y", -42)
 		.text("Best Sellers List")
     .attr("font-family","Poppins")
-		.attr("font-size", "10px")
+		.attr("font-size", "11px")
     .attr("font-weight", "600")
 		.attr("fill","#6985b2")
 		.attr("text-anchor","start");
 
-    //FIRST TRAILER RELEASED
-    g.append("line")
-  			.data(data)
-  			.attr("class","trailer")
-        .attr("opacity", "0")
-  			.attr("stroke-width", 1)
-  			.attr("stroke", "#6985b2")
-  			.attr("x1", function(d) { return x(parseTime("8-Jun-15")); })
-  			.attr("x2", function(d) { return x(parseTime("8-Jun-15")); })
-  	    .attr("y1", -30)
-  			.attr("y2", height)
-        .style("stroke-dasharray", 2);
+  //FIRST TRAILER RELEASED
+  g.append("line")
+			.data(data)
+			.attr("class","trailer")
+      .attr("opacity", "0")
+			.attr("stroke-width", 2)
+			.attr("stroke", "#6985b2")
+			.attr("x1", function(d) { return x(parseTime("8-Jun-15")); })
+			.attr("x2", function(d) { return x(parseTime("8-Jun-15")); })
+	    .attr("y1", -30)
+			.attr("y2", height)
+      .style("stroke-dasharray", 2);
 
     g.append("text")
   		.attr("class","trailer-text")
@@ -237,7 +250,7 @@ d3.csv("data2.csv", function(d) {
   		.attr("y", -25)
   		.text("First trailer")
       .attr("font-family","Poppins")
-  		.attr("font-size", "11px")
+  		.attr("font-size", "12px")
       .attr("font-weight", "600")
   		.attr("fill","#6985b2")
   		.attr("text-anchor","end");
@@ -249,7 +262,7 @@ d3.csv("data2.csv", function(d) {
   		.attr("y", -12)
   		.text("released")
       .attr("font-family","Poppins")
-  		.attr("font-size", "11px")
+  		.attr("font-size", "12px")
       .attr("font-weight", "600")
   		.attr("fill","#6985b2")
   		.attr("text-anchor","end");
@@ -269,7 +282,7 @@ d3.csv("data2.csv", function(d) {
   			.data(data)
   			.attr("class","theaters-horiz")
         .attr("opacity", "0")
-  			.attr("stroke-width", 1)
+  			.attr("stroke-width", 2)
   			.attr("stroke", "#6985b2")
   			.attr("x1", function(d) { return x(parseTime("02-Oct-15")); })
   			.attr("x2", function(d) { return x(parseTime("17-Mar-16")); })
@@ -280,7 +293,7 @@ d3.csv("data2.csv", function(d) {
         .data(data)
         .attr("class","theaters-vert1")
         .attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#6985b2")
         .attr("x1", function(d) { return x(parseTime("02-Oct-15")); })
         .attr("x2", function(d) { return x(parseTime("02-Oct-15")); })
@@ -292,7 +305,7 @@ d3.csv("data2.csv", function(d) {
         .data(data)
         .attr("class","theaters-vert2")
         .attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#6985b2")
         .attr("x1", function(d) { return x(parseTime("17-Mar-16")); })
         .attr("x2", function(d) { return x(parseTime("17-Mar-16")); })
@@ -307,7 +320,7 @@ d3.csv("data2.csv", function(d) {
   		.attr("y", -20)
   		.text("Movie in theaters")
       .attr("font-family","Poppins")
-  		.attr("font-size", "11px")
+  		.attr("font-size", "12px")
       .attr("font-weight", "600")
   		.attr("fill","#6985b2")
   		.attr("text-anchor","middle");
@@ -361,6 +374,7 @@ d3.csv("data2.csv", function(d) {
       .duration(1000);
 });
 
+/* FIRST VERSION OF RESPONSIVE
 document.addEventListener("DOMContentLoaded", resize);
 d3.select(window).on('resize', resize);
 
@@ -416,8 +430,35 @@ function resize() {
 
     g.selectAll(".theaters-text")
       .attr("x", function(d) { return (x(parseTime("17-Mar-16")) - x(parseTime("2-Oct-15")))/2 + x(parseTime("2-Oct-15")); });
-
 }
+*/
+
+document.addEventListener("DOMContentLoaded", responsivefy);
+
+// RESPONSIVE
+function responsivefy() {
+  // get container + svg aspect ratio
+  var container = d3.select(svg.node().parentNode),
+      width = parseInt(svg.style("width")),
+      height = parseInt(svg.style("height")),
+      aspect = width / height;
+
+  // add viewBox and preserveAspectRatio properties,
+  // and call resize so that svg resizes on inital page load
+  svg.attr("viewBox", "0 0 " + width + " " + height)
+      .attr("perserveAspectRatio", "xMinYMid")
+      .call(resize2);
+
+  d3.select(window).on("resize." + container.attr("id"), resize2);
+
+  // get width of container and resize svg to fit it
+  function resize2() {
+      var targetWidth = parseInt(container.style("width"));
+      svg.attr("width", targetWidth);
+      svg.attr("height", Math.round(targetWidth / aspect));
+  }
+}
+
 
 </script>
 
