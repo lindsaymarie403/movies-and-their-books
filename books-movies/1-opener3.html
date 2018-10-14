@@ -5,6 +5,31 @@
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+<!--Twitter -->
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:description" content="When a book becomes a movie, how are book sales affected?" />
+ <meta name="twitter:title" content="Books + Their Movies" />
+ <meta name="twitter:creator" content="@cnsmaryland" />
+ <meta name="twitter:image" content="http://cnsmaryland.org/interactives/fall-2018/books-movies/homepage.jpg" />
+
+ <!--Facebook OpenGraph-->
+ <meta property="og:title" content="Books + Their Movies">
+ <meta property="og:type" content="article">
+ <meta property="og:url" content="http://cnsmaryland.org/interactives/fall-2018/books-movies/index.html">
+ <meta property="og:description" content="When a book becomes a movie, how are book sales affected?">
+ <meta property="og:image" content="homepage.jpg">
+ <meta property="og:site_name" content="CNS Maryland">
+ <meta property="fb:app_id" content="209502139105366">
+
+ <!-- METRICS -->
+ <meta name="parsely-title" content="Books + Their Movies">
+ <meta name="parsely-link" content="http://cnsmaryland.org/interactives/fall-2018/books-movies/index.html">
+ <meta name="parsely-type" content="post">
+ <meta name="parsely-pub-date" content="10/15/18">
+ <meta name="parsely-section" content="Data">
+ <meta name="parsely-author" content="CNS Maryland">
+ <meta name="parsely-tags" content="movies, books, data journalism, interactives">
+
 <style>
 
 html, body {
@@ -112,8 +137,6 @@ body {
     <div id="title2">But it can also further drive book sales.</div>
   </div>
 
-</body>
-
 <script>
 
 $(document).keydown(function(e) {
@@ -132,3 +155,23 @@ $(document).keydown(function(e) {
 });
 
 </script>
+
+<!-- METRICS -->
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <span id="parsely-cfg" data-parsely-site="cnsmaryland.org"></span>
+</div>
+<script>
+    (function(s, p, d) {
+      var h=d.location.protocol, i=p+"-"+s,
+          e=d.getElementById(i), r=d.getElementById(p+"-root"),
+          u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+          :"static."+p+".com";
+      if (e) return;
+      e = d.createElement(s); e.id = i; e.async = true;
+      e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+    })("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+</body>
+</html>
