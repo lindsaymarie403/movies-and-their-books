@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -72,8 +73,8 @@ body {
 }
 
 #chart1 {
-  max-width: 1000px;
-  min-width: 600px;
+  max-width: 800px;
+  /*min-width: 600px;*/
   margin-left: auto;
   margin-right: auto;
   opacity: 0;
@@ -81,10 +82,12 @@ body {
 
 .x-axis path, .y-axis path {
   stroke: #5d8c8b;
+  stroke-width: 2.0;
 }
 
 .x-axis line, .y-axis line {
   stroke: #5d8c8b;
+  stroke-width: 2.0;
 }
 
 .x-axis text, .y-axis text {
@@ -103,9 +106,26 @@ body {
   z-index: 1;
 }
 
-  #right {
-    right: 0px;
-  }
+#right {
+  right: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    #body {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    #title {
+      font-size: 16px;
+      padding: 25px 2% 25px 2%;
+    }
+    #movie-title {
+      font-size: 16px;
+    }
+    .button {
+      margin-top: 400px;
+    }
+}
 
 </style>
 
@@ -131,7 +151,7 @@ body {
 <script>
 
 var margin = {top: 70, right: 45, bottom: 30, left: 75},
-    width = 1200 - margin.left - margin.right,
+    width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 var svg = d3.select('#chart1')
@@ -180,12 +200,14 @@ d3.csv("pt2.csv", function(d) {
   g.append("g")
       .attr("class", "x-axis")
       .style("font-family","Poppins")
+      .style("font-size", "12px")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
   g.append("g")
     .attr("class", "y-axis")
     .style("font-family","Poppins")
+    .style("font-size", "12px")
       .call(d3.axisLeft(y).tickValues([1,5,10,15,20]).tickSize(5).tickPadding(8))
       .select(".domain")
         .remove();
@@ -195,7 +217,7 @@ d3.csv("pt2.csv", function(d) {
 		.attr("y", -55)
 		.text("Ranking on")
     .attr("font-family","Poppins")
-		.attr("font-size", "10px")
+		.attr("font-size", "11px")
     .attr("font-weight", "600")
 		.attr("fill","#5d8c8b")
 		.attr("text-anchor","start");
@@ -205,7 +227,7 @@ d3.csv("pt2.csv", function(d) {
 		.attr("y", -42)
 		.text("Best Sellers List")
     .attr("font-family","Poppins")
-		.attr("font-size", "10px")
+		.attr("font-size", "11px")
     .attr("font-weight", "600")
 		.attr("fill","#5d8c8b")
 		.attr("text-anchor","start");
@@ -225,7 +247,7 @@ d3.csv("pt2.csv", function(d) {
   			.data(data)
   			.attr("class","theaters2-horiz")
         //.attr("opacity", "0")
-  			.attr("stroke-width", 1)
+  			.attr("stroke-width", 2)
   			.attr("stroke", "#5d8c8b")
   			.attr("x1", function(d) { return x(parseTime("22-Nov-13")); })
   			.attr("x2", function(d) { return x(parseTime("3-Apr-14")); })
@@ -236,7 +258,7 @@ d3.csv("pt2.csv", function(d) {
         .data(data)
         .attr("class","theaters2-vert1")
         //.attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#5d8c8b")
         .attr("x1", function(d) { return x(parseTime("22-Nov-13")); })
         .attr("x2", function(d) { return x(parseTime("22-Nov-13")); })
@@ -248,7 +270,7 @@ d3.csv("pt2.csv", function(d) {
         .data(data)
         .attr("class","theaters2-vert2")
         //.attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#5d8c8b")
         .attr("x1", function(d) { return x(parseTime("3-Apr-14")); })
         .attr("x2", function(d) { return x(parseTime("3-Apr-14")); })
@@ -263,7 +285,7 @@ d3.csv("pt2.csv", function(d) {
   		.attr("y", -20)
   		.text("Second movie")
       .attr("font-family","Poppins")
-  		.attr("font-size", "11px")
+  		.attr("font-size", "12px")
       .attr("font-weight", "600")
   		.attr("fill","#5d8c8b")
   		.attr("text-anchor","middle");
@@ -283,7 +305,7 @@ d3.csv("pt2.csv", function(d) {
   			.data(data)
   			.attr("class","theaters3-horiz")
         //.attr("opacity", "0")
-  			.attr("stroke-width", 1)
+  			.attr("stroke-width", 2)
   			.attr("stroke", "#5d8c8b")
   			.attr("x1", function(d) { return x(parseTime("21-Nov-14")); })
   			.attr("x2", function(d) { return x(parseTime("19-Mar-15")); })
@@ -294,7 +316,7 @@ d3.csv("pt2.csv", function(d) {
         .data(data)
         .attr("class","theaters3-vert1")
         //.attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#5d8c8b")
         .attr("x1", function(d) { return x(parseTime("21-Nov-14")); })
         .attr("x2", function(d) { return x(parseTime("21-Nov-14")); })
@@ -306,7 +328,7 @@ d3.csv("pt2.csv", function(d) {
         .data(data)
         .attr("class","theaters3-vert2")
         //.attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#5d8c8b")
         .attr("x1", function(d) { return x(parseTime("19-Mar-15")); })
         .attr("x2", function(d) { return x(parseTime("19-Mar-15")); })
@@ -321,7 +343,7 @@ d3.csv("pt2.csv", function(d) {
   		.attr("y", -20)
   		.text("Third movie")
       .attr("font-family","Poppins")
-  		.attr("font-size", "11px")
+  		.attr("font-size", "12px")
       .attr("font-weight", "600")
   		.attr("fill","#5d8c8b")
   		.attr("text-anchor","middle");
@@ -341,7 +363,7 @@ d3.csv("pt2.csv", function(d) {
   			.data(data)
   			.attr("class","theaters4-horiz")
         //.attr("opacity", "0")
-  			.attr("stroke-width", 1)
+  			.attr("stroke-width", 2)
   			.attr("stroke", "#5d8c8b")
   			.attr("x1", function(d) { return x(parseTime("20-Nov-15")); })
   			.attr("x2", function(d) { return x(parseTime("25-Feb-16")); })
@@ -352,7 +374,7 @@ d3.csv("pt2.csv", function(d) {
         .data(data)
         .attr("class","theaters4-vert1")
         //.attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#5d8c8b")
         .attr("x1", function(d) { return x(parseTime("20-Nov-15")); })
         .attr("x2", function(d) { return x(parseTime("20-Nov-15")); })
@@ -364,7 +386,7 @@ d3.csv("pt2.csv", function(d) {
         .data(data)
         .attr("class","theaters4-vert2")
         //.attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#5d8c8b")
         .attr("x1", function(d) { return x(parseTime("25-Feb-16")); })
         .attr("x2", function(d) { return x(parseTime("25-Feb-16")); })
@@ -379,7 +401,7 @@ d3.csv("pt2.csv", function(d) {
   		.attr("y", -20)
   		.text("Fourth movie")
       .attr("font-family","Poppins")
-  		.attr("font-size", "11px")
+  		.attr("font-size", "12px")
       .attr("font-weight", "600")
   		.attr("fill","#5d8c8b")
   		.attr("text-anchor","middle");
@@ -437,6 +459,7 @@ d3.csv("pt2.csv", function(d) {
 */
 });
 
+/*
 document.addEventListener("DOMContentLoaded", resize);
 d3.select(window).on('resize', resize);
 
@@ -525,6 +548,34 @@ function resize() {
     g.selectAll(".theaters4-text")
       .attr("x", function(d) { return (x(parseTime("25-Feb-16")) - x(parseTime("20-Nov-15")))/2 + x(parseTime("20-Nov-15")); });
 
+}
+*/
+
+
+document.addEventListener("DOMContentLoaded", responsivefy);
+
+// RESPONSIVE
+function responsivefy() {
+  // get container + svg aspect ratio
+  var container = d3.select(svg.node().parentNode),
+      width = parseInt(svg.style("width")),
+      height = parseInt(svg.style("height")),
+      aspect = width / height;
+
+  // add viewBox and preserveAspectRatio properties,
+  // and call resize so that svg resizes on inital page load
+  svg.attr("viewBox", "0 0 " + width + " " + height)
+      .attr("perserveAspectRatio", "xMinYMid")
+      .call(resize2);
+
+  d3.select(window).on("resize." + container.attr("id"), resize2);
+
+  // get width of container and resize svg to fit it
+  function resize2() {
+      var targetWidth = parseInt(container.style("width"));
+      svg.attr("width", targetWidth);
+      svg.attr("height", Math.round(targetWidth / aspect));
+  }
 }
 
 </script>

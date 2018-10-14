@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -69,7 +70,7 @@ body {
 
 #movie-block {
   max-width: 750px;
-  height: 550px;
+  height: 350px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -98,7 +99,7 @@ body {
 
   /*individual movie positions*/
   /*row 1*/
-  #alice {
+  #jumanji {
     top: 25px;
     left: 3%;
     opacity: 0;
@@ -116,13 +117,13 @@ body {
   }
 
   #it {
-    top: 5px;
+    top: -5px;
     left: 42%;
     opacity: 0;
   }
 
   #httyd {
-    top: 50px;
+    top: 20px;
     left: 60%;
     opacity: 0;
   }
@@ -139,7 +140,7 @@ body {
   }
 
   /*row 2*/
-  #jumanji {
+  #hungergames4 {
     top: 160px;
     left: 0%;
     opacity: 0;
@@ -157,13 +158,13 @@ body {
     opacity: 0;
   }
 
-  #junglebook {
+  #sniper {
     top: 185px;
     left: 45%;
     opacity: 0;
   }
 
-  #hungergames4 {
+  #alice {
     top: 165px;
     left: 58%;
     opacity: 0;
@@ -183,45 +184,66 @@ body {
 
   /*row 3*/
   #oz {
-    top: 325px;
+    top: 125px;
     left: 7%;
     opacity: 0;
   }
 
   #sherlock {
-    top: 380px;
+    top: 180px;
     left: 18%;
     opacity: 0;
   }
 
   #hungergames3 {
-    top: 335px;
+    top: 200px;
     left: 35%;
     opacity: 0;
   }
 
-  #sniper {
-    top: 375px;
+  #junglebook {
+    top: 145px;
     left: 45%;
     opacity: 0;
   }
 
   #hobbit1 {
-    top: 345px;
+    top: 65px;
     left: 55%;
     opacity: 0;
   }
 
   #hungergames2 {
-    top: 355px;
+    top: 155px;
     left: 69%;
     opacity: 0;
   }
 
   #breaking2 {
-    top: 345px;
+    top: 145px;
     right: 2%;
     opacity: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+      #body {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      #title {
+        font-size: 20px;
+        padding: 0px 2% 25px 2%;
+        margin-top: 50px;
+      }
+      #movie-block {
+        height: 300px;
+      }
+      .movies {
+        width: 75px;
+      }
+      .button {
+        margin-top: 400px;
+      }
   }
 
 </style>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -52,7 +53,7 @@ body {
 }
 
 #first {
-  margin-top: 60%;
+  margin-top: 40%;
 }
 
 .text {
@@ -74,9 +75,18 @@ body {
   z-index: 1;
 }
 
-  #right {
-    right: 0px;
+#right {
+  right: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  #first {
+    margin-top: 15px;
   }
+  .button {
+    margin-top: 400px;
+  }
+}
 
 </style>
 
@@ -97,7 +107,7 @@ body {
     <div class="text">New York Times Best Sellers List via NYT Books API, Box Office Mojo</div>
 
     <div class="title">Photo Credits</div>
-    <div class="text">Warner Bros. (American Sniper), Twentieth Century Fox (The Martian), DreamWorks Animation (How to Train Your Dragon), New Line Cinema (It), Summit Entertainment (Twilight), Lionsgate (The Hunger Games), Warner Bros. (Harry Potter)</div>
+    <div class="text">Warner Bros. (American Sniper, Harry Potter, Sherlock Holmes, The Hobbit, It), Twentieth Century Fox (The Martian), DreamWorks Animation (How to Train Your Dragon), New Line Cinema (It), Summit Entertainment (Twilight), Lionsgate (The Hunger Games), Walt Disney (Alice in Wonderland, Oz The Great and Powerful, The Jungle Book), Sony Pictures (Jumanji)</div>
   </div>
 
 

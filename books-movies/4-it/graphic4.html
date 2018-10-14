@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -72,18 +73,20 @@ body {
 }
 
 #chart1 {
-  max-width: 1000px;
-  min-width: 600px;
+  max-width: 800px;
+  /*min-width: 600px;*/
   margin-left: auto;
   margin-right: auto;
 }
 
 .x-axis path, .y-axis path {
   stroke: #7d8199;
+  stroke-width: 2.0;
 }
 
 .x-axis line, .y-axis line {
   stroke: #7d8199;
+  stroke-width: 2.0;
 }
 
 .x-axis text, .y-axis text {
@@ -102,9 +105,26 @@ body {
   z-index: 1;
 }
 
-  #right {
-    right: 0px;
-  }
+#right {
+  right: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    #body {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    #title {
+      font-size: 16px;
+      padding: 25px 2% 25px 2%;
+    }
+    #movie-title {
+      font-size: 16px;
+    }
+    .button {
+      margin-top: 400px;
+    }
+}
 
 </style>
 
@@ -130,7 +150,7 @@ body {
 <script>
 
 var margin = {top: 70, right: 45, bottom: 30, left: 75},
-    width = 1200 - margin.left - margin.right,
+    width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 var svg = d3.select('#chart1')
@@ -194,7 +214,7 @@ d3.csv("data4.csv", function(d) {
     .attr("y", 8)
     .text("Best Sellers List")
     .attr("font-family","Poppins")
-    .attr("font-size", "11px")
+    .attr("font-size", "12px")
     .attr("font-weight", "600")
     .attr("fill","#7d8199")
     .attr("text-anchor","end");
@@ -206,7 +226,7 @@ d3.csv("data4.csv", function(d) {
     .attr("y", 22)
     .text("data unavailable")
     .attr("font-family","Poppins")
-    .attr("font-size", "11px")
+    .attr("font-size", "12px")
     .attr("font-weight", "600")
     .attr("fill","#7d8199")
     .attr("text-anchor","end");
@@ -218,7 +238,7 @@ d3.csv("data4.csv", function(d) {
     .attr("y", 36)
     .text("before mid-2008")
     .attr("font-family","Poppins")
-    .attr("font-size", "11px")
+    .attr("font-size", "12px")
     .attr("font-weight", "600")
     .attr("fill","#7d8199")
     .attr("text-anchor","end");
@@ -226,12 +246,14 @@ d3.csv("data4.csv", function(d) {
   g.append("g")
       .attr("class", "x-axis")
       .style("font-family","Poppins")
+      .style("font-size", "12px")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
   g.append("g")
     .attr("class", "y-axis")
     .style("font-family","Poppins")
+    .style("font-size", "12px")
       .call(d3.axisLeft(y).tickValues([1,5,10]).tickSize(5).tickPadding(8))
       .select(".domain")
         .remove();
@@ -241,7 +263,7 @@ d3.csv("data4.csv", function(d) {
 		.attr("y", -55)
 		.text("Ranking on")
     .attr("font-family","Poppins")
-		.attr("font-size", "10px")
+		.attr("font-size", "11px")
     .attr("font-weight", "600")
 		.attr("fill","#7d8199")
 		.attr("text-anchor","start");
@@ -251,7 +273,7 @@ d3.csv("data4.csv", function(d) {
 		.attr("y", -42)
 		.text("Best Sellers List")
     .attr("font-family","Poppins")
-		.attr("font-size", "10px")
+		.attr("font-size", "11px")
     .attr("font-weight", "600")
 		.attr("fill","#7d8199")
 		.attr("text-anchor","start");
@@ -261,7 +283,7 @@ d3.csv("data4.csv", function(d) {
         .data(data)
         .attr("class","book")
         .attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#7d8199")
         .attr("x1", function(d) { return x(parseTime("1-Sep-86")); })
         .attr("x2", function(d) { return x(parseTime("1-Sep-86")); })
@@ -276,7 +298,7 @@ d3.csv("data4.csv", function(d) {
       .attr("y", 8)
       .text("Book first published")
       .attr("font-family","Poppins")
-      .attr("font-size", "11px")
+      .attr("font-size", "12px")
       .attr("font-weight", "600")
       .attr("fill","#7d8199")
       .attr("text-anchor","start");
@@ -288,7 +310,7 @@ d3.csv("data4.csv", function(d) {
       .attr("y", 20)
       .text("1986")
       .attr("font-family","Poppins")
-      .attr("font-size", "11px")
+      .attr("font-size", "12px")
       .attr("font-weight", "400")
       .attr("fill","#7d8199")
       .attr("text-anchor","start");
@@ -308,7 +330,7 @@ d3.csv("data4.csv", function(d) {
   			.data(data)
   			.attr("class","theaters-horiz")
         .attr("opacity", "0")
-  			.attr("stroke-width", 1)
+  			.attr("stroke-width", 2)
   			.attr("stroke", "#7d8199")
   			.attr("x1", function(d) { return x(parseTime("8-Sep-17")); })
   			.attr("x2", function(d) { return x(parseTime("14-Dec-17")); })
@@ -319,7 +341,7 @@ d3.csv("data4.csv", function(d) {
         .data(data)
         .attr("class","theaters-vert1")
         .attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#7d8199")
         .attr("x1", function(d) { return x(parseTime("8-Sep-17")); })
         .attr("x2", function(d) { return x(parseTime("8-Sep-17")); })
@@ -331,7 +353,7 @@ d3.csv("data4.csv", function(d) {
         .data(data)
         .attr("class","theaters-vert2")
         .attr("opacity", "0")
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 2)
         .attr("stroke", "#7d8199")
         .attr("x1", function(d) { return x(parseTime("14-Dec-17")); })
         .attr("x2", function(d) { return x(parseTime("14-Dec-17")); })
@@ -346,7 +368,7 @@ d3.csv("data4.csv", function(d) {
   		.attr("y", -20)
   		.text("Movie in theaters")
       .attr("font-family","Poppins")
-  		.attr("font-size", "11px")
+  		.attr("font-size", "12px")
       .attr("font-weight", "600")
   		.attr("fill","#7d8199")
   		.attr("text-anchor","end");
@@ -401,6 +423,7 @@ d3.csv("data4.csv", function(d) {
 
 });
 
+/*
 document.addEventListener("DOMContentLoaded", resize);
 d3.select(window).on('resize', resize);
 
@@ -464,6 +487,33 @@ function resize() {
 
     g.selectAll(".theaters-text")
         .attr("x", function(d) { return x(parseTime("14-Dec-17")); })
+}
+*/
+
+document.addEventListener("DOMContentLoaded", responsivefy);
+
+// RESPONSIVE
+function responsivefy() {
+  // get container + svg aspect ratio
+  var container = d3.select(svg.node().parentNode),
+      width = parseInt(svg.style("width")),
+      height = parseInt(svg.style("height")),
+      aspect = width / height;
+
+  // add viewBox and preserveAspectRatio properties,
+  // and call resize so that svg resizes on inital page load
+  svg.attr("viewBox", "0 0 " + width + " " + height)
+      .attr("perserveAspectRatio", "xMinYMid")
+      .call(resize2);
+
+  d3.select(window).on("resize." + container.attr("id"), resize2);
+
+  // get width of container and resize svg to fit it
+  function resize2() {
+      var targetWidth = parseInt(container.style("width"));
+      svg.attr("width", targetWidth);
+      svg.attr("height", Math.round(targetWidth / aspect));
+  }
 }
 
 </script>
