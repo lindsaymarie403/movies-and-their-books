@@ -58,6 +58,11 @@ body {
   padding-bottom: 5px;
 }
 
+a {
+  color: #7d8199;
+  text-decoration: none;
+}
+
 #project-line {
   width: 100%;
   background-color: #212121;
@@ -164,7 +169,7 @@ body {
 <body>
 
 <div id="project-line">
-  <div id="project">Books + Their Movies</div>
+  <div id="project"><a href="../index.html">Books + Their Movies</a></div>
 </div>
 
 <a href="sniper-pt1.html"><div class="button" id="left"><</div></a>
@@ -231,14 +236,14 @@ d3.csv("data1.csv", function(d) {
   g.append("g")
       .attr("class", "x-axis")
       .style("font-family","Poppins")
-      .attr("font-size", "12px")
+      .style("font-size", "12px")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(3).tickSize(0).tickPadding(10));
 
   g.append("g")
     .attr("class", "y-axis")
     .style("font-family","Poppins")
-    .attr("font-size", "12px")
+    .style("font-size", "12px")
       .call(d3.axisLeft(y).tickValues([1,5,10,15,20,25,30,35]).tickSize(5).tickPadding(8))
       .select(".domain")
         .remove();
